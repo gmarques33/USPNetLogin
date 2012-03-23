@@ -1,0 +1,29 @@
+br.usp.gmarques.loginuspnet.LoginUSPNet -> br.usp.gmarques.loginuspnet.LoginUSPNet:
+    void onCreate(android.os.Bundle) -> onCreate
+    void saveData(android.view.View) -> saveData
+br.usp.gmarques.loginuspnet.WifiChangeReceiver -> br.usp.gmarques.loginuspnet.WifiChangeReceiver:
+    void onReceive(android.content.Context,android.content.Intent) -> onReceive
+    void sendRequest(java.lang.String,java.util.List) -> a
+br.usp.gmarques.loginuspnet.db.USPNetLoginDBHelper -> br.usp.gmarques.loginuspnet.a.a:
+    java.lang.String[] COLUMNS -> a
+    void onCreate(android.database.sqlite.SQLiteDatabase) -> onCreate
+    void onUpgrade(android.database.sqlite.SQLiteDatabase,int,int) -> onUpgrade
+br.usp.gmarques.loginuspnet.db.USPNetLoginDataSource -> br.usp.gmarques.loginuspnet.a.b:
+    android.database.sqlite.SQLiteDatabase database -> a
+    br.usp.gmarques.loginuspnet.db.USPNetLoginDBHelper dbHelper -> b
+    void open() -> a
+    void close() -> b
+    long setUsernameAndPassword(java.lang.String,java.lang.String) -> a
+    java.lang.String getUsername() -> c
+    java.lang.String getPassword() -> d
+br.usp.gmarques.loginuspnet.http.EasySSLSocketFactory -> br.usp.gmarques.loginuspnet.b.a:
+    javax.net.ssl.SSLContext sslContext -> a
+    java.net.Socket createSocket(java.net.Socket,java.lang.String,int,boolean) -> createSocket
+    java.net.Socket createSocket() -> createSocket
+br.usp.gmarques.loginuspnet.http.EasySSLSocketFactory$1 -> br.usp.gmarques.loginuspnet.b.c:
+    br.usp.gmarques.loginuspnet.http.EasySSLSocketFactory this$0 -> a
+    void checkClientTrusted(java.security.cert.X509Certificate[],java.lang.String) -> checkClientTrusted
+    void checkServerTrusted(java.security.cert.X509Certificate[],java.lang.String) -> checkServerTrusted
+    java.security.cert.X509Certificate[] getAcceptedIssuers() -> getAcceptedIssuers
+br.usp.gmarques.loginuspnet.http.HttpUtils -> br.usp.gmarques.loginuspnet.b.b:
+    org.apache.http.client.HttpClient getNewHttpClient() -> a

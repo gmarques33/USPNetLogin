@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">UspNet Login</string>
+    <string name="username">Email</string>
+    <string name="password">Senha</string>
+    <string name="title">USPNet login</string>
+    <string name="buttonSave">Salvar</string>
+    <string name="buttonForceLogin">Forçar o login</string>
+    
+    
+</resources>

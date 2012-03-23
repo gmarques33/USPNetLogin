@@ -1,0 +1,13 @@
+br.usp.gmarques.loginuspnet.R
+br.usp.gmarques.loginuspnet.R$attr
+br.usp.gmarques.loginuspnet.R$drawable
+br.usp.gmarques.loginuspnet.R$id
+br.usp.gmarques.loginuspnet.R$layout
+br.usp.gmarques.loginuspnet.R$string
+br.usp.gmarques.loginuspnet.R$style
+br.usp.gmarques.loginuspnet.db.USPNetLoginDBHelper:
+    private static final java.lang.String DATABASE_NAME
+    private static final int DATABASE_VERSION
+    public static final java.lang.String TABLE_NAME
+    public static final java.lang.String COLUMN_USERNAME
+    public static final java.lang.String COLUMN_PASSWORD
