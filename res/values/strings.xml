@@ -7,6 +7,14 @@
     <string name="title">USPNet login</string>
     <string name="buttonSave">Salvar</string>
     <string name="buttonForceLogin">Forçar o login</string>
+    <string name="loginConfig">Configurações de login</string>
+    <string name="pref_username">pref.username</string>
+    <string name="pref_password">pref.password</string>
+    <string name="pref_connectionAutoEnable">pref.connectionAutoEnable</string>
+    <string name="connectionAutoEnable">Auto Connect</string>
+    <string name="connectionAutoSummary">Conectar automaticamente com qualquer hotspot USPNet</string>
+    <string name="userSubtitle">Seu email da USPNet</string>
+    <string name="passwordSubtitle">Sua senha da USPNet</string>
     
     
 </resources>

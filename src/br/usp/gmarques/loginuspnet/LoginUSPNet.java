@@ -1,18 +1,23 @@
 package br.usp.gmarques.loginuspnet;
 
-import android.app.Activity;
+import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.preference.PreferenceActivity;
 import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 import br.usp.gmarques.loginuspnet.db.USPNetLoginDataSource;
 
-public class LoginUSPNet extends Activity{
+public class LoginUSPNet extends PreferenceActivity{
+	
+	private SharedPreferences mPreferences = null;
+	
+	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.main);
-		
+		addPreferencesFromResource(R.layout.preferences);
+		/*
 		final TextView username = (TextView) findViewById(R.id.login);
 		final TextView password = (TextView) findViewById(R.id.password);
 		
@@ -21,7 +26,7 @@ public class LoginUSPNet extends Activity{
 		
 		username.setText(uspNetLoginDataSource.getUsername());
 		password.setText(uspNetLoginDataSource.getPassword());
-		uspNetLoginDataSource.close();
+		uspNetLoginDataSource.close();*/
 		
 	}
 	
