@@ -16,17 +16,17 @@ import org.apache.http.message.BasicNameValuePair;
 import org.apache.http.protocol.HTTP;
 import org.xml.sax.InputSource;
 
-import br.usp.gmarques.loginuspnet.db.USPNetLoginDataSource;
-import br.usp.gmarques.loginuspnet.http.HttpUtils;
-
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.net.NetworkInfo;
 import android.net.NetworkInfo.DetailedState;
 import android.net.wifi.WifiInfo;
 import android.net.wifi.WifiManager;
+import android.preference.PreferenceManager;
 import android.util.Log;
+import br.usp.gmarques.loginuspnet.http.HttpUtils;
 
 public class WifiChangeReceiver extends BroadcastReceiver {
 
@@ -46,9 +46,7 @@ public class WifiChangeReceiver extends BroadcastReceiver {
 				if (wifiInfo.getSSID().toUpperCase().contains("ICMC")) {
 
 					Log.d("LoginUSPNet", "Rede ICMC detectada.");
-
-					USPNetLoginDataSource uspNetLoginDataSource = new USPNetLoginDataSource(context);
-					uspNetLoginDataSource.open();
+					SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(context);
 
 					final String httpsURL = "https://1.1.1.1/login.html?redirect=https://www.google.com";
 
@@ -59,9 +57,8 @@ public class WifiChangeReceiver extends BroadcastReceiver {
 					nvps.add(new BasicNameValuePair("info_flag", "0"));
 					nvps.add(new BasicNameValuePair("info_msg", ""));
 					nvps.add(new BasicNameValuePair("redirect_url",	"https://www.google.com"));
-					nvps.add(new BasicNameValuePair("username",	uspNetLoginDataSource.getUsername()));
-					nvps.add(new BasicNameValuePair("password",	uspNetLoginDataSource.getPassword()));
-					uspNetLoginDataSource.close();
+					nvps.add(new BasicNameValuePair("username",	preferences.getString(context.getString(R.string.pref_username), "")));
+					nvps.add(new BasicNameValuePair("password",	preferences.getString(context.getString(R.string.pref_password), "")));
 
 					try {
 						sendRequest(httpsURL, nvps);
@@ -92,7 +89,7 @@ public class WifiChangeReceiver extends BroadcastReceiver {
 
 		p_entity = new UrlEncodedFormEntity(nvps, HTTP.UTF_8);
 		httppost.setEntity(p_entity);
-		// Enviando a requisição e recebendo a resposta
+		// Enviando a requisicao e recebendo a resposta
 		HttpResponse response = client.execute(httppost);
 		HttpEntity responseEntity = response.getEntity();
 

@@ -1,3 +1,2 @@
 br.usp.gmarques.loginuspnet.LoginUSPNet
 br.usp.gmarques.loginuspnet.WifiChangeReceiver
-br.usp.gmarques.loginuspnet.LoginUSPNet: void saveData(android.view.View)

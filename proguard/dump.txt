@@ -1,446 +1,272 @@
 _____________________________________________________________________
-+ Program class: br/usp/gmarques/loginuspnet/a/a
-  Superclass:    android/database/sqlite/SQLiteOpenHelper
-  Major version: 0x32
-  Minor version: 0x0
-  Access flags:  0x21
-    = public class br.usp.gmarques.loginuspnet.a.a extends android.database.sqlite.SQLiteOpenHelper
-
-Interfaces (count = 0):
-
-Constant Pool (count = 75):
-  - String [ to ]
-  - String [, which will destroy all old data]
-  - String [CREATE TABLE USPNET( username TEXT, password TEXT);]
-  - String [DROP TABLE IF EXISTSUSPNET]
-  - String [Upgrading database from version ]
-  - String [password]
-  - String [username]
-  - String [uspnet.db]
-  - Class [android/database/sqlite/SQLiteDatabase]
-  - Class [android/database/sqlite/SQLiteDatabase$CursorFactory]
-  - Class [android/database/sqlite/SQLiteOpenHelper]
-  - Class [android/util/Log]
-  - Class [br/usp/gmarques/loginuspnet/a/a]
-  - Class [java/lang/Class]
-  - Class [java/lang/String]
-  - Class [java/lang/StringBuilder]
-  - Fieldref [br/usp/gmarques/loginuspnet/a/a.a [Ljava/lang/String;]
-  - Methodref [android/database/sqlite/SQLiteDatabase.execSQL (Ljava/lang/String;)V]
-  - Methodref [android/database/sqlite/SQLiteOpenHelper.<init> (Landroid/content/Context;Ljava/lang/String;Landroid/database/sqlite/SQLiteDatabase$CursorFactory;I)V]
-  - Methodref [android/util/Log.v (Ljava/lang/String;Ljava/lang/String;)I]
-  - Methodref [br/usp/gmarques/loginuspnet/a/a.onCreate (Landroid/database/sqlite/SQLiteDatabase;)V]
-  - Methodref [java/lang/Class.getName ()Ljava/lang/String;]
-  - Methodref [java/lang/StringBuilder.<init> (Ljava/lang/String;)V]
-  - Methodref [java/lang/StringBuilder.append (I)Ljava/lang/StringBuilder;]
-  - Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-  - Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
-  + NameAndType [<init> (Landroid/content/Context;Ljava/lang/String;Landroid/database/sqlite/SQLiteDatabase$CursorFactory;I)V]
-  + NameAndType [<init> (Ljava/lang/String;)V]
-  + NameAndType [a [Ljava/lang/String;]
-  + NameAndType [append (I)Ljava/lang/StringBuilder;]
-  + NameAndType [append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-  + NameAndType [execSQL (Ljava/lang/String;)V]
-  + NameAndType [getName ()Ljava/lang/String;]
-  + NameAndType [onCreate (Landroid/database/sqlite/SQLiteDatabase;)V]
-  + NameAndType [toString ()Ljava/lang/String;]
-  + NameAndType [v (Ljava/lang/String;Ljava/lang/String;)I]
-  + Utf8 [ to ]
-  + Utf8 [()Ljava/lang/String;]
-  + Utf8 [()V]
-  + Utf8 [(I)Ljava/lang/StringBuilder;]
-  + Utf8 [(Landroid/content/Context;)V]
-  + Utf8 [(Landroid/content/Context;Ljava/lang/String;Landroid/database/sqlite/SQLiteDatabase$CursorFactory;I)V]
-  + Utf8 [(Landroid/database/sqlite/SQLiteDatabase;)V]
-  + Utf8 [(Landroid/database/sqlite/SQLiteDatabase;II)V]
-  + Utf8 [(Ljava/lang/String;)Ljava/lang/StringBuilder;]
-  + Utf8 [(Ljava/lang/String;)V]
-  + Utf8 [(Ljava/lang/String;Ljava/lang/String;)I]
-  + Utf8 [, which will destroy all old data]
-  + Utf8 [<clinit>]
-  + Utf8 [<init>]
-  + Utf8 [CREATE TABLE USPNET( username TEXT, password TEXT);]
-  + Utf8 [Code]
-  + Utf8 [DROP TABLE IF EXISTSUSPNET]
-  + Utf8 [Upgrading database from version ]
-  + Utf8 [[Ljava/lang/String;]
-  + Utf8 [a]
-  + Utf8 [android/database/sqlite/SQLiteDatabase]
-  + Utf8 [android/database/sqlite/SQLiteDatabase$CursorFactory]
-  + Utf8 [android/database/sqlite/SQLiteOpenHelper]
-  + Utf8 [android/util/Log]
-  + Utf8 [append]
-  + Utf8 [br/usp/gmarques/loginuspnet/a/a]
-  + Utf8 [execSQL]
-  + Utf8 [getName]
-  + Utf8 [java/lang/Class]
-  + Utf8 [java/lang/String]
-  + Utf8 [java/lang/StringBuilder]
-  + Utf8 [onCreate]
-  + Utf8 [onUpgrade]
-  + Utf8 [password]
-  + Utf8 [toString]
-  + Utf8 [username]
-  + Utf8 [uspnet.db]
-  + Utf8 [v]
-
-Fields (count = 1):
-  + Field:        a [Ljava/lang/String;
-    Access flags: 0xa
-      = private static java.lang.String[] a
-
-Methods (count = 4):
-  - Method:       <clinit>()V
-    Access flags: 0x8
-      = static void <clinit>()
-    Class member attributes (count = 1):
-    + Code attribute instructions (code length = 18, locals = 0, stack = 4):
-      [0] iconst_2
-      [1] anewarray #15
-        - Class [java/lang/String]
-      [4] dup
-      [5] iconst_0
-      [6] ldc #7
-        - String [username]
-      [8] aastore
-      [9] dup
-      [10] iconst_1
-      [11] ldc #6
-        - String [password]
-      [13] aastore
-      [14] putstatic #17
-        - Fieldref [br/usp/gmarques/loginuspnet/a/a.a [Ljava/lang/String;]
-      [17] return
-      Code attribute exceptions (count = 0):
-      Code attribute attributes (attribute count = 0):
-  - Method:       <init>(Landroid/content/Context;)V
-    Access flags: 0x1
-      = public a(android.content.Context)
-    Class member attributes (count = 1):
-    + Code attribute instructions (code length = 10, locals = 2, stack = 5):
-      [0] aload_0 v0
-      [1] aload_1 v1
-      [2] ldc #8
-        - String [uspnet.db]
-      [4] aconst_null
-      [5] iconst_1
-      [6] invokespecial #19
-        - Methodref [android/database/sqlite/SQLiteOpenHelper.<init> (Landroid/content/Context;Ljava/lang/String;Landroid/database/sqlite/SQLiteDatabase$CursorFactory;I)V]
-      [9] return
-      Code attribute exceptions (count = 0):
-      Code attribute attributes (attribute count = 0):
-  + Method:       onCreate(Landroid/database/sqlite/SQLiteDatabase;)V
-    Access flags: 0x1
-      = public void onCreate(android.database.sqlite.SQLiteDatabase)
-    Class member attributes (count = 1):
-    + Code attribute instructions (code length = 7, locals = 2, stack = 2):
-      [0] aload_1 v1
-      [1] ldc #3
-        - String [CREATE TABLE USPNET( username TEXT, password TEXT);]
-      [3] invokevirtual #18
-        - Methodref [android/database/sqlite/SQLiteDatabase.execSQL (Ljava/lang/String;)V]
-      [6] return
-      Code attribute exceptions (count = 0):
-      Code attribute attributes (attribute count = 0):
-  + Method:       onUpgrade(Landroid/database/sqlite/SQLiteDatabase;II)V
-    Access flags: 0x1
-      = public void onUpgrade(android.database.sqlite.SQLiteDatabase,int,int)
-    Class member attributes (count = 1):
-    + Code attribute instructions (code length = 51, locals = 4, stack = 4):
-      [0] ldc #13
-        - Class [br/usp/gmarques/loginuspnet/a/a]
-      [2] invokevirtual #22
-        - Methodref [java/lang/Class.getName ()Ljava/lang/String;]
-      [5] new #16
-        - Class [java/lang/StringBuilder]
-      [8] dup
-      [9] ldc #5
-        - String [Upgrading database from version ]
-      [11] invokespecial #23
-        - Methodref [java/lang/StringBuilder.<init> (Ljava/lang/String;)V]
-      [14] iload_2 v2
-      [15] invokevirtual #24
-        - Methodref [java/lang/StringBuilder.append (I)Ljava/lang/StringBuilder;]
-      [18] ldc #1
-        - String [ to ]
-      [20] invokevirtual #25
-        - Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [23] iload_3 v3
-      [24] invokevirtual #24
-        - Methodref [java/lang/StringBuilder.append (I)Ljava/lang/StringBuilder;]
-      [27] ldc #2
-        - String [, which will destroy all old data]
-      [29] invokevirtual #25
-        - Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [32] invokevirtual #26
-        - Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
-      [35] invokestatic #20
-        - Methodref [android/util/Log.v (Ljava/lang/String;Ljava/lang/String;)I]
-      [38] pop
-      [39] aload_1 v1
-      [40] ldc #4
-        - String [DROP TABLE IF EXISTSUSPNET]
-      [42] invokevirtual #18
-        - Methodref [android/database/sqlite/SQLiteDatabase.execSQL (Ljava/lang/String;)V]
-      [45] aload_0 v0
-      [46] aload_1 v1
-      [47] invokevirtual #21
-        - Methodref [br/usp/gmarques/loginuspnet/a/a.onCreate (Landroid/database/sqlite/SQLiteDatabase;)V]
-      [50] return
-      Code attribute exceptions (count = 0):
-      Code attribute attributes (attribute count = 0):
-
-Class file attributes (count = 0):
-
-_____________________________________________________________________
 + Program class: br/usp/gmarques/loginuspnet/LoginUSPNet
-  Superclass:    android/app/Activity
-  Major version: 0x32
+  Superclass:    android/preference/PreferenceActivity
+  Major version: 0x31
   Minor version: 0x0
   Access flags:  0x21
-    = public class br.usp.gmarques.loginuspnet.LoginUSPNet extends android.app.Activity
+    = public class br.usp.gmarques.loginuspnet.LoginUSPNet extends android.preference.PreferenceActivity
 
-Interfaces (count = 0):
+Interfaces (count = 1):
+  - Class [android/content/SharedPreferences$OnSharedPreferenceChangeListener]
 
-Constant Pool (count = 79):
+Constant Pool (count = 88):
   - Integer [2130903040]
-  - Integer [2131099648]
-  - Integer [2131099650]
-  - String [Email e senha salvos com sucesso!!]
-  - String [Erro ao salvar!!]
-  - Class [android/app/Activity]
-  - Class [android/widget/TextView]
-  - Class [android/widget/Toast]
+  - Integer [2130968583]
+  - String []
+  - Class [android/content/SharedPreferences]
+  - Class [android/content/SharedPreferences$OnSharedPreferenceChangeListener]
+  - Class [android/preference/EditTextPreference]
+  - Class [android/preference/PreferenceActivity]
+  - Class [android/preference/PreferenceManager]
+  - Class [android/preference/PreferenceScreen]
   - Class [br/usp/gmarques/loginuspnet/LoginUSPNet]
-  - Class [br/usp/gmarques/loginuspnet/a/b]
-  - Class [java/lang/CharSequence]
-  - Long [-1]
-  - Methodref [android/app/Activity.<init> ()V]
-  - Methodref [android/app/Activity.onCreate (Landroid/os/Bundle;)V]
-  - Methodref [android/widget/TextView.getText ()Ljava/lang/CharSequence;]
-  - Methodref [android/widget/TextView.setText (Ljava/lang/CharSequence;)V]
-  - Methodref [android/widget/Toast.makeText (Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;]
-  - Methodref [android/widget/Toast.show ()V]
-  - Methodref [br/usp/gmarques/loginuspnet/LoginUSPNet.findViewById (I)Landroid/view/View;]
-  - Methodref [br/usp/gmarques/loginuspnet/LoginUSPNet.setContentView (I)V]
-  - Methodref [br/usp/gmarques/loginuspnet/a/b.<init> (Landroid/content/Context;)V]
-  - Methodref [br/usp/gmarques/loginuspnet/a/b.a ()V]
-  - Methodref [br/usp/gmarques/loginuspnet/a/b.a (Ljava/lang/String;Ljava/lang/String;)J]
-  - Methodref [br/usp/gmarques/loginuspnet/a/b.b ()V]
-  - Methodref [br/usp/gmarques/loginuspnet/a/b.c ()Ljava/lang/String;]
-  - Methodref [br/usp/gmarques/loginuspnet/a/b.d ()Ljava/lang/String;]
-  - InterfaceMethodref [java/lang/CharSequence.toString ()Ljava/lang/String;]
+  - Class [java/lang/String]
+  - Fieldref [br/usp/gmarques/loginuspnet/LoginUSPNet.a Landroid/preference/EditTextPreference;]
+  - Fieldref [br/usp/gmarques/loginuspnet/LoginUSPNet.b Landroid/content/SharedPreferences;]
+  - Methodref [android/preference/EditTextPreference.setSummary (Ljava/lang/CharSequence;)V]
+  - Methodref [android/preference/PreferenceActivity.<init> ()V]
+  - Methodref [android/preference/PreferenceActivity.onCreate (Landroid/os/Bundle;)V]
+  - Methodref [android/preference/PreferenceActivity.onPause ()V]
+  - Methodref [android/preference/PreferenceActivity.onResume ()V]
+  - Methodref [android/preference/PreferenceManager.getDefaultSharedPreferences (Landroid/content/Context;)Landroid/content/SharedPreferences;]
+  - Methodref [android/preference/PreferenceScreen.findPreference (Ljava/lang/CharSequence;)Landroid/preference/Preference;]
+  - Methodref [android/preference/PreferenceScreen.getSharedPreferences ()Landroid/content/SharedPreferences;]
+  - Methodref [br/usp/gmarques/loginuspnet/LoginUSPNet.addPreferencesFromResource (I)V]
+  - Methodref [br/usp/gmarques/loginuspnet/LoginUSPNet.getPreferenceScreen ()Landroid/preference/PreferenceScreen;]
+  - Methodref [br/usp/gmarques/loginuspnet/LoginUSPNet.getString (I)Ljava/lang/String;]
+  - Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
+  - InterfaceMethodref [android/content/SharedPreferences.getString (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;]
+  - InterfaceMethodref [android/content/SharedPreferences.registerOnSharedPreferenceChangeListener (Landroid/content/SharedPreferences$OnSharedPreferenceChangeListener;)V]
+  - InterfaceMethodref [android/content/SharedPreferences.unregisterOnSharedPreferenceChangeListener (Landroid/content/SharedPreferences$OnSharedPreferenceChangeListener;)V]
   + NameAndType [<init> ()V]
-  + NameAndType [<init> (Landroid/content/Context;)V]
-  + NameAndType [a ()V]
-  + NameAndType [a (Ljava/lang/String;Ljava/lang/String;)J]
-  + NameAndType [b ()V]
-  + NameAndType [c ()Ljava/lang/String;]
-  + NameAndType [d ()Ljava/lang/String;]
-  + NameAndType [findViewById (I)Landroid/view/View;]
-  + NameAndType [getText ()Ljava/lang/CharSequence;]
-  + NameAndType [makeText (Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;]
+  + NameAndType [a Landroid/preference/EditTextPreference;]
+  + NameAndType [addPreferencesFromResource (I)V]
+  + NameAndType [b Landroid/content/SharedPreferences;]
+  + NameAndType [equals (Ljava/lang/Object;)Z]
+  + NameAndType [findPreference (Ljava/lang/CharSequence;)Landroid/preference/Preference;]
+  + NameAndType [getDefaultSharedPreferences (Landroid/content/Context;)Landroid/content/SharedPreferences;]
+  + NameAndType [getPreferenceScreen ()Landroid/preference/PreferenceScreen;]
+  + NameAndType [getSharedPreferences ()Landroid/content/SharedPreferences;]
+  + NameAndType [getString (I)Ljava/lang/String;]
+  + NameAndType [getString (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;]
   + NameAndType [onCreate (Landroid/os/Bundle;)V]
-  + NameAndType [setContentView (I)V]
-  + NameAndType [setText (Ljava/lang/CharSequence;)V]
-  + NameAndType [show ()V]
-  + NameAndType [toString ()Ljava/lang/String;]
-  + Utf8 [()Ljava/lang/CharSequence;]
-  + Utf8 [()Ljava/lang/String;]
+  + NameAndType [onPause ()V]
+  + NameAndType [onResume ()V]
+  + NameAndType [registerOnSharedPreferenceChangeListener (Landroid/content/SharedPreferences$OnSharedPreferenceChangeListener;)V]
+  + NameAndType [setSummary (Ljava/lang/CharSequence;)V]
+  + NameAndType [unregisterOnSharedPreferenceChangeListener (Landroid/content/SharedPreferences$OnSharedPreferenceChangeListener;)V]
+  + Utf8 []
+  + Utf8 [()Landroid/content/SharedPreferences;]
+  + Utf8 [()Landroid/preference/PreferenceScreen;]
   + Utf8 [()V]
-  + Utf8 [(I)Landroid/view/View;]
+  + Utf8 [(I)Ljava/lang/String;]
   + Utf8 [(I)V]
-  + Utf8 [(Landroid/content/Context;)V]
-  + Utf8 [(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;]
+  + Utf8 [(Landroid/content/Context;)Landroid/content/SharedPreferences;]
+  + Utf8 [(Landroid/content/SharedPreferences$OnSharedPreferenceChangeListener;)V]
+  + Utf8 [(Landroid/content/SharedPreferences;Ljava/lang/String;)V]
   + Utf8 [(Landroid/os/Bundle;)V]
-  + Utf8 [(Landroid/view/View;)V]
+  + Utf8 [(Ljava/lang/CharSequence;)Landroid/preference/Preference;]
   + Utf8 [(Ljava/lang/CharSequence;)V]
-  + Utf8 [(Ljava/lang/String;Ljava/lang/String;)J]
+  + Utf8 [(Ljava/lang/Object;)Z]
+  + Utf8 [(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;]
   + Utf8 [<init>]
   + Utf8 [Code]
-  + Utf8 [Email e senha salvos com sucesso!!]
-  + Utf8 [Erro ao salvar!!]
-  + Utf8 [StackMapTable]
+  + Utf8 [Landroid/content/SharedPreferences;]
+  + Utf8 [Landroid/preference/EditTextPreference;]
   + Utf8 [a]
-  + Utf8 [android/app/Activity]
-  + Utf8 [android/widget/TextView]
-  + Utf8 [android/widget/Toast]
+  + Utf8 [addPreferencesFromResource]
+  + Utf8 [android/content/SharedPreferences]
+  + Utf8 [android/content/SharedPreferences$OnSharedPreferenceChangeListener]
+  + Utf8 [android/preference/EditTextPreference]
+  + Utf8 [android/preference/PreferenceActivity]
+  + Utf8 [android/preference/PreferenceManager]
+  + Utf8 [android/preference/PreferenceScreen]
   + Utf8 [b]
   + Utf8 [br/usp/gmarques/loginuspnet/LoginUSPNet]
-  + Utf8 [br/usp/gmarques/loginuspnet/a/b]
-  + Utf8 [c]
-  + Utf8 [d]
-  + Utf8 [findViewById]
-  + Utf8 [getText]
-  + Utf8 [java/lang/CharSequence]
-  + Utf8 [makeText]
+  + Utf8 [equals]
+  + Utf8 [findPreference]
+  + Utf8 [getDefaultSharedPreferences]
+  + Utf8 [getPreferenceScreen]
+  + Utf8 [getSharedPreferences]
+  + Utf8 [getString]
+  + Utf8 [java/lang/String]
   + Utf8 [onCreate]
-  + Utf8 [saveData]
-  + Utf8 [setContentView]
-  + Utf8 [setText]
-  + Utf8 [show]
-  + Utf8 [toString]
+  + Utf8 [onPause]
+  + Utf8 [onResume]
+  + Utf8 [onSharedPreferenceChanged]
+  + Utf8 [registerOnSharedPreferenceChangeListener]
+  + Utf8 [setSummary]
+  + Utf8 [unregisterOnSharedPreferenceChangeListener]
 
-Fields (count = 0):
+Fields (count = 2):
+  + Field:        a Landroid/preference/EditTextPreference;
+    Access flags: 0x2
+      = private android.preference.EditTextPreference a
+  + Field:        b Landroid/content/SharedPreferences;
+    Access flags: 0x2
+      = private android.content.SharedPreferences b
 
-Methods (count = 3):
+Methods (count = 5):
   - Method:       <init>()V
     Access flags: 0x1
       = public LoginUSPNet()
     Class member attributes (count = 1):
-    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+    + Code attribute instructions (code length = 15, locals = 1, stack = 2):
       [0] aload_0 v0
-      [1] invokespecial #14
-        - Methodref [android/app/Activity.<init> ()V]
-      [4] return
+      [1] invokespecial #15
+        - Methodref [android/preference/PreferenceActivity.<init> ()V]
+      [4] aload_0 v0
+      [5] aconst_null
+      [6] putfield #12
+        - Fieldref [br/usp/gmarques/loginuspnet/LoginUSPNet.a Landroid/preference/EditTextPreference;]
+      [9] aload_0 v0
+      [10] aconst_null
+      [11] putfield #13
+        - Fieldref [br/usp/gmarques/loginuspnet/LoginUSPNet.b Landroid/content/SharedPreferences;]
+      [14] return
       Code attribute exceptions (count = 0):
       Code attribute attributes (attribute count = 0):
   + Method:       onCreate(Landroid/os/Bundle;)V
     Access flags: 0x4
       = protected void onCreate(android.os.Bundle)
     Class member attributes (count = 1):
-    + Code attribute instructions (code length = 65, locals = 4, stack = 3):
+    + Code attribute instructions (code length = 40, locals = 2, stack = 4):
       [0] aload_0 v0
       [1] aload_1 v1
-      [2] invokespecial #15
-        - Methodref [android/app/Activity.onCreate (Landroid/os/Bundle;)V]
+      [2] invokespecial #16
+        - Methodref [android/preference/PreferenceActivity.onCreate (Landroid/os/Bundle;)V]
       [5] aload_0 v0
       [6] ldc #1
         - Integer [2130903040]
-      [8] invokevirtual #21
-        - Methodref [br/usp/gmarques/loginuspnet/LoginUSPNet.setContentView (I)V]
+      [8] invokevirtual #22
+        - Methodref [br/usp/gmarques/loginuspnet/LoginUSPNet.addPreferencesFromResource (I)V]
       [11] aload_0 v0
-      [12] ldc #2
-        - Integer [2131099648]
-      [14] invokevirtual #20
-        - Methodref [br/usp/gmarques/loginuspnet/LoginUSPNet.findViewById (I)Landroid/view/View;]
-      [17] checkcast #7
-        - Class [android/widget/TextView]
-      [20] astore_1 v1
-      [21] aload_0 v0
-      [22] ldc #3
-        - Integer [2131099650]
-      [24] invokevirtual #20
-        - Methodref [br/usp/gmarques/loginuspnet/LoginUSPNet.findViewById (I)Landroid/view/View;]
-      [27] checkcast #7
-        - Class [android/widget/TextView]
-      [30] astore_2 v2
-      [31] new #10
-        - Class [br/usp/gmarques/loginuspnet/a/b]
-      [34] dup
-      [35] aload_0 v0
-      [36] invokespecial #22
-        - Methodref [br/usp/gmarques/loginuspnet/a/b.<init> (Landroid/content/Context;)V]
-      [39] dup
-      [40] astore_3 v3
-      [41] invokevirtual #23
-        - Methodref [br/usp/gmarques/loginuspnet/a/b.a ()V]
-      [44] aload_1 v1
-      [45] aload_3 v3
-      [46] invokevirtual #26
-        - Methodref [br/usp/gmarques/loginuspnet/a/b.c ()Ljava/lang/String;]
-      [49] invokevirtual #17
-        - Methodref [android/widget/TextView.setText (Ljava/lang/CharSequence;)V]
-      [52] aload_2 v2
-      [53] aload_3 v3
-      [54] invokevirtual #27
-        - Methodref [br/usp/gmarques/loginuspnet/a/b.d ()Ljava/lang/String;]
-      [57] invokevirtual #17
-        - Methodref [android/widget/TextView.setText (Ljava/lang/CharSequence;)V]
-      [60] aload_3 v3
-      [61] invokevirtual #25
-        - Methodref [br/usp/gmarques/loginuspnet/a/b.b ()V]
-      [64] return
+      [12] aload_0 v0
+      [13] invokestatic #19
+        - Methodref [android/preference/PreferenceManager.getDefaultSharedPreferences (Landroid/content/Context;)Landroid/content/SharedPreferences;]
+      [16] putfield #13
+        - Fieldref [br/usp/gmarques/loginuspnet/LoginUSPNet.b Landroid/content/SharedPreferences;]
+      [19] aload_0 v0
+      [20] aload_0 v0
+      [21] invokevirtual #23
+        - Methodref [br/usp/gmarques/loginuspnet/LoginUSPNet.getPreferenceScreen ()Landroid/preference/PreferenceScreen;]
+      [24] aload_0 v0
+      [25] ldc #2
+        - Integer [2130968583]
+      [27] invokevirtual #24
+        - Methodref [br/usp/gmarques/loginuspnet/LoginUSPNet.getString (I)Ljava/lang/String;]
+      [30] invokevirtual #20
+        - Methodref [android/preference/PreferenceScreen.findPreference (Ljava/lang/CharSequence;)Landroid/preference/Preference;]
+      [33] checkcast #6
+        - Class [android/preference/EditTextPreference]
+      [36] putfield #12
+        - Fieldref [br/usp/gmarques/loginuspnet/LoginUSPNet.a Landroid/preference/EditTextPreference;]
+      [39] return
       Code attribute exceptions (count = 0):
       Code attribute attributes (attribute count = 0):
-  + Method:       saveData(Landroid/view/View;)V
-    Access flags: 0x1
-      = public void saveData(android.view.View)
+  + Method:       onResume()V
+    Access flags: 0x4
+      = protected void onResume()
     Class member attributes (count = 1):
-    + Code attribute instructions (code length = 90, locals = 4, stack = 4):
+    + Code attribute instructions (code length = 42, locals = 1, stack = 4):
       [0] aload_0 v0
-      [1] ldc #2
-        - Integer [2131099648]
-      [3] invokevirtual #20
-        - Methodref [br/usp/gmarques/loginuspnet/LoginUSPNet.findViewById (I)Landroid/view/View;]
-      [6] checkcast #7
-        - Class [android/widget/TextView]
-      [9] astore_1 v1
-      [10] aload_0 v0
-      [11] ldc #3
-        - Integer [2131099650]
-      [13] invokevirtual #20
-        - Methodref [br/usp/gmarques/loginuspnet/LoginUSPNet.findViewById (I)Landroid/view/View;]
-      [16] checkcast #7
-        - Class [android/widget/TextView]
-      [19] astore_2 v2
-      [20] new #10
-        - Class [br/usp/gmarques/loginuspnet/a/b]
-      [23] dup
-      [24] aload_0 v0
-      [25] invokespecial #22
-        - Methodref [br/usp/gmarques/loginuspnet/a/b.<init> (Landroid/content/Context;)V]
-      [28] dup
-      [29] astore_3 v3
-      [30] invokevirtual #23
-        - Methodref [br/usp/gmarques/loginuspnet/a/b.a ()V]
-      [33] aload_3 v3
-      [34] aload_1 v1
-      [35] invokevirtual #16
-        - Methodref [android/widget/TextView.getText ()Ljava/lang/CharSequence;]
-      [38] invokeinterface #28
-        - InterfaceMethodref [java/lang/CharSequence.toString ()Ljava/lang/String;]
-      [43] aload_2 v2
-      [44] invokevirtual #16
-        - Methodref [android/widget/TextView.getText ()Ljava/lang/CharSequence;]
-      [47] invokeinterface #28
-        - InterfaceMethodref [java/lang/CharSequence.toString ()Ljava/lang/String;]
-      [52] invokevirtual #24
-        - Methodref [br/usp/gmarques/loginuspnet/a/b.a (Ljava/lang/String;Ljava/lang/String;)J]
-      [55] ldc2_w #12
-        - Long [-1]
-      [58] lcmp
-      [59] ifeq +16 (target=75)
-      [62] aload_0 v0
-      [63] ldc #4
-        - String [Email e senha salvos com sucesso!!]
-      [65] iconst_1
-      [66] invokestatic #18
-        - Methodref [android/widget/Toast.makeText (Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;]
-      [69] invokevirtual #19
-        - Methodref [android/widget/Toast.show ()V]
-      [72] goto +13 (target=85)
-      [75] aload_0 v0
-      [76] ldc #5
-        - String [Erro ao salvar!!]
-      [78] iconst_1
-      [79] invokestatic #18
-        - Methodref [android/widget/Toast.makeText (Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;]
-      [82] invokevirtual #19
-        - Methodref [android/widget/Toast.show ()V]
-      [85] aload_3 v3
-      [86] invokevirtual #25
-        - Methodref [br/usp/gmarques/loginuspnet/a/b.b ()V]
-      [89] return
+      [1] invokespecial #18
+        - Methodref [android/preference/PreferenceActivity.onResume ()V]
+      [4] aload_0 v0
+      [5] getfield #12
+        - Fieldref [br/usp/gmarques/loginuspnet/LoginUSPNet.a Landroid/preference/EditTextPreference;]
+      [8] aload_0 v0
+      [9] getfield #13
+        - Fieldref [br/usp/gmarques/loginuspnet/LoginUSPNet.b Landroid/content/SharedPreferences;]
+      [12] aload_0 v0
+      [13] ldc #2
+        - Integer [2130968583]
+      [15] invokevirtual #24
+        - Methodref [br/usp/gmarques/loginuspnet/LoginUSPNet.getString (I)Ljava/lang/String;]
+      [18] ldc #3
+        - String []
+      [20] invokeinterface #26
+        - InterfaceMethodref [android/content/SharedPreferences.getString (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;]
+      [25] invokevirtual #14
+        - Methodref [android/preference/EditTextPreference.setSummary (Ljava/lang/CharSequence;)V]
+      [28] aload_0 v0
+      [29] invokevirtual #23
+        - Methodref [br/usp/gmarques/loginuspnet/LoginUSPNet.getPreferenceScreen ()Landroid/preference/PreferenceScreen;]
+      [32] invokevirtual #21
+        - Methodref [android/preference/PreferenceScreen.getSharedPreferences ()Landroid/content/SharedPreferences;]
+      [35] aload_0 v0
+      [36] invokeinterface #27
+        - InterfaceMethodref [android/content/SharedPreferences.registerOnSharedPreferenceChangeListener (Landroid/content/SharedPreferences$OnSharedPreferenceChangeListener;)V]
+      [41] return
       Code attribute exceptions (count = 0):
-      Code attribute attributes (attribute count = 1):
-      + Stack map table attribute (count = 2):
-        - [75] Var: ...[a:android/widget/TextView][a:android/widget/TextView][a:br/usp/gmarques/loginuspnet/a/b], Stack: (empty)
-        - [85] Var: ..., Stack: (empty)
+      Code attribute attributes (attribute count = 0):
+  + Method:       onPause()V
+    Access flags: 0x4
+      = protected void onPause()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 18, locals = 1, stack = 2):
+      [0] aload_0 v0
+      [1] invokespecial #17
+        - Methodref [android/preference/PreferenceActivity.onPause ()V]
+      [4] aload_0 v0
+      [5] invokevirtual #23
+        - Methodref [br/usp/gmarques/loginuspnet/LoginUSPNet.getPreferenceScreen ()Landroid/preference/PreferenceScreen;]
+      [8] invokevirtual #21
+        - Methodref [android/preference/PreferenceScreen.getSharedPreferences ()Landroid/content/SharedPreferences;]
+      [11] aload_0 v0
+      [12] invokeinterface #28
+        - InterfaceMethodref [android/content/SharedPreferences.unregisterOnSharedPreferenceChangeListener (Landroid/content/SharedPreferences$OnSharedPreferenceChangeListener;)V]
+      [17] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onSharedPreferenceChanged(Landroid/content/SharedPreferences;Ljava/lang/String;)V
+    Access flags: 0x1
+      = public void onSharedPreferenceChanged(android.content.SharedPreferences,java.lang.String)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 35, locals = 3, stack = 4):
+      [0] aload_2 v2
+      [1] aload_0 v0
+      [2] ldc #2
+        - Integer [2130968583]
+      [4] invokevirtual #24
+        - Methodref [br/usp/gmarques/loginuspnet/LoginUSPNet.getString (I)Ljava/lang/String;]
+      [7] invokevirtual #25
+        - Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
+      [10] ifeq +24 (target=34)
+      [13] aload_0 v0
+      [14] getfield #12
+        - Fieldref [br/usp/gmarques/loginuspnet/LoginUSPNet.a Landroid/preference/EditTextPreference;]
+      [17] aload_1 v1
+      [18] aload_0 v0
+      [19] ldc #2
+        - Integer [2130968583]
+      [21] invokevirtual #24
+        - Methodref [br/usp/gmarques/loginuspnet/LoginUSPNet.getString (I)Ljava/lang/String;]
+      [24] ldc #3
+        - String []
+      [26] invokeinterface #26
+        - InterfaceMethodref [android/content/SharedPreferences.getString (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;]
+      [31] invokevirtual #14
+        - Methodref [android/preference/EditTextPreference.setSummary (Ljava/lang/CharSequence;)V]
+      [34] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
 
 Class file attributes (count = 0):
 
 _____________________________________________________________________
 + Program class: br/usp/gmarques/loginuspnet/WifiChangeReceiver
   Superclass:    android/content/BroadcastReceiver
-  Major version: 0x32
+  Major version: 0x31
   Minor version: 0x0
   Access flags:  0x21
     = public class br.usp.gmarques.loginuspnet.WifiChangeReceiver extends android.content.BroadcastReceiver
 
 Interfaces (count = 0):
 
-Constant Pool (count = 237):
+Constant Pool (count = 238):
+  - Integer [2130968583]
+  - Integer [2130968584]
   - String []
   - String [ ]
   - String [0]
@@ -469,14 +295,15 @@ Constant Pool (count = 237):
   - Class [android/content/BroadcastReceiver]
   - Class [android/content/Context]
   - Class [android/content/Intent]
+  - Class [android/content/SharedPreferences]
   - Class [android/net/NetworkInfo]
   - Class [android/net/NetworkInfo$DetailedState]
   - Class [android/net/wifi/WifiInfo]
   - Class [android/net/wifi/WifiManager]
+  - Class [android/preference/PreferenceManager]
   - Class [android/util/Log]
   - Class [br/usp/gmarques/loginuspnet/WifiChangeReceiver]
   - Class [br/usp/gmarques/loginuspnet/a/b]
-  - Class [br/usp/gmarques/loginuspnet/b/b]
   - Class [java/io/BufferedReader]
   - Class [java/io/IOException]
   - Class [java/io/InputStreamReader]
@@ -494,23 +321,20 @@ Constant Pool (count = 237):
   - Class [org/xml/sax/InputSource]
   - Fieldref [android/net/NetworkInfo$DetailedState.CONNECTED Landroid/net/NetworkInfo$DetailedState;]
   - Methodref [android/content/BroadcastReceiver.<init> ()V]
+  - Methodref [android/content/Context.getString (I)Ljava/lang/String;]
   - Methodref [android/content/Context.getSystemService (Ljava/lang/String;)Ljava/lang/Object;]
   - Methodref [android/content/Intent.getAction ()Ljava/lang/String;]
   - Methodref [android/content/Intent.getParcelableExtra (Ljava/lang/String;)Landroid/os/Parcelable;]
   - Methodref [android/net/NetworkInfo.getDetailedState ()Landroid/net/NetworkInfo$DetailedState;]
   - Methodref [android/net/wifi/WifiInfo.getSSID ()Ljava/lang/String;]
   - Methodref [android/net/wifi/WifiManager.getConnectionInfo ()Landroid/net/wifi/WifiInfo;]
+  - Methodref [android/preference/PreferenceManager.getDefaultSharedPreferences (Landroid/content/Context;)Landroid/content/SharedPreferences;]
   - Methodref [android/util/Log.d (Ljava/lang/String;Ljava/lang/String;)I]
   - Methodref [android/util/Log.e (Ljava/lang/String;Ljava/lang/String;)I]
   - Methodref [android/util/Log.getStackTraceString (Ljava/lang/Throwable;)Ljava/lang/String;]
   - Methodref [android/util/Log.v (Ljava/lang/String;Ljava/lang/String;)I]
   - Methodref [br/usp/gmarques/loginuspnet/WifiChangeReceiver.a (Ljava/lang/String;Ljava/util/List;)V]
-  - Methodref [br/usp/gmarques/loginuspnet/a/b.<init> (Landroid/content/Context;)V]
-  - Methodref [br/usp/gmarques/loginuspnet/a/b.a ()V]
-  - Methodref [br/usp/gmarques/loginuspnet/a/b.b ()V]
-  - Methodref [br/usp/gmarques/loginuspnet/a/b.c ()Ljava/lang/String;]
-  - Methodref [br/usp/gmarques/loginuspnet/a/b.d ()Ljava/lang/String;]
-  - Methodref [br/usp/gmarques/loginuspnet/b/b.a ()Lorg/apache/http/client/HttpClient;]
+  - Methodref [br/usp/gmarques/loginuspnet/a/b.a ()Lorg/apache/http/client/HttpClient;]
   - Methodref [java/io/BufferedReader.<init> (Ljava/io/Reader;)V]
   - Methodref [java/io/BufferedReader.readLine ()Ljava/lang/String;]
   - Methodref [java/io/IOException.getMessage ()Ljava/lang/String;]
@@ -529,12 +353,12 @@ Constant Pool (count = 237):
   - Methodref [org/apache/http/message/BasicNameValuePair.<init> (Ljava/lang/String;Ljava/lang/String;)V]
   - Methodref [org/xml/sax/InputSource.<init> (Ljava/io/InputStream;)V]
   - Methodref [org/xml/sax/InputSource.getByteStream ()Ljava/io/InputStream;]
+  - InterfaceMethodref [android/content/SharedPreferences.getString (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;]
   - InterfaceMethodref [java/util/List.add (Ljava/lang/Object;)Z]
   - InterfaceMethodref [org/apache/http/HttpEntity.getContent ()Ljava/io/InputStream;]
   - InterfaceMethodref [org/apache/http/HttpResponse.getEntity ()Lorg/apache/http/HttpEntity;]
   - InterfaceMethodref [org/apache/http/client/HttpClient.execute (Lorg/apache/http/client/methods/HttpUriRequest;)Lorg/apache/http/HttpResponse;]
   + NameAndType [<init> ()V]
-  + NameAndType [<init> (Landroid/content/Context;)V]
   + NameAndType [<init> (Ljava/io/InputStream;)V]
   + NameAndType [<init> (Ljava/io/Reader;)V]
   + NameAndType [<init> (Ljava/lang/String;)V]
@@ -542,14 +366,10 @@ Constant Pool (count = 237):
   + NameAndType [<init> (Ljava/util/List;Ljava/lang/String;)V]
   + NameAndType [CONNECTED Landroid/net/NetworkInfo$DetailedState;]
   + NameAndType [a ()Lorg/apache/http/client/HttpClient;]
-  + NameAndType [a ()V]
   + NameAndType [a (Ljava/lang/String;Ljava/util/List;)V]
   + NameAndType [add (Ljava/lang/Object;)Z]
   + NameAndType [append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-  + NameAndType [b ()V]
-  + NameAndType [c ()Ljava/lang/String;]
   + NameAndType [contains (Ljava/lang/CharSequence;)Z]
-  + NameAndType [d ()Ljava/lang/String;]
   + NameAndType [d (Ljava/lang/String;Ljava/lang/String;)I]
   + NameAndType [e (Ljava/lang/String;Ljava/lang/String;)I]
   + NameAndType [equals (Ljava/lang/Object;)Z]
@@ -558,12 +378,15 @@ Constant Pool (count = 237):
   + NameAndType [getByteStream ()Ljava/io/InputStream;]
   + NameAndType [getConnectionInfo ()Landroid/net/wifi/WifiInfo;]
   + NameAndType [getContent ()Ljava/io/InputStream;]
+  + NameAndType [getDefaultSharedPreferences (Landroid/content/Context;)Landroid/content/SharedPreferences;]
   + NameAndType [getDetailedState ()Landroid/net/NetworkInfo$DetailedState;]
   + NameAndType [getEntity ()Lorg/apache/http/HttpEntity;]
   + NameAndType [getMessage ()Ljava/lang/String;]
   + NameAndType [getParcelableExtra (Ljava/lang/String;)Landroid/os/Parcelable;]
   + NameAndType [getSSID ()Ljava/lang/String;]
   + NameAndType [getStackTraceString (Ljava/lang/Throwable;)Ljava/lang/String;]
+  + NameAndType [getString (I)Ljava/lang/String;]
+  + NameAndType [getString (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;]
   + NameAndType [getSystemService (Ljava/lang/String;)Ljava/lang/Object;]
   + NameAndType [readLine ()Ljava/lang/String;]
   + NameAndType [setEntity (Lorg/apache/http/HttpEntity;)V]
@@ -579,7 +402,8 @@ Constant Pool (count = 237):
   + Utf8 [()Lorg/apache/http/HttpEntity;]
   + Utf8 [()Lorg/apache/http/client/HttpClient;]
   + Utf8 [()V]
-  + Utf8 [(Landroid/content/Context;)V]
+  + Utf8 [(I)Ljava/lang/String;]
+  + Utf8 [(Landroid/content/Context;)Landroid/content/SharedPreferences;]
   + Utf8 [(Landroid/content/Context;Landroid/content/Intent;)V]
   + Utf8 [(Ljava/io/InputStream;)V]
   + Utf8 [(Ljava/io/Reader;)V]
@@ -590,6 +414,7 @@ Constant Pool (count = 237):
   + Utf8 [(Ljava/lang/String;)Ljava/lang/StringBuilder;]
   + Utf8 [(Ljava/lang/String;)V]
   + Utf8 [(Ljava/lang/String;Ljava/lang/String;)I]
+  + Utf8 [(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;]
   + Utf8 [(Ljava/lang/String;Ljava/lang/String;)V]
   + Utf8 [(Ljava/lang/String;Ljava/util/List;)V]
   + Utf8 [(Ljava/lang/Throwable;)Ljava/lang/String;]
@@ -609,7 +434,6 @@ Constant Pool (count = 237):
   + Utf8 [Landroid/net/NetworkInfo$DetailedState;]
   + Utf8 [LoginUSPNet]
   + Utf8 [Rede ICMC detectada.]
-  + Utf8 [StackMapTable]
   + Utf8 [UTF-8]
   + Utf8 [a]
   + Utf8 [add]
@@ -617,18 +441,17 @@ Constant Pool (count = 237):
   + Utf8 [android/content/BroadcastReceiver]
   + Utf8 [android/content/Context]
   + Utf8 [android/content/Intent]
+  + Utf8 [android/content/SharedPreferences]
   + Utf8 [android/net/NetworkInfo]
   + Utf8 [android/net/NetworkInfo$DetailedState]
   + Utf8 [android/net/wifi/WifiInfo]
   + Utf8 [android/net/wifi/WifiManager]
+  + Utf8 [android/preference/PreferenceManager]
   + Utf8 [android/util/Log]
   + Utf8 [append]
-  + Utf8 [b]
   + Utf8 [br/usp/gmarques/loginuspnet/WifiChangeReceiver]
   + Utf8 [br/usp/gmarques/loginuspnet/a/b]
-  + Utf8 [br/usp/gmarques/loginuspnet/b/b]
   + Utf8 [buttonClicked]
-  + Utf8 [c]
   + Utf8 [contains]
   + Utf8 [d]
   + Utf8 [e]
@@ -640,12 +463,14 @@ Constant Pool (count = 237):
   + Utf8 [getByteStream]
   + Utf8 [getConnectionInfo]
   + Utf8 [getContent]
+  + Utf8 [getDefaultSharedPreferences]
   + Utf8 [getDetailedState]
   + Utf8 [getEntity]
   + Utf8 [getMessage]
   + Utf8 [getParcelableExtra]
   + Utf8 [getSSID]
   + Utf8 [getStackTraceString]
+  + Utf8 [getString]
   + Utf8 [getSystemService]
   + Utf8 [https://1.1.1.1/login.html?redirect=https://www.google.com]
   + Utf8 [https://www.google.com]
@@ -687,7 +512,7 @@ Methods (count = 3):
     Class member attributes (count = 1):
     + Code attribute instructions (code length = 5, locals = 1, stack = 1):
       [0] aload_0 v0
-      [1] invokespecial #53
+      [1] invokespecial #56
         - Methodref [android/content/BroadcastReceiver.<init> ()V]
       [4] return
       Code attribute exceptions (count = 0):
@@ -696,17 +521,17 @@ Methods (count = 3):
     Access flags: 0x1
       = public void onReceive(android.content.Context,android.content.Intent)
     Class member attributes (count = 1):
-    + Code attribute instructions (code length = 380, locals = 4, stack = 5):
+    + Code attribute instructions (code length = 388, locals = 4, stack = 7):
       [0] aload_2 v2
-      [1] invokevirtual #55
+      [1] invokevirtual #59
         - Methodref [android/content/Intent.getAction ()Ljava/lang/String;]
       [4] astore_3 v3
-      [5] ldc #10
+      [5] ldc #12
         - String [LoginUSPNet]
-      [7] new #41
+      [7] new #44
         - Class [java/lang/StringBuilder]
       [10] dup
-      [11] ldc #5
+      [11] ldc #7
         - String [Action: ]
       [13] invokespecial #78
         - Methodref [java/lang/StringBuilder.<init> (Ljava/lang/String;)V]
@@ -715,300 +540,301 @@ Methods (count = 3):
         - Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [20] invokevirtual #80
         - Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
-      [23] invokestatic #63
+      [23] invokestatic #68
         - Methodref [android/util/Log.v (Ljava/lang/String;Ljava/lang/String;)I]
       [26] pop
       [27] aload_3 v3
-      [28] ldc #13
+      [28] ldc #15
         - String [android.net.wifi.STATE_CHANGE]
       [30] invokevirtual #76
         - Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
-      [33] ifeq +346 (target=379)
+      [33] ifeq +354 (target=387)
       [36] aload_2 v2
-      [37] ldc #21
+      [37] ldc #23
         - String [networkInfo]
-      [39] invokevirtual #56
+      [39] invokevirtual #60
         - Methodref [android/content/Intent.getParcelableExtra (Ljava/lang/String;)Landroid/os/Parcelable;]
-      [42] checkcast #29
+      [42] checkcast #32
         - Class [android/net/NetworkInfo]
-      [45] invokevirtual #57
+      [45] invokevirtual #61
         - Methodref [android/net/NetworkInfo.getDetailedState ()Landroid/net/NetworkInfo$DetailedState;]
-      [48] getstatic #52
+      [48] getstatic #55
         - Fieldref [android/net/NetworkInfo$DetailedState.CONNECTED Landroid/net/NetworkInfo$DetailedState;]
-      [51] ifacmpne +328 (target=379)
-      [54] ldc #10
+      [51] ifacmpne +336 (target=387)
+      [54] ldc #12
         - String [LoginUSPNet]
-      [56] ldc #7
+      [56] ldc #9
         - String [Conectado]
-      [58] invokestatic #63
+      [58] invokestatic #68
         - Methodref [android/util/Log.v (Ljava/lang/String;Ljava/lang/String;)I]
       [61] pop
       [62] aload_1 v1
-      [63] ldc #25
+      [63] ldc #27
         - String [wifi]
-      [65] invokevirtual #54
+      [65] invokevirtual #58
         - Methodref [android/content/Context.getSystemService (Ljava/lang/String;)Ljava/lang/Object;]
-      [68] checkcast #32
+      [68] checkcast #35
         - Class [android/net/wifi/WifiManager]
-      [71] invokevirtual #59
+      [71] invokevirtual #63
         - Methodref [android/net/wifi/WifiManager.getConnectionInfo ()Landroid/net/wifi/WifiInfo;]
-      [74] invokevirtual #58
+      [74] invokevirtual #62
         - Methodref [android/net/wifi/WifiInfo.getSSID ()Ljava/lang/String;]
       [77] invokevirtual #77
         - Methodref [java/lang/String.toUpperCase ()Ljava/lang/String;]
-      [80] ldc #8
+      [80] ldc #10
         - String [ICMC]
       [82] invokevirtual #75
         - Methodref [java/lang/String.contains (Ljava/lang/CharSequence;)Z]
-      [85] ifeq +294 (target=379)
-      [88] ldc #10
+      [85] ifeq +302 (target=387)
+      [88] ldc #12
         - String [LoginUSPNet]
-      [90] ldc #11
+      [90] ldc #13
         - String [Rede ICMC detectada.]
-      [92] invokestatic #60
+      [92] invokestatic #65
         - Methodref [android/util/Log.d (Ljava/lang/String;Ljava/lang/String;)I]
       [95] pop
-      [96] new #35
-        - Class [br/usp/gmarques/loginuspnet/a/b]
-      [99] dup
-      [100] aload_1 v1
-      [101] invokespecial #65
-        - Methodref [br/usp/gmarques/loginuspnet/a/b.<init> (Landroid/content/Context;)V]
-      [104] dup
-      [105] astore_1 v1
-      [106] invokevirtual #66
-        - Methodref [br/usp/gmarques/loginuspnet/a/b.a ()V]
-      [109] new #42
+      [96] aload_1 v1
+      [97] invokestatic #64
+        - Methodref [android/preference/PreferenceManager.getDefaultSharedPreferences (Landroid/content/Context;)Landroid/content/SharedPreferences;]
+      [100] astore_2 v2
+      [101] new #45
         - Class [java/util/ArrayList]
-      [112] dup
-      [113] invokespecial #81
+      [104] dup
+      [105] invokespecial #81
         - Methodref [java/util/ArrayList.<init> ()V]
-      [116] dup
-      [117] astore_2 v2
-      [118] new #50
+      [108] dup
+      [109] astore_3 v3
+      [110] new #53
         - Class [org/apache/http/message/BasicNameValuePair]
-      [121] dup
-      [122] ldc #14
+      [113] dup
+      [114] ldc #16
         - String [buttonClicked]
-      [124] ldc #4
+      [116] ldc #6
         - String [4]
-      [126] invokespecial #86
+      [118] invokespecial #86
         - Methodref [org/apache/http/message/BasicNameValuePair.<init> (Ljava/lang/String;Ljava/lang/String;)V]
-      [129] invokeinterface #89
+      [121] invokeinterface #90
         - InterfaceMethodref [java/util/List.add (Ljava/lang/Object;)Z]
-      [134] pop
-      [135] aload_2 v2
-      [136] new #50
+      [126] pop
+      [127] aload_3 v3
+      [128] new #53
         - Class [org/apache/http/message/BasicNameValuePair]
-      [139] dup
-      [140] ldc #15
+      [131] dup
+      [132] ldc #17
         - String [err_flag]
-      [142] ldc #3
+      [134] ldc #5
         - String [0]
-      [144] invokespecial #86
+      [136] invokespecial #86
         - Methodref [org/apache/http/message/BasicNameValuePair.<init> (Ljava/lang/String;Ljava/lang/String;)V]
-      [147] invokeinterface #89
+      [139] invokeinterface #90
         - InterfaceMethodref [java/util/List.add (Ljava/lang/Object;)Z]
-      [152] pop
-      [153] aload_2 v2
-      [154] new #50
+      [144] pop
+      [145] aload_3 v3
+      [146] new #53
         - Class [org/apache/http/message/BasicNameValuePair]
-      [157] dup
-      [158] ldc #16
+      [149] dup
+      [150] ldc #18
         - String [err_msg]
-      [160] ldc #1
+      [152] ldc #3
         - String []
-      [162] invokespecial #86
+      [154] invokespecial #86
         - Methodref [org/apache/http/message/BasicNameValuePair.<init> (Ljava/lang/String;Ljava/lang/String;)V]
-      [165] invokeinterface #89
+      [157] invokeinterface #90
         - InterfaceMethodref [java/util/List.add (Ljava/lang/Object;)Z]
-      [170] pop
-      [171] aload_2 v2
-      [172] new #50
+      [162] pop
+      [163] aload_3 v3
+      [164] new #53
         - Class [org/apache/http/message/BasicNameValuePair]
-      [175] dup
-      [176] ldc #19
+      [167] dup
+      [168] ldc #21
         - String [info_flag]
-      [178] ldc #3
+      [170] ldc #5
         - String [0]
-      [180] invokespecial #86
+      [172] invokespecial #86
         - Methodref [org/apache/http/message/BasicNameValuePair.<init> (Ljava/lang/String;Ljava/lang/String;)V]
-      [183] invokeinterface #89
+      [175] invokeinterface #90
         - InterfaceMethodref [java/util/List.add (Ljava/lang/Object;)Z]
-      [188] pop
-      [189] aload_2 v2
-      [190] new #50
+      [180] pop
+      [181] aload_3 v3
+      [182] new #53
         - Class [org/apache/http/message/BasicNameValuePair]
-      [193] dup
-      [194] ldc #20
+      [185] dup
+      [186] ldc #22
         - String [info_msg]
-      [196] ldc #1
+      [188] ldc #3
         - String []
-      [198] invokespecial #86
+      [190] invokespecial #86
         - Methodref [org/apache/http/message/BasicNameValuePair.<init> (Ljava/lang/String;Ljava/lang/String;)V]
-      [201] invokeinterface #89
+      [193] invokeinterface #90
         - InterfaceMethodref [java/util/List.add (Ljava/lang/Object;)Z]
-      [206] pop
-      [207] aload_2 v2
-      [208] new #50
+      [198] pop
+      [199] aload_3 v3
+      [200] new #53
         - Class [org/apache/http/message/BasicNameValuePair]
-      [211] dup
-      [212] ldc #23
+      [203] dup
+      [204] ldc #25
         - String [redirect_url]
-      [214] ldc #18
+      [206] ldc #20
         - String [https://www.google.com]
-      [216] invokespecial #86
+      [208] invokespecial #86
         - Methodref [org/apache/http/message/BasicNameValuePair.<init> (Ljava/lang/String;Ljava/lang/String;)V]
-      [219] invokeinterface #89
+      [211] invokeinterface #90
         - InterfaceMethodref [java/util/List.add (Ljava/lang/Object;)Z]
-      [224] pop
-      [225] aload_2 v2
-      [226] new #50
+      [216] pop
+      [217] aload_3 v3
+      [218] new #53
         - Class [org/apache/http/message/BasicNameValuePair]
-      [229] dup
-      [230] ldc #24
+      [221] dup
+      [222] ldc #26
         - String [username]
-      [232] aload_1 v1
-      [233] invokevirtual #68
-        - Methodref [br/usp/gmarques/loginuspnet/a/b.c ()Ljava/lang/String;]
-      [236] invokespecial #86
+      [224] aload_2 v2
+      [225] aload_1 v1
+      [226] ldc #1
+        - Integer [2130968583]
+      [228] invokevirtual #57
+        - Methodref [android/content/Context.getString (I)Ljava/lang/String;]
+      [231] ldc #3
+        - String []
+      [233] invokeinterface #89
+        - InterfaceMethodref [android/content/SharedPreferences.getString (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;]
+      [238] invokespecial #86
         - Methodref [org/apache/http/message/BasicNameValuePair.<init> (Ljava/lang/String;Ljava/lang/String;)V]
-      [239] invokeinterface #89
+      [241] invokeinterface #90
         - InterfaceMethodref [java/util/List.add (Ljava/lang/Object;)Z]
-      [244] pop
-      [245] aload_2 v2
-      [246] new #50
+      [246] pop
+      [247] aload_3 v3
+      [248] new #53
         - Class [org/apache/http/message/BasicNameValuePair]
-      [249] dup
-      [250] ldc #22
+      [251] dup
+      [252] ldc #24
         - String [password]
-      [252] aload_1 v1
-      [253] invokevirtual #69
-        - Methodref [br/usp/gmarques/loginuspnet/a/b.d ()Ljava/lang/String;]
-      [256] invokespecial #86
+      [254] aload_2 v2
+      [255] aload_1 v1
+      [256] ldc #2
+        - Integer [2130968584]
+      [258] invokevirtual #57
+        - Methodref [android/content/Context.getString (I)Ljava/lang/String;]
+      [261] ldc #3
+        - String []
+      [263] invokeinterface #89
+        - InterfaceMethodref [android/content/SharedPreferences.getString (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;]
+      [268] invokespecial #86
         - Methodref [org/apache/http/message/BasicNameValuePair.<init> (Ljava/lang/String;Ljava/lang/String;)V]
-      [259] invokeinterface #89
+      [271] invokeinterface #90
         - InterfaceMethodref [java/util/List.add (Ljava/lang/Object;)Z]
-      [264] pop
-      [265] aload_1 v1
-      [266] invokevirtual #67
-        - Methodref [br/usp/gmarques/loginuspnet/a/b.b ()V]
-      [269] ldc #17
+      [276] pop
+      [277] ldc #19
         - String [https://1.1.1.1/login.html?redirect=https://www.google.com]
-      [271] aload_2 v2
-      [272] invokestatic #64
+      [279] aload_3 v3
+      [280] invokestatic #69
         - Methodref [br/usp/gmarques/loginuspnet/WifiChangeReceiver.a (Ljava/lang/String;Ljava/util/List;)V]
-      [275] return
-      [276] astore_1 v1
-      [277] ldc #10
+      [283] return
+      [284] astore_1 v1
+      [285] ldc #12
         - String [LoginUSPNet]
-      [279] new #41
+      [287] new #44
         - Class [java/lang/StringBuilder]
-      [282] dup
-      [283] ldc #6
+      [290] dup
+      [291] ldc #8
         - String [ClientProtocolException: ]
-      [285] invokespecial #78
+      [293] invokespecial #78
         - Methodref [java/lang/StringBuilder.<init> (Ljava/lang/String;)V]
-      [288] aload_1 v1
-      [289] invokevirtual #82
+      [296] aload_1 v1
+      [297] invokevirtual #82
         - Methodref [org/apache/http/client/ClientProtocolException.getMessage ()Ljava/lang/String;]
-      [292] invokevirtual #79
+      [300] invokevirtual #79
         - Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [295] invokevirtual #80
+      [303] invokevirtual #80
         - Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
-      [298] invokestatic #61
+      [306] invokestatic #66
         - Methodref [android/util/Log.e (Ljava/lang/String;Ljava/lang/String;)I]
-      [301] pop
-      [302] ldc #10
+      [309] pop
+      [310] ldc #12
         - String [LoginUSPNet]
-      [304] new #41
+      [312] new #44
         - Class [java/lang/StringBuilder]
-      [307] dup
-      [308] ldc #2
+      [315] dup
+      [316] ldc #4
         - String [ ]
-      [310] invokespecial #78
+      [318] invokespecial #78
         - Methodref [java/lang/StringBuilder.<init> (Ljava/lang/String;)V]
-      [313] aload_1 v1
-      [314] invokestatic #62
+      [321] aload_1 v1
+      [322] invokestatic #67
         - Methodref [android/util/Log.getStackTraceString (Ljava/lang/Throwable;)Ljava/lang/String;]
-      [317] invokevirtual #79
+      [325] invokevirtual #79
         - Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [320] invokevirtual #80
+      [328] invokevirtual #80
         - Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
-      [323] invokestatic #61
+      [331] invokestatic #66
         - Methodref [android/util/Log.e (Ljava/lang/String;Ljava/lang/String;)I]
-      [326] pop
-      [327] return
-      [328] astore_1 v1
-      [329] ldc #10
+      [334] pop
+      [335] return
+      [336] astore_1 v1
+      [337] ldc #12
         - String [LoginUSPNet]
-      [331] new #41
+      [339] new #44
         - Class [java/lang/StringBuilder]
-      [334] dup
-      [335] ldc #9
+      [342] dup
+      [343] ldc #11
         - String [IOException: ]
-      [337] invokespecial #78
+      [345] invokespecial #78
         - Methodref [java/lang/StringBuilder.<init> (Ljava/lang/String;)V]
-      [340] aload_1 v1
-      [341] invokevirtual #73
+      [348] aload_1 v1
+      [349] invokevirtual #73
         - Methodref [java/io/IOException.getMessage ()Ljava/lang/String;]
-      [344] invokevirtual #79
+      [352] invokevirtual #79
         - Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [347] invokevirtual #80
+      [355] invokevirtual #80
         - Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
-      [350] invokestatic #61
+      [358] invokestatic #66
         - Methodref [android/util/Log.e (Ljava/lang/String;Ljava/lang/String;)I]
-      [353] pop
-      [354] ldc #10
+      [361] pop
+      [362] ldc #12
         - String [LoginUSPNet]
-      [356] new #41
+      [364] new #44
         - Class [java/lang/StringBuilder]
-      [359] dup
-      [360] ldc #2
+      [367] dup
+      [368] ldc #4
         - String [ ]
-      [362] invokespecial #78
+      [370] invokespecial #78
         - Methodref [java/lang/StringBuilder.<init> (Ljava/lang/String;)V]
-      [365] aload_1 v1
-      [366] invokestatic #62
+      [373] aload_1 v1
+      [374] invokestatic #67
         - Methodref [android/util/Log.getStackTraceString (Ljava/lang/Throwable;)Ljava/lang/String;]
-      [369] invokevirtual #79
+      [377] invokevirtual #79
         - Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [372] invokevirtual #80
+      [380] invokevirtual #80
         - Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
-      [375] invokestatic #61
+      [383] invokestatic #66
         - Methodref [android/util/Log.e (Ljava/lang/String;Ljava/lang/String;)I]
-      [378] pop
-      [379] return
+      [386] pop
+      [387] return
       Code attribute exceptions (count = 2):
-      - ExceptionInfo (269 -> 275: 276):
+      - ExceptionInfo (277 -> 283: 284):
       - Class [org/apache/http/client/ClientProtocolException]
-      - ExceptionInfo (269 -> 275: 328):
+      - ExceptionInfo (277 -> 283: 336):
       - Class [java/io/IOException]
-      Code attribute attributes (attribute count = 1):
-      + Stack map table attribute (count = 3):
-        - [276] Var: [a:br/usp/gmarques/loginuspnet/WifiChangeReceiver][a:android/content/Context][a:android/content/Intent][a:java/lang/String][a:android/net/NetworkInfo][a:android/net/wifi/WifiManager][a:android/net/wifi/WifiInfo][a:br/usp/gmarques/loginuspnet/a/b][a:java/lang/String][a:java/util/List], Stack: [a:org/apache/http/client/ClientProtocolException]
-        - [328] Var: ..., Stack: [a:java/io/IOException]
-        - [379] Var: [a:br/usp/gmarques/loginuspnet/WifiChangeReceiver][a:android/content/Context][a:android/content/Intent][a:java/lang/String], Stack: 
+      Code attribute attributes (attribute count = 0):
   + Method:       a(Ljava/lang/String;Ljava/util/List;)V
     Access flags: 0xa
       = private static void a(java.lang.String,java.util.List)
     Class member attributes (count = 1):
     + Code attribute instructions (code length = 83, locals = 3, stack = 5):
       [0] invokestatic #70
-        - Methodref [br/usp/gmarques/loginuspnet/b/b.a ()Lorg/apache/http/client/HttpClient;]
+        - Methodref [br/usp/gmarques/loginuspnet/a/b.a ()Lorg/apache/http/client/HttpClient;]
       [3] astore_2 v2
-      [4] new #49
+      [4] new #52
         - Class [org/apache/http/client/methods/HttpPost]
       [7] dup
       [8] aload_0 v0
       [9] invokespecial #84
         - Methodref [org/apache/http/client/methods/HttpPost.<init> (Ljava/lang/String;)V]
       [12] astore_0 v0
-      [13] new #48
+      [13] new #51
         - Class [org/apache/http/client/entity/UrlEncodedFormEntity]
       [16] dup
       [17] aload_1 v1
-      [18] ldc #12
+      [18] ldc #14
         - String [UTF-8]
       [20] invokespecial #83
         - Methodref [org/apache/http/client/entity/UrlEncodedFormEntity.<init> (Ljava/util/List;Ljava/lang/String;)V]
@@ -1019,24 +845,24 @@ Methods (count = 3):
         - Methodref [org/apache/http/client/methods/HttpPost.setEntity (Lorg/apache/http/HttpEntity;)V]
       [29] aload_2 v2
       [30] aload_0 v0
-      [31] invokeinterface #92
+      [31] invokeinterface #93
         - InterfaceMethodref [org/apache/http/client/HttpClient.execute (Lorg/apache/http/client/methods/HttpUriRequest;)Lorg/apache/http/HttpResponse;]
-      [36] invokeinterface #91
+      [36] invokeinterface #92
         - InterfaceMethodref [org/apache/http/HttpResponse.getEntity ()Lorg/apache/http/HttpEntity;]
       [41] astore_0 v0
-      [42] new #51
+      [42] new #54
         - Class [org/xml/sax/InputSource]
       [45] dup
       [46] aload_0 v0
-      [47] invokeinterface #90
+      [47] invokeinterface #91
         - InterfaceMethodref [org/apache/http/HttpEntity.getContent ()Ljava/io/InputStream;]
       [52] invokespecial #87
         - Methodref [org/xml/sax/InputSource.<init> (Ljava/io/InputStream;)V]
       [55] astore_0 v0
-      [56] new #37
+      [56] new #40
         - Class [java/io/BufferedReader]
       [59] dup
-      [60] new #39
+      [60] new #42
         - Class [java/io/InputStreamReader]
       [63] dup
       [64] aload_0 v0
@@ -1053,26 +879,24 @@ Methods (count = 3):
       [79] ifnonnull -4 (target=75)
       [82] return
       Code attribute exceptions (count = 0):
-      Code attribute attributes (attribute count = 1):
-      + Stack map table attribute (count = 1):
-        - [75] Var: [a:br/usp/gmarques/loginuspnet/WifiChangeReceiver][a:java/lang/String][a:java/util/List][a:org/apache/http/client/HttpClient][a:org/apache/http/client/methods/HttpPost][a:org/apache/http/client/entity/UrlEncodedFormEntity][a:org/apache/http/HttpResponse][a:org/apache/http/HttpEntity][a:org/xml/sax/InputSource][a:java/io/BufferedReader], Stack: 
+      Code attribute attributes (attribute count = 0):
 
 Class file attributes (count = 0):
 
 _____________________________________________________________________
-+ Program class: br/usp/gmarques/loginuspnet/b/a
++ Program class: br/usp/gmarques/loginuspnet/a/a
   Superclass:    org/apache/http/conn/ssl/SSLSocketFactory
-  Major version: 0x32
+  Major version: 0x31
   Minor version: 0x0
   Access flags:  0x31
-    = public final class br.usp.gmarques.loginuspnet.b.a extends org.apache.http.conn.ssl.SSLSocketFactory
+    = public final class br.usp.gmarques.loginuspnet.a.a extends org.apache.http.conn.ssl.SSLSocketFactory
 
 Interfaces (count = 0):
 
 Constant Pool (count = 58):
   - String [TLS]
-  - Class [br/usp/gmarques/loginuspnet/b/a]
-  - Class [br/usp/gmarques/loginuspnet/b/c]
+  - Class [br/usp/gmarques/loginuspnet/a/a]
+  - Class [br/usp/gmarques/loginuspnet/a/c]
   - Class [java/io/IOException]
   - Class [java/net/UnknownHostException]
   - Class [java/security/KeyManagementException]
@@ -1083,15 +907,15 @@ Constant Pool (count = 58):
   - Class [javax/net/ssl/SSLSocketFactory]
   - Class [javax/net/ssl/TrustManager]
   - Class [org/apache/http/conn/ssl/SSLSocketFactory]
-  - Fieldref [br/usp/gmarques/loginuspnet/b/a.a Ljavax/net/ssl/SSLContext;]
-  - Methodref [br/usp/gmarques/loginuspnet/b/c.<init> (Lbr/usp/gmarques/loginuspnet/b/a;)V]
+  - Fieldref [br/usp/gmarques/loginuspnet/a/a.a Ljavax/net/ssl/SSLContext;]
+  - Methodref [br/usp/gmarques/loginuspnet/a/c.<init> (Lbr/usp/gmarques/loginuspnet/a/a;)V]
   - Methodref [javax/net/ssl/SSLContext.getInstance (Ljava/lang/String;)Ljavax/net/ssl/SSLContext;]
   - Methodref [javax/net/ssl/SSLContext.getSocketFactory ()Ljavax/net/ssl/SSLSocketFactory;]
   - Methodref [javax/net/ssl/SSLContext.init ([Ljavax/net/ssl/KeyManager;[Ljavax/net/ssl/TrustManager;Ljava/security/SecureRandom;)V]
   - Methodref [javax/net/ssl/SSLSocketFactory.createSocket ()Ljava/net/Socket;]
   - Methodref [javax/net/ssl/SSLSocketFactory.createSocket (Ljava/net/Socket;Ljava/lang/String;IZ)Ljava/net/Socket;]
   - Methodref [org/apache/http/conn/ssl/SSLSocketFactory.<init> (Ljava/security/KeyStore;)V]
-  + NameAndType [<init> (Lbr/usp/gmarques/loginuspnet/b/a;)V]
+  + NameAndType [<init> (Lbr/usp/gmarques/loginuspnet/a/a;)V]
   + NameAndType [<init> (Ljava/security/KeyStore;)V]
   + NameAndType [a Ljavax/net/ssl/SSLContext;]
   + NameAndType [createSocket ()Ljava/net/Socket;]
@@ -1101,7 +925,7 @@ Constant Pool (count = 58):
   + NameAndType [init ([Ljavax/net/ssl/KeyManager;[Ljavax/net/ssl/TrustManager;Ljava/security/SecureRandom;)V]
   + Utf8 [()Ljava/net/Socket;]
   + Utf8 [()Ljavax/net/ssl/SSLSocketFactory;]
-  + Utf8 [(Lbr/usp/gmarques/loginuspnet/b/a;)V]
+  + Utf8 [(Lbr/usp/gmarques/loginuspnet/a/a;)V]
   + Utf8 [(Ljava/lang/String;)Ljavax/net/ssl/SSLContext;]
   + Utf8 [(Ljava/net/Socket;Ljava/lang/String;IZ)Ljava/net/Socket;]
   + Utf8 [(Ljava/security/KeyStore;)V]
@@ -1111,8 +935,8 @@ Constant Pool (count = 58):
   + Utf8 [Ljavax/net/ssl/SSLContext;]
   + Utf8 [TLS]
   + Utf8 [a]
-  + Utf8 [br/usp/gmarques/loginuspnet/b/a]
-  + Utf8 [br/usp/gmarques/loginuspnet/b/c]
+  + Utf8 [br/usp/gmarques/loginuspnet/a/a]
+  + Utf8 [br/usp/gmarques/loginuspnet/a/c]
   + Utf8 [createSocket]
   + Utf8 [getInstance]
   + Utf8 [getSocketFactory]
@@ -1149,17 +973,17 @@ Methods (count = 3):
       [8] invokestatic #16
         - Methodref [javax/net/ssl/SSLContext.getInstance (Ljava/lang/String;)Ljavax/net/ssl/SSLContext;]
       [11] putfield #14
-        - Fieldref [br/usp/gmarques/loginuspnet/b/a.a Ljavax/net/ssl/SSLContext;]
+        - Fieldref [br/usp/gmarques/loginuspnet/a/a.a Ljavax/net/ssl/SSLContext;]
       [14] new #3
-        - Class [br/usp/gmarques/loginuspnet/b/c]
+        - Class [br/usp/gmarques/loginuspnet/a/c]
       [17] dup
       [18] aload_0 v0
       [19] invokespecial #15
-        - Methodref [br/usp/gmarques/loginuspnet/b/c.<init> (Lbr/usp/gmarques/loginuspnet/b/a;)V]
+        - Methodref [br/usp/gmarques/loginuspnet/a/c.<init> (Lbr/usp/gmarques/loginuspnet/a/a;)V]
       [22] astore_1 v1
       [23] aload_0 v0
       [24] getfield #14
-        - Fieldref [br/usp/gmarques/loginuspnet/b/a.a Ljavax/net/ssl/SSLContext;]
+        - Fieldref [br/usp/gmarques/loginuspnet/a/a.a Ljavax/net/ssl/SSLContext;]
       [27] aconst_null
       [28] iconst_1
       [29] anewarray #12
@@ -1181,7 +1005,7 @@ Methods (count = 3):
     + Code attribute instructions (code length = 16, locals = 5, stack = 5):
       [0] aload_0 v0
       [1] getfield #14
-        - Fieldref [br/usp/gmarques/loginuspnet/b/a.a Ljavax/net/ssl/SSLContext;]
+        - Fieldref [br/usp/gmarques/loginuspnet/a/a.a Ljavax/net/ssl/SSLContext;]
       [4] invokevirtual #17
         - Methodref [javax/net/ssl/SSLContext.getSocketFactory ()Ljavax/net/ssl/SSLSocketFactory;]
       [7] aload_1 v1
@@ -1200,7 +1024,7 @@ Methods (count = 3):
     + Code attribute instructions (code length = 11, locals = 1, stack = 1):
       [0] aload_0 v0
       [1] getfield #14
-        - Fieldref [br/usp/gmarques/loginuspnet/b/a.a Ljavax/net/ssl/SSLContext;]
+        - Fieldref [br/usp/gmarques/loginuspnet/a/a.a Ljavax/net/ssl/SSLContext;]
       [4] invokevirtual #17
         - Methodref [javax/net/ssl/SSLContext.getSocketFactory ()Ljavax/net/ssl/SSLSocketFactory;]
       [7] invokevirtual #19
@@ -1212,21 +1036,21 @@ Methods (count = 3):
 Class file attributes (count = 0):
 
 _____________________________________________________________________
-+ Program class: br/usp/gmarques/loginuspnet/b/b
++ Program class: br/usp/gmarques/loginuspnet/a/b
   Superclass:    java/lang/Object
-  Major version: 0x32
+  Major version: 0x31
   Minor version: 0x0
   Access flags:  0x31
-    = public final class br.usp.gmarques.loginuspnet.b.b extends java.lang.Object
+    = public final class br.usp.gmarques.loginuspnet.a.b extends java.lang.Object
 
 Interfaces (count = 0):
 
-Constant Pool (count = 98):
+Constant Pool (count = 97):
   - String [UTF-8]
   - String [http]
   - String [https]
-  - Class [br/usp/gmarques/loginuspnet/b/a]
-  - Class [br/usp/gmarques/loginuspnet/b/b]
+  - Class [br/usp/gmarques/loginuspnet/a/a]
+  - Class [br/usp/gmarques/loginuspnet/a/b]
   - Class [java/lang/Exception]
   - Class [java/lang/Object]
   - Class [java/security/KeyStore]
@@ -1241,7 +1065,7 @@ Constant Pool (count = 98):
   - Class [org/apache/http/params/HttpProtocolParams]
   - Fieldref [org/apache/http/HttpVersion.HTTP_1_1 Lorg/apache/http/HttpVersion;]
   - Fieldref [org/apache/http/conn/ssl/SSLSocketFactory.ALLOW_ALL_HOSTNAME_VERIFIER Lorg/apache/http/conn/ssl/X509HostnameVerifier;]
-  - Methodref [br/usp/gmarques/loginuspnet/b/a.<init> (Ljava/security/KeyStore;)V]
+  - Methodref [br/usp/gmarques/loginuspnet/a/a.<init> (Ljava/security/KeyStore;)V]
   - Methodref [java/lang/Object.<init> ()V]
   - Methodref [java/security/KeyStore.getDefaultType ()Ljava/lang/String;]
   - Methodref [java/security/KeyStore.getInstance (Ljava/lang/String;)Ljava/security/KeyStore;]
@@ -1292,11 +1116,10 @@ Constant Pool (count = 98):
   + Utf8 [HTTP_1_1]
   + Utf8 [Lorg/apache/http/HttpVersion;]
   + Utf8 [Lorg/apache/http/conn/ssl/X509HostnameVerifier;]
-  + Utf8 [StackMapTable]
   + Utf8 [UTF-8]
   + Utf8 [a]
-  + Utf8 [br/usp/gmarques/loginuspnet/b/a]
-  + Utf8 [br/usp/gmarques/loginuspnet/b/b]
+  + Utf8 [br/usp/gmarques/loginuspnet/a/a]
+  + Utf8 [br/usp/gmarques/loginuspnet/a/b]
   + Utf8 [getDefaultType]
   + Utf8 [getInstance]
   + Utf8 [getSocketFactory]
@@ -1350,11 +1173,11 @@ Methods (count = 2):
       [10] invokevirtual #24
         - Methodref [java/security/KeyStore.load (Ljava/io/InputStream;[C)V]
       [13] new #4
-        - Class [br/usp/gmarques/loginuspnet/b/a]
+        - Class [br/usp/gmarques/loginuspnet/a/a]
       [16] dup
       [17] aload_0 v0
       [18] invokespecial #20
-        - Methodref [br/usp/gmarques/loginuspnet/b/a.<init> (Ljava/security/KeyStore;)V]
+        - Methodref [br/usp/gmarques/loginuspnet/a/a.<init> (Ljava/security/KeyStore;)V]
       [21] dup
       [22] astore_0 v0
       [23] getstatic #19
@@ -1436,43 +1259,41 @@ Methods (count = 2):
       Code attribute exceptions (count = 1):
       - ExceptionInfo (0 -> 114: 115):
       - Class [java/lang/Exception]
-      Code attribute attributes (attribute count = 1):
-      + Stack map table attribute (count = 1):
-        - [115] Var: ..., Stack: [a:java/lang/Exception]
+      Code attribute attributes (attribute count = 0):
 
 Class file attributes (count = 0):
 
 _____________________________________________________________________
-+ Program class: br/usp/gmarques/loginuspnet/b/c
++ Program class: br/usp/gmarques/loginuspnet/a/c
   Superclass:    java/lang/Object
-  Major version: 0x32
+  Major version: 0x31
   Minor version: 0x0
   Access flags:  0x30
-    = final class br.usp.gmarques.loginuspnet.b.c extends java.lang.Object
+    = final class br.usp.gmarques.loginuspnet.a.c extends java.lang.Object
 
 Interfaces (count = 1):
   - Class [javax/net/ssl/X509TrustManager]
 
 Constant Pool (count = 26):
-  - Class [br/usp/gmarques/loginuspnet/b/a]
-  - Class [br/usp/gmarques/loginuspnet/b/c]
+  - Class [br/usp/gmarques/loginuspnet/a/a]
+  - Class [br/usp/gmarques/loginuspnet/a/c]
   - Class [java/lang/Object]
   - Class [java/security/cert/CertificateException]
   - Class [javax/net/ssl/X509TrustManager]
-  - Fieldref [br/usp/gmarques/loginuspnet/b/c.a Lbr/usp/gmarques/loginuspnet/b/a;]
+  - Fieldref [br/usp/gmarques/loginuspnet/a/c.a Lbr/usp/gmarques/loginuspnet/a/a;]
   - Methodref [java/lang/Object.<init> ()V]
   + NameAndType [<init> ()V]
-  + NameAndType [a Lbr/usp/gmarques/loginuspnet/b/a;]
+  + NameAndType [a Lbr/usp/gmarques/loginuspnet/a/a;]
   + Utf8 [()V]
   + Utf8 [()[Ljava/security/cert/X509Certificate;]
-  + Utf8 [(Lbr/usp/gmarques/loginuspnet/b/a;)V]
+  + Utf8 [(Lbr/usp/gmarques/loginuspnet/a/a;)V]
   + Utf8 [([Ljava/security/cert/X509Certificate;Ljava/lang/String;)V]
   + Utf8 [<init>]
   + Utf8 [Code]
-  + Utf8 [Lbr/usp/gmarques/loginuspnet/b/a;]
+  + Utf8 [Lbr/usp/gmarques/loginuspnet/a/a;]
   + Utf8 [a]
-  + Utf8 [br/usp/gmarques/loginuspnet/b/a]
-  + Utf8 [br/usp/gmarques/loginuspnet/b/c]
+  + Utf8 [br/usp/gmarques/loginuspnet/a/a]
+  + Utf8 [br/usp/gmarques/loginuspnet/a/c]
   + Utf8 [checkClientTrusted]
   + Utf8 [checkServerTrusted]
   + Utf8 [getAcceptedIssuers]
@@ -1481,20 +1302,20 @@ Constant Pool (count = 26):
   + Utf8 [javax/net/ssl/X509TrustManager]
 
 Fields (count = 1):
-  + Field:        a Lbr/usp/gmarques/loginuspnet/b/a;
+  + Field:        a Lbr/usp/gmarques/loginuspnet/a/a;
     Access flags: 0x1002
-      = private br.usp.gmarques.loginuspnet.b.a a
+      = private br.usp.gmarques.loginuspnet.a.a a
 
 Methods (count = 4):
-  - Method:       <init>(Lbr/usp/gmarques/loginuspnet/b/a;)V
+  - Method:       <init>(Lbr/usp/gmarques/loginuspnet/a/a;)V
     Access flags: 0x0
-      = c(br.usp.gmarques.loginuspnet.b.a)
+      = c(br.usp.gmarques.loginuspnet.a.a)
     Class member attributes (count = 1):
     + Code attribute instructions (code length = 10, locals = 2, stack = 2):
       [0] aload_0 v0
       [1] aload_1 v1
       [2] putfield #6
-        - Fieldref [br/usp/gmarques/loginuspnet/b/c.a Lbr/usp/gmarques/loginuspnet/b/a;]
+        - Fieldref [br/usp/gmarques/loginuspnet/a/c.a Lbr/usp/gmarques/loginuspnet/a/a;]
       [5] aload_0 v0
       [6] invokespecial #7
         - Methodref [java/lang/Object.<init> ()V]
@@ -1526,300 +1347,6 @@ Methods (count = 4):
       [1] areturn
       Code attribute exceptions (count = 0):
       Code attribute attributes (attribute count = 0):
-
-Class file attributes (count = 0):
-
-_____________________________________________________________________
-+ Program class: br/usp/gmarques/loginuspnet/a/b
-  Superclass:    java/lang/Object
-  Major version: 0x32
-  Minor version: 0x0
-  Access flags:  0x31
-    = public final class br.usp.gmarques.loginuspnet.a.b extends java.lang.Object
-
-Interfaces (count = 0):
-
-Constant Pool (count = 79):
-  - String []
-  - String [USPNET]
-  - String [password]
-  - String [username]
-  - Class [android/content/ContentValues]
-  - Class [android/database/Cursor]
-  - Class [android/database/SQLException]
-  - Class [android/database/sqlite/SQLiteDatabase]
-  - Class [br/usp/gmarques/loginuspnet/a/a]
-  - Class [br/usp/gmarques/loginuspnet/a/b]
-  - Class [java/lang/Object]
-  - Class [java/lang/String]
-  - Fieldref [br/usp/gmarques/loginuspnet/a/b.a Landroid/database/sqlite/SQLiteDatabase;]
-  - Fieldref [br/usp/gmarques/loginuspnet/a/b.b Lbr/usp/gmarques/loginuspnet/a/a;]
-  - Methodref [android/content/ContentValues.<init> ()V]
-  - Methodref [android/content/ContentValues.put (Ljava/lang/String;Ljava/lang/String;)V]
-  - Methodref [android/database/sqlite/SQLiteDatabase.delete (Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)I]
-  - Methodref [android/database/sqlite/SQLiteDatabase.insert (Ljava/lang/String;Ljava/lang/String;Landroid/content/ContentValues;)J]
-  - Methodref [android/database/sqlite/SQLiteDatabase.query (Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;]
-  - Methodref [br/usp/gmarques/loginuspnet/a/a.<init> (Landroid/content/Context;)V]
-  - Methodref [br/usp/gmarques/loginuspnet/a/a.close ()V]
-  - Methodref [br/usp/gmarques/loginuspnet/a/a.getWritableDatabase ()Landroid/database/sqlite/SQLiteDatabase;]
-  - Methodref [java/lang/Object.<init> ()V]
-  - InterfaceMethodref [android/database/Cursor.close ()V]
-  - InterfaceMethodref [android/database/Cursor.getString (I)Ljava/lang/String;]
-  - InterfaceMethodref [android/database/Cursor.moveToFirst ()Z]
-  + NameAndType [<init> ()V]
-  + NameAndType [<init> (Landroid/content/Context;)V]
-  + NameAndType [a Landroid/database/sqlite/SQLiteDatabase;]
-  + NameAndType [b Lbr/usp/gmarques/loginuspnet/a/a;]
-  + NameAndType [close ()V]
-  + NameAndType [delete (Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)I]
-  + NameAndType [getString (I)Ljava/lang/String;]
-  + NameAndType [getWritableDatabase ()Landroid/database/sqlite/SQLiteDatabase;]
-  + NameAndType [insert (Ljava/lang/String;Ljava/lang/String;Landroid/content/ContentValues;)J]
-  + NameAndType [moveToFirst ()Z]
-  + NameAndType [put (Ljava/lang/String;Ljava/lang/String;)V]
-  + NameAndType [query (Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;]
-  + Utf8 []
-  + Utf8 [()Landroid/database/sqlite/SQLiteDatabase;]
-  + Utf8 [()Ljava/lang/String;]
-  + Utf8 [()V]
-  + Utf8 [()Z]
-  + Utf8 [(I)Ljava/lang/String;]
-  + Utf8 [(Landroid/content/Context;)V]
-  + Utf8 [(Ljava/lang/String;Ljava/lang/String;)J]
-  + Utf8 [(Ljava/lang/String;Ljava/lang/String;)V]
-  + Utf8 [(Ljava/lang/String;Ljava/lang/String;Landroid/content/ContentValues;)J]
-  + Utf8 [(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)I]
-  + Utf8 [(Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;]
-  + Utf8 [<init>]
-  + Utf8 [Code]
-  + Utf8 [Landroid/database/sqlite/SQLiteDatabase;]
-  + Utf8 [Lbr/usp/gmarques/loginuspnet/a/a;]
-  + Utf8 [StackMapTable]
-  + Utf8 [USPNET]
-  + Utf8 [a]
-  + Utf8 [android/content/ContentValues]
-  + Utf8 [android/database/Cursor]
-  + Utf8 [android/database/SQLException]
-  + Utf8 [android/database/sqlite/SQLiteDatabase]
-  + Utf8 [b]
-  + Utf8 [br/usp/gmarques/loginuspnet/a/a]
-  + Utf8 [br/usp/gmarques/loginuspnet/a/b]
-  + Utf8 [c]
-  + Utf8 [close]
-  + Utf8 [d]
-  + Utf8 [delete]
-  + Utf8 [getString]
-  + Utf8 [getWritableDatabase]
-  + Utf8 [insert]
-  + Utf8 [java/lang/Object]
-  + Utf8 [java/lang/String]
-  + Utf8 [moveToFirst]
-  + Utf8 [password]
-  + Utf8 [put]
-  + Utf8 [query]
-  + Utf8 [username]
-
-Fields (count = 2):
-  + Field:        a Landroid/database/sqlite/SQLiteDatabase;
-    Access flags: 0x2
-      = private android.database.sqlite.SQLiteDatabase a
-  + Field:        b Lbr/usp/gmarques/loginuspnet/a/a;
-    Access flags: 0x2
-      = private br.usp.gmarques.loginuspnet.a.a b
-
-Methods (count = 6):
-  - Method:       <init>(Landroid/content/Context;)V
-    Access flags: 0x1
-      = public b(android.content.Context)
-    Class member attributes (count = 1):
-    + Code attribute instructions (code length = 17, locals = 2, stack = 4):
-      [0] aload_0 v0
-      [1] invokespecial #23
-        - Methodref [java/lang/Object.<init> ()V]
-      [4] aload_0 v0
-      [5] new #9
-        - Class [br/usp/gmarques/loginuspnet/a/a]
-      [8] dup
-      [9] aload_1 v1
-      [10] invokespecial #20
-        - Methodref [br/usp/gmarques/loginuspnet/a/a.<init> (Landroid/content/Context;)V]
-      [13] putfield #14
-        - Fieldref [br/usp/gmarques/loginuspnet/a/b.b Lbr/usp/gmarques/loginuspnet/a/a;]
-      [16] return
-      Code attribute exceptions (count = 0):
-      Code attribute attributes (attribute count = 0):
-  + Method:       a()V
-    Access flags: 0x11
-      = public final void a()
-    Class member attributes (count = 1):
-    + Code attribute instructions (code length = 12, locals = 1, stack = 2):
-      [0] aload_0 v0
-      [1] aload_0 v0
-      [2] getfield #14
-        - Fieldref [br/usp/gmarques/loginuspnet/a/b.b Lbr/usp/gmarques/loginuspnet/a/a;]
-      [5] invokevirtual #22
-        - Methodref [br/usp/gmarques/loginuspnet/a/a.getWritableDatabase ()Landroid/database/sqlite/SQLiteDatabase;]
-      [8] putfield #13
-        - Fieldref [br/usp/gmarques/loginuspnet/a/b.a Landroid/database/sqlite/SQLiteDatabase;]
-      [11] return
-      Code attribute exceptions (count = 0):
-      Code attribute attributes (attribute count = 0):
-  + Method:       b()V
-    Access flags: 0x11
-      = public final void b()
-    Class member attributes (count = 1):
-    + Code attribute instructions (code length = 8, locals = 1, stack = 1):
-      [0] aload_0 v0
-      [1] getfield #14
-        - Fieldref [br/usp/gmarques/loginuspnet/a/b.b Lbr/usp/gmarques/loginuspnet/a/a;]
-      [4] invokevirtual #21
-        - Methodref [br/usp/gmarques/loginuspnet/a/a.close ()V]
-      [7] return
-      Code attribute exceptions (count = 0):
-      Code attribute attributes (attribute count = 0):
-  + Method:       a(Ljava/lang/String;Ljava/lang/String;)J
-    Access flags: 0x11
-      = public final long a(java.lang.String,java.lang.String)
-    Class member attributes (count = 1):
-    + Code attribute instructions (code length = 46, locals = 4, stack = 4):
-      [0] new #5
-        - Class [android/content/ContentValues]
-      [3] dup
-      [4] invokespecial #15
-        - Methodref [android/content/ContentValues.<init> ()V]
-      [7] astore_3 v3
-      [8] aload_0 v0
-      [9] getfield #13
-        - Fieldref [br/usp/gmarques/loginuspnet/a/b.a Landroid/database/sqlite/SQLiteDatabase;]
-      [12] ldc #2
-        - String [USPNET]
-      [14] aconst_null
-      [15] aconst_null
-      [16] invokevirtual #17
-        - Methodref [android/database/sqlite/SQLiteDatabase.delete (Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)I]
-      [19] pop
-      [20] aload_3 v3
-      [21] ldc #4
-        - String [username]
-      [23] aload_1 v1
-      [24] invokevirtual #16
-        - Methodref [android/content/ContentValues.put (Ljava/lang/String;Ljava/lang/String;)V]
-      [27] aload_3 v3
-      [28] ldc #3
-        - String [password]
-      [30] aload_2 v2
-      [31] invokevirtual #16
-        - Methodref [android/content/ContentValues.put (Ljava/lang/String;Ljava/lang/String;)V]
-      [34] aload_0 v0
-      [35] getfield #13
-        - Fieldref [br/usp/gmarques/loginuspnet/a/b.a Landroid/database/sqlite/SQLiteDatabase;]
-      [38] ldc #2
-        - String [USPNET]
-      [40] aconst_null
-      [41] aload_3 v3
-      [42] invokevirtual #18
-        - Methodref [android/database/sqlite/SQLiteDatabase.insert (Ljava/lang/String;Ljava/lang/String;Landroid/content/ContentValues;)J]
-      [45] lreturn
-      Code attribute exceptions (count = 0):
-      Code attribute attributes (attribute count = 0):
-  + Method:       c()Ljava/lang/String;
-    Access flags: 0x11
-      = public final java.lang.String c()
-    Class member attributes (count = 1):
-    + Code attribute instructions (code length = 55, locals = 3, stack = 8):
-      [0] aload_0 v0
-      [1] getfield #13
-        - Fieldref [br/usp/gmarques/loginuspnet/a/b.a Landroid/database/sqlite/SQLiteDatabase;]
-      [4] ldc #2
-        - String [USPNET]
-      [6] iconst_1
-      [7] anewarray #12
-        - Class [java/lang/String]
-      [10] dup
-      [11] iconst_0
-      [12] ldc #4
-        - String [username]
-      [14] aastore
-      [15] aconst_null
-      [16] aconst_null
-      [17] aconst_null
-      [18] aconst_null
-      [19] aconst_null
-      [20] invokevirtual #19
-        - Methodref [android/database/sqlite/SQLiteDatabase.query (Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;]
-      [23] dup
-      [24] astore_1 v1
-      [25] invokeinterface #26
-        - InterfaceMethodref [android/database/Cursor.moveToFirst ()Z]
-      [30] ifeq +14 (target=44)
-      [33] aload_1 v1
-      [34] iconst_0
-      [35] invokeinterface #25
-        - InterfaceMethodref [android/database/Cursor.getString (I)Ljava/lang/String;]
-      [40] astore_2 v2
-      [41] goto +6 (target=47)
-      [44] ldc #1
-        - String []
-      [46] astore_2 v2
-      [47] aload_1 v1
-      [48] invokeinterface #24
-        - InterfaceMethodref [android/database/Cursor.close ()V]
-      [53] aload_2 v2
-      [54] areturn
-      Code attribute exceptions (count = 0):
-      Code attribute attributes (attribute count = 1):
-      + Stack map table attribute (count = 2):
-        - [44] Var: ...[a:android/database/Cursor][a:java/lang/String], Stack: (empty)
-        - [47] Var: ..., Stack: (empty)
-  + Method:       d()Ljava/lang/String;
-    Access flags: 0x11
-      = public final java.lang.String d()
-    Class member attributes (count = 1):
-    + Code attribute instructions (code length = 55, locals = 3, stack = 8):
-      [0] aload_0 v0
-      [1] getfield #13
-        - Fieldref [br/usp/gmarques/loginuspnet/a/b.a Landroid/database/sqlite/SQLiteDatabase;]
-      [4] ldc #2
-        - String [USPNET]
-      [6] iconst_1
-      [7] anewarray #12
-        - Class [java/lang/String]
-      [10] dup
-      [11] iconst_0
-      [12] ldc #3
-        - String [password]
-      [14] aastore
-      [15] aconst_null
-      [16] aconst_null
-      [17] aconst_null
-      [18] aconst_null
-      [19] aconst_null
-      [20] invokevirtual #19
-        - Methodref [android/database/sqlite/SQLiteDatabase.query (Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;]
-      [23] dup
-      [24] astore_1 v1
-      [25] invokeinterface #26
-        - InterfaceMethodref [android/database/Cursor.moveToFirst ()Z]
-      [30] ifeq +14 (target=44)
-      [33] aload_1 v1
-      [34] iconst_0
-      [35] invokeinterface #25
-        - InterfaceMethodref [android/database/Cursor.getString (I)Ljava/lang/String;]
-      [40] astore_2 v2
-      [41] goto +6 (target=47)
-      [44] ldc #1
-        - String []
-      [46] astore_2 v2
-      [47] aload_1 v1
-      [48] invokeinterface #24
-        - InterfaceMethodref [android/database/Cursor.close ()V]
-      [53] aload_2 v2
-      [54] areturn
-      Code attribute exceptions (count = 0):
-      Code attribute attributes (attribute count = 1):
-      + Stack map table attribute (count = 2):
-        - [44] Var: ...[a:android/database/Cursor][a:java/lang/String], Stack: (empty)
-        - [47] Var: ..., Stack: (empty)
 
 Class file attributes (count = 0):
 

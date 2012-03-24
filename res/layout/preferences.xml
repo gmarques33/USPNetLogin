@@ -2,7 +2,7 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
         <PreferenceCategory android:title="@string/loginConfig">
 
-                <EditTextPreference android:key="@string/pref_username" android:title="@string/username"
+                <EditTextPreference android:id="@+id/emailInput" android:key="@string/pref_username" android:title="@string/username"
                         android:summary="@string/userSubtitle" android:inputType="textEmailAddress" />
 
                 <EditTextPreference android:key="@string/pref_password" android:title="@string/password"
