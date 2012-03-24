@@ -24,53 +24,36 @@ import android.net.NetworkInfo;
 import android.net.NetworkInfo.DetailedState;
 import android.net.wifi.WifiInfo;
 import android.net.wifi.WifiManager;
+import android.os.AsyncTask;
 import android.preference.PreferenceManager;
 import android.util.Log;
 import br.usp.gmarques.loginuspnet.http.HttpUtils;
 
 public class WifiChangeReceiver extends BroadcastReceiver {
 
+	Context context = null;
+	
 	@Override
 	public void onReceive(Context context, Intent intent) {
 		final String action = intent.getAction();
-
+		this.context = context;
+		
 		Log.v("LoginUSPNet", "Action: " + action);
 
 		if (action.equals(WifiManager.NETWORK_STATE_CHANGED_ACTION)) {
-			NetworkInfo info = (NetworkInfo) intent.getParcelableExtra(WifiManager.EXTRA_NETWORK_INFO);
+			NetworkInfo info = (NetworkInfo) intent
+					.getParcelableExtra(WifiManager.EXTRA_NETWORK_INFO);
 			if (info.getDetailedState() == DetailedState.CONNECTED) {
 				Log.v("LoginUSPNet", "Conectado");
 
 				WifiManager wifiManager = (WifiManager) context.getSystemService(Context.WIFI_SERVICE);
 				WifiInfo wifiInfo = wifiManager.getConnectionInfo();
-				if (wifiInfo.getSSID().toUpperCase().contains("ICMC")) {
-
+				if (wifiInfo.getSSID().toUpperCase().contains("USP")) {
+					Log.d("LoginUSPNet", "Rede USPNet detectada.");
+					new loginThread().execute("USP");
+				} else if (wifiInfo.getSSID().toUpperCase().contains("ICMC")) {
 					Log.d("LoginUSPNet", "Rede ICMC detectada.");
-					SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(context);
-
-					final String httpsURL = "https://1.1.1.1/login.html?redirect=https://www.google.com";
-
-					final List<BasicNameValuePair> nvps = new ArrayList<BasicNameValuePair>();
-					nvps.add(new BasicNameValuePair("buttonClicked", "4"));
-					nvps.add(new BasicNameValuePair("err_flag", "0"));
-					nvps.add(new BasicNameValuePair("err_msg", ""));
-					nvps.add(new BasicNameValuePair("info_flag", "0"));
-					nvps.add(new BasicNameValuePair("info_msg", ""));
-					nvps.add(new BasicNameValuePair("redirect_url",	"https://www.google.com"));
-					nvps.add(new BasicNameValuePair("username",	preferences.getString(context.getString(R.string.pref_username), "")));
-					nvps.add(new BasicNameValuePair("password",	preferences.getString(context.getString(R.string.pref_password), "")));
-
-					try {
-						sendRequest(httpsURL, nvps);
-					} catch (ClientProtocolException e) {
-						Log.e("LoginUSPNet",
-								"ClientProtocolException: " + e.getMessage());
-						Log.e("LoginUSPNet", " " + Log.getStackTraceString(e));
-					} catch (IOException e) {
-						Log.e("LoginUSPNet", "IOException: " + e.getMessage());
-						Log.e("LoginUSPNet", " " + Log.getStackTraceString(e));
-					}
-
+					new loginThread().execute("ICMC");					
 				}
 			}
 
@@ -106,15 +89,58 @@ public class WifiChangeReceiver extends BroadcastReceiver {
 			// Log.d("LoginUSPNet:", " " + inputLine);
 		}
 	}
+
+	private class loginThread extends AsyncTask<String, Void, Void> {
+
+		protected Void doInBackground(String... id) {
+			SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(context);
+			final List<BasicNameValuePair> nvps = new ArrayList<BasicNameValuePair>();
+			
+			if(id[0].toUpperCase().equals("USP")){
+
+				final String httpsURL = "https://gwsc.semfio.usp.br:8001";
+
+				nvps.add(new BasicNameValuePair("redirurl",	"https://www.google.com"));
+				nvps.add(new BasicNameValuePair("auth_user", preferences.getString(context.getString(R.string.pref_username),"")));
+				nvps.add(new BasicNameValuePair("auth_pass", preferences.getString(context.getString(R.string.pref_password),"")));
+				nvps.add(new BasicNameValuePair("accept", "Continue"));
+
+				try {
+					sendRequest(httpsURL, nvps);
+				} catch (ClientProtocolException e) {
+					Log.e("LoginUSPNet", "ClientProtocolException while connecting to " + id[0] + " Message: "+ e.getMessage());
+					Log.e("LoginUSPNet", " " + Log.getStackTraceString(e));
+				} catch (IOException e) {
+					Log.e("LoginUSPNet", "IOException while connecting to " + id[0] + " Message: "+ e.getMessage());
+					Log.e("LoginUSPNet", " " + Log.getStackTraceString(e));
+				}
+
+			} else if(id[0].toUpperCase().equals("ICMC")){
+				final String httpsURL = "https://1.1.1.1/login.html?redirect=https://www.google.com";
+
+				nvps.add(new BasicNameValuePair("buttonClicked", "4"));
+				nvps.add(new BasicNameValuePair("err_flag", "0"));
+				nvps.add(new BasicNameValuePair("err_msg", ""));
+				nvps.add(new BasicNameValuePair("info_flag", "0"));
+				nvps.add(new BasicNameValuePair("info_msg", ""));
+				nvps.add(new BasicNameValuePair("redirect_url",	"https://www.google.com"));
+				nvps.add(new BasicNameValuePair("username", preferences.getString(context.getString(R.string.pref_username),"")));
+				nvps.add(new BasicNameValuePair("password", preferences.getString(context.getString(R.string.pref_password),"")));
+
+				try {
+					sendRequest(httpsURL, nvps);
+				} catch (ClientProtocolException e) {
+					Log.e("LoginUSPNet", "ClientProtocolException while connecting to " + id[0] + " Message: "+ e.getMessage());
+					Log.e("LoginUSPNet", " " + Log.getStackTraceString(e));
+				} catch (IOException e) {
+					Log.e("LoginUSPNet", "IOException while connecting to " + id[0] + " Message: "+ e.getMessage());
+					Log.e("LoginUSPNet", " " + Log.getStackTraceString(e));
+				}
+				
+			}
+			
+			return null;
+		}
+	}
+
 }
-
-/*
- * //Dados USPNet
- * 
- * String httpsURL = "https://gwsc.semfio.usp.br:8001"; nvps.add(new
- * BasicNameValuePair("redirurl", "https://www.google.com")); nvps.add(new
- * BasicNameValuePair("auth_user", uspNetLoginDataSource.getUsername())); nvps.add(new
- * BasicNameValuePair("auth_pass", uspNetLoginDataSource.getPassword())); nvps.add(new
- * BasicNameValuePair("accept", "Continue"));
- */
-
