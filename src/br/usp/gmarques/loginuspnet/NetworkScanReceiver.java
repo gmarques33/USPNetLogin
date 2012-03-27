@@ -122,7 +122,7 @@ public class NetworkScanReceiver extends BroadcastReceiver {
 			Iterator<ScanResult> it = scanResults.iterator();
 			while (!found && it.hasNext()) {
 				scanResult = it.next();
-				found = scanResult.SSID.toUpperCase().contains("USP");
+				found = scanResult.SSID.toUpperCase().contains("USP") || scanResult.SSID.toUpperCase().contains("ICMC");
 			}
 			if (!found) {
 				scanResult = null;
@@ -152,7 +152,7 @@ public class NetworkScanReceiver extends BroadcastReceiver {
 					WifiConfiguration wifiConfiguration = it.next();
 					if (wifiConfiguration.SSID == null) {
 						wm.removeNetwork(wifiConfiguration.networkId);
-					} else if (!wifiConfiguration.SSID.toUpperCase().contains("USP")) {
+					} else if (!wifiConfiguration.SSID.toUpperCase().contains("USP") && !wifiConfiguration.SSID.toUpperCase().contains("ICMC")) {
 						found = scanResultsKeys.contains(wifiConfiguration.SSID);
 					}
 				}

@@ -2,14 +2,26 @@ package br.usp.gmarques.loginuspnet;
 
 import java.io.BufferedReader;
 import java.io.IOException;
+import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.Reader;
+import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.SocketTimeoutException;
 import java.net.URL;
 import java.net.URLConnection;
+import java.security.KeyManagementException;
+import java.security.NoSuchAlgorithmException;
+import java.security.cert.X509Certificate;
 import java.util.ArrayList;
 import java.util.List;
+
+import javax.net.ssl.HostnameVerifier;
+import javax.net.ssl.HttpsURLConnection;
+import javax.net.ssl.SSLContext;
+import javax.net.ssl.SSLSession;
+import javax.net.ssl.TrustManager;
+import javax.net.ssl.X509TrustManager;
 
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;
@@ -65,6 +77,13 @@ public class WifiChangeReceiver extends BroadcastReceiver {
 		}
 	}
 
+	/**
+	 * Envia um POST para a pagina passada no httpsURL com os argumentos passados em nvps
+	 * @param httpsURL
+	 * @param nvps
+	 * @throws ClientProtocolException
+	 * @throws IOException
+	 */
 	private void sendRequest(String httpsURL, List<BasicNameValuePair> nvps)
 			throws ClientProtocolException, IOException {
 
@@ -97,9 +116,8 @@ public class WifiChangeReceiver extends BroadcastReceiver {
 	/**
 	 * 
 	 * @return A URL para fazer login
-	 * @throws IOException
 	 */
-	private String findPostURL() throws IOException{
+	private String findPostURL(){
 		
 		String path = "http://www.usp.br"; //Pagina aleatoria para verificar o redirecionamento
     	String resultPage;
@@ -114,16 +132,14 @@ public class WifiChangeReceiver extends BroadcastReceiver {
     	try {
 			url = new URL(path);
 			con = url.openConnection();
-			con.setConnectTimeout(5000);
-			con.setReadTimeout(5000);
-			con.connect();
+			trustAllCertificates();
 			
 			//Tenta conectar em alguma pagina e guarda o retorno em uma string.
 			//Se a pagina de retorno for uma pagina de login da USPNet procura a url do POST
 			
 			buffer = new char[0x10000];
 			out = new StringBuilder();
-			in = new InputStreamReader(con.getInputStream(), "UTF-8");
+			in = new InputStreamReader(openConnectionCheckRedirects(con), "UTF-8");
 			int read;
 			do {
 			  read = in.read(buffer, 0, buffer.length);
@@ -144,18 +160,114 @@ public class WifiChangeReceiver extends BroadcastReceiver {
 			}
 		} catch (MalformedURLException e) {
 			Log.e("MalformedURLException", "Message: " + e.getMessage());
-			throw e;
 		} catch (SocketTimeoutException e) {
 			Log.e("SocketTimeoutException", "Message: " + e.getMessage());
-			throw e;
 		} catch (IOException e) {
 			Log.e("IOExceptionNet", "Message: " + e.getMessage());
-			throw e;
+		} catch (KeyManagementException e) {
+			Log.e("KeyManagementException", "Message: " + e.getMessage());
+		} catch (NoSuchAlgorithmException e) {
+			Log.e("NoSuchAlgorithmException", "Message: " + e.getMessage());
 		}
-    	
+    	Log.d("LoginUSPNet", "URL: " + resultURL);
 		return resultURL;
 	}
 
+	/**
+	 * Abre uma conexão e aceita redirecionar http para https
+	 * Usado para obter a pagina de login da uspnet
+	 * @param c
+	 * @return
+	 * @throws IOException
+	 */
+	private InputStream openConnectionCheckRedirects(URLConnection c) throws IOException 
+	{
+	   boolean redir;
+	   int redirects = 0;
+	   InputStream in = null;
+	   do 
+	   {
+	      if (c instanceof HttpURLConnection) 
+	      {
+	         ((HttpURLConnection) c).setInstanceFollowRedirects(false);
+	      }
+	      // We want to open the input stream before getting headers
+	      // because getHeaderField() et al swallow IOExceptions.
+	      in = c.getInputStream(); 
+	      redir = false; 
+	      if (c instanceof HttpURLConnection) 
+	      {
+	         HttpURLConnection http = (HttpURLConnection) c;
+	         int stat = http.getResponseCode();
+	         if (stat >= 300 && stat <= 307 && stat != 306 &&
+	            stat != HttpURLConnection.HTTP_NOT_MODIFIED) 
+	         {
+	            URL base = http.getURL();
+	            String loc = http.getHeaderField("Location");
+	            URL target = null;
+	            if (loc != null) 
+	            {
+	               target = new URL(base, loc);
+	            }
+	            http.disconnect();
+	            // Redirection should be allowed only for HTTP and HTTPS
+	            // and should be limited to 5 redirections at most.
+	            if (target == null || !(target.getProtocol().equals("http")
+	               || target.getProtocol().equals("https"))
+	               || redirects >= 5)
+	            {
+	               throw new SecurityException("illegal URL redirect");
+	            }
+	            redir = true;
+	            c = target.openConnection();
+	            redirects++;
+	         }
+	      }
+	   } 
+	   while (redir);
+	   return in;
+	}
+
+	/**
+	 * Desabilita a checagem de certificado para conexoes ssl.
+	 * A pagina da uspnet não tem um certificado valido.
+	 * @throws NoSuchAlgorithmException
+	 * @throws KeyManagementException
+	 */
+	private void trustAllCertificates() throws NoSuchAlgorithmException, KeyManagementException{
+		// Create a trust manager that does not validate certificate chains
+		TrustManager[] trustAllCerts = new TrustManager[] {new X509TrustManager() {
+				public java.security.cert.X509Certificate[] getAcceptedIssuers() {
+					return null;
+				}
+				public void checkClientTrusted(X509Certificate[] certs, String authType) {
+				}
+				public void checkServerTrusted(X509Certificate[] certs, String authType) {
+				}
+			}
+		};
+
+		// Install the all-trusting trust manager
+		SSLContext sc = SSLContext.getInstance("SSL");
+		sc.init(null, trustAllCerts, new java.security.SecureRandom());
+		HttpsURLConnection.setDefaultSSLSocketFactory(sc.getSocketFactory());
+
+		// Create all-trusting host name verifier
+		HostnameVerifier allHostsValid = new HostnameVerifier() {
+			public boolean verify(String hostname, SSLSession session) {
+				return true;
+			}
+		};
+
+		// Install the all-trusting host verifier
+		HttpsURLConnection.setDefaultHostnameVerifier(allHostsValid);
+	}
+
+	/**
+	 * Faz o login em uma thread separada para nao bloquear a thread principal com conexao de rede.
+	 * @author Giovanni
+	 *
+	 */
 	private class loginThread extends AsyncTask<String, Void, Void> {
 
 		protected Void doInBackground(String... id) {
@@ -168,10 +280,8 @@ public class WifiChangeReceiver extends BroadcastReceiver {
 				//Procura a URL de login na pagina e envia os dados.
 				//Deve funcionar em todos os campi da usp.
 				
-				try {
-					httpsURL = findPostURL();
-				} catch (IOException e) {
-				}
+				httpsURL = findPostURL();
+
 				if(!httpsURL.equals("")){
 					nvps.add(new BasicNameValuePair("redirurl",	"https://www.google.com"));
 					nvps.add(new BasicNameValuePair("auth_user", preferences.getString(context.getString(R.string.pref_username),"")));
