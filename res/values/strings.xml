@@ -12,7 +12,7 @@
     <string name="pref_password">pref.password</string>
     <string name="pref_connectionAutoEnable">pref.connectionAutoEnable</string>
     <string name="connectionAutoEnable">Auto Connect</string>
-    <string name="connectionAutoSummary">AINDA NÃO FUNCIONAL - Conectar automaticamente com qualquer hotspot USPNet</string>
+    <string name="connectionAutoSummary">Conectar automaticamente com qualquer hotspot USPNet - NÃO TESTADO</string>
     <string name="userSubtitle">Seu email da USPNet</string>
     <string name="passwordSubtitle">Sua senha da USPNet</string>
     

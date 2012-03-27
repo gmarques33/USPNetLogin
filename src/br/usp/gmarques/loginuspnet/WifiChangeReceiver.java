@@ -3,6 +3,11 @@ package br.usp.gmarques.loginuspnet;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.io.Reader;
+import java.net.MalformedURLException;
+import java.net.SocketTimeoutException;
+import java.net.URL;
+import java.net.URLConnection;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -64,7 +69,6 @@ public class WifiChangeReceiver extends BroadcastReceiver {
 			throws ClientProtocolException, IOException {
 
 		HttpClient client = HttpUtils.getNewHttpClient();
-
 		HttpPost httppost = new HttpPost(httpsURL);
 
 		// Bloco de autenticacao
@@ -89,6 +93,68 @@ public class WifiChangeReceiver extends BroadcastReceiver {
 			// Log.d("LoginUSPNet:", " " + inputLine);
 		}
 	}
+	
+	/**
+	 * 
+	 * @return A URL para fazer login
+	 * @throws IOException
+	 */
+	private String findPostURL() throws IOException{
+		
+		String path = "http://www.usp.br"; //Pagina aleatoria para verificar o redirecionamento
+    	String resultPage;
+    	String resultURL = "";
+    	URL url;
+    	URLConnection con;
+    	final char[] buffer;
+    	StringBuilder out;
+    	Reader in;
+    	int urlIndex;
+    	
+    	try {
+			url = new URL(path);
+			con = url.openConnection();
+			con.setConnectTimeout(5000);
+			con.setReadTimeout(5000);
+			con.connect();
+			
+			//Tenta conectar em alguma pagina e guarda o retorno em uma string.
+			//Se a pagina de retorno for uma pagina de login da USPNet procura a url do POST
+			
+			buffer = new char[0x10000];
+			out = new StringBuilder();
+			in = new InputStreamReader(con.getInputStream(), "UTF-8");
+			int read;
+			do {
+			  read = in.read(buffer, 0, buffer.length);
+			  if (read>0) {
+			    out.append(buffer, 0, read);
+			  }
+			} while (read>=0);
+			resultPage = out.toString();
+			
+			urlIndex = resultPage.toUpperCase().lastIndexOf("ACTION=\"");
+			if(urlIndex != -1){
+				urlIndex += 8;
+				for(;urlIndex < resultPage.length() && resultPage.charAt(urlIndex) != '"'; urlIndex++){
+					resultURL += resultPage.charAt(urlIndex);
+				}
+			}else{
+				resultURL = "";
+			}
+		} catch (MalformedURLException e) {
+			Log.e("MalformedURLException", "Message: " + e.getMessage());
+			throw e;
+		} catch (SocketTimeoutException e) {
+			Log.e("SocketTimeoutException", "Message: " + e.getMessage());
+			throw e;
+		} catch (IOException e) {
+			Log.e("IOExceptionNet", "Message: " + e.getMessage());
+			throw e;
+		}
+    	
+		return resultURL;
+	}
 
 	private class loginThread extends AsyncTask<String, Void, Void> {
 
@@ -98,21 +164,29 @@ public class WifiChangeReceiver extends BroadcastReceiver {
 			
 			if(id[0].toUpperCase().equals("USP")){
 
-				final String httpsURL = "https://gwsc.semfio.usp.br:8001";
-
-				nvps.add(new BasicNameValuePair("redirurl",	"https://www.google.com"));
-				nvps.add(new BasicNameValuePair("auth_user", preferences.getString(context.getString(R.string.pref_username),"")));
-				nvps.add(new BasicNameValuePair("auth_pass", preferences.getString(context.getString(R.string.pref_password),"")));
-				nvps.add(new BasicNameValuePair("accept", "Continue"));
-
+				String httpsURL = "";
+				//Procura a URL de login na pagina e envia os dados.
+				//Deve funcionar em todos os campi da usp.
+				
 				try {
-					sendRequest(httpsURL, nvps);
-				} catch (ClientProtocolException e) {
-					Log.e("LoginUSPNet", "ClientProtocolException while connecting to " + id[0] + " Message: "+ e.getMessage());
-					Log.e("LoginUSPNet", " " + Log.getStackTraceString(e));
+					httpsURL = findPostURL();
 				} catch (IOException e) {
-					Log.e("LoginUSPNet", "IOException while connecting to " + id[0] + " Message: "+ e.getMessage());
-					Log.e("LoginUSPNet", " " + Log.getStackTraceString(e));
+				}
+				if(!httpsURL.equals("")){
+					nvps.add(new BasicNameValuePair("redirurl",	"https://www.google.com"));
+					nvps.add(new BasicNameValuePair("auth_user", preferences.getString(context.getString(R.string.pref_username),"")));
+					nvps.add(new BasicNameValuePair("auth_pass", preferences.getString(context.getString(R.string.pref_password),"")));
+					nvps.add(new BasicNameValuePair("accept", "Continue"));
+	
+					try {
+						sendRequest(httpsURL, nvps);
+					} catch (ClientProtocolException e) {
+						Log.e("LoginUSPNet", "ClientProtocolException while connecting to " + id[0] + " Message: "+ e.getMessage());
+						Log.e("LoginUSPNet", " " + Log.getStackTraceString(e));
+					} catch (IOException e) {
+						Log.e("LoginUSPNet", "IOException while connecting to " + id[0] + " Message: "+ e.getMessage());
+						Log.e("LoginUSPNet", " " + Log.getStackTraceString(e));
+					}
 				}
 
 			} else if(id[0].toUpperCase().equals("ICMC")){
