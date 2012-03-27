@@ -5,17 +5,31 @@ br.usp.gmarques.loginuspnet.LoginUSPNet -> br.usp.gmarques.loginuspnet.LoginUSPN
     void onResume() -> onResume
     void onPause() -> onPause
     void onSharedPreferenceChanged(android.content.SharedPreferences,java.lang.String) -> onSharedPreferenceChanged
-br.usp.gmarques.loginuspnet.WifiChangeReceiver -> br.usp.gmarques.loginuspnet.WifiChangeReceiver:
+br.usp.gmarques.loginuspnet.NetworkScanReceiver -> br.usp.gmarques.loginuspnet.NetworkScanReceiver:
+    java.lang.String TAG -> a
+    long lastCalled -> b
+    android.content.SharedPreferences mPreferences -> c
     void onReceive(android.content.Context,android.content.Intent) -> onReceive
-    void sendRequest(java.lang.String,java.util.List) -> a
+    android.net.wifi.WifiConfiguration lookupConfigurationByScanResult(java.util.List,android.net.wifi.ScanResult) -> a
+    android.net.wifi.ScanResult getUspNetNetwork(android.net.wifi.WifiManager) -> a
+br.usp.gmarques.loginuspnet.WifiChangeReceiver -> br.usp.gmarques.loginuspnet.WifiChangeReceiver:
+    android.content.Context context -> a
+    void onReceive(android.content.Context,android.content.Intent) -> onReceive
+    java.lang.String findPostURL() -> b
+    java.lang.String access$0$24de975() -> a
+    void access$1$59816d7a(java.lang.String,java.util.List) -> a
+br.usp.gmarques.loginuspnet.WifiChangeReceiver$loginThread -> br.usp.gmarques.loginuspnet.a:
+    br.usp.gmarques.loginuspnet.WifiChangeReceiver this$0 -> a
+    java.lang.Void doInBackground(java.lang.String[]) -> a
+    java.lang.Object doInBackground(java.lang.Object[]) -> doInBackground
 br.usp.gmarques.loginuspnet.http.EasySSLSocketFactory -> br.usp.gmarques.loginuspnet.a.a:
     javax.net.ssl.SSLContext sslContext -> a
     java.net.Socket createSocket(java.net.Socket,java.lang.String,int,boolean) -> createSocket
     java.net.Socket createSocket() -> createSocket
-br.usp.gmarques.loginuspnet.http.EasySSLSocketFactory$1 -> br.usp.gmarques.loginuspnet.a.c:
+br.usp.gmarques.loginuspnet.http.EasySSLSocketFactory$1 -> br.usp.gmarques.loginuspnet.a.b:
     br.usp.gmarques.loginuspnet.http.EasySSLSocketFactory this$0 -> a
     void checkClientTrusted(java.security.cert.X509Certificate[],java.lang.String) -> checkClientTrusted
     void checkServerTrusted(java.security.cert.X509Certificate[],java.lang.String) -> checkServerTrusted
     java.security.cert.X509Certificate[] getAcceptedIssuers() -> getAcceptedIssuers
-br.usp.gmarques.loginuspnet.http.HttpUtils -> br.usp.gmarques.loginuspnet.a.b:
+br.usp.gmarques.loginuspnet.http.HttpUtils -> br.usp.gmarques.loginuspnet.a.c:
     org.apache.http.client.HttpClient getNewHttpClient() -> a

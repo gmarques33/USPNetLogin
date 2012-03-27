@@ -1,3 +1,8 @@
+android.annotation.SuppressLint
+android.annotation.TargetApi
+br.usp.gmarques.loginuspnet.BuildConfig
+br.usp.gmarques.loginuspnet.NetworkScanReceiver:
+    private static final int MIN_PERIOD_BTW_CALLS
 br.usp.gmarques.loginuspnet.R
 br.usp.gmarques.loginuspnet.R$attr
 br.usp.gmarques.loginuspnet.R$drawable
@@ -5,3 +10,5 @@ br.usp.gmarques.loginuspnet.R$id
 br.usp.gmarques.loginuspnet.R$layout
 br.usp.gmarques.loginuspnet.R$string
 br.usp.gmarques.loginuspnet.R$style
+br.usp.gmarques.loginuspnet.http.HttpUtils:
+    19:19:public HttpUtils()

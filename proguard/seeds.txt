@@ -1,2 +1,3 @@
 br.usp.gmarques.loginuspnet.LoginUSPNet
+br.usp.gmarques.loginuspnet.NetworkScanReceiver
 br.usp.gmarques.loginuspnet.WifiChangeReceiver

@@ -7,37 +7,37 @@ _____________________________________________________________________
     = public class br.usp.gmarques.loginuspnet.LoginUSPNet extends android.preference.PreferenceActivity
 
 Interfaces (count = 1):
-  - Class [android/content/SharedPreferences$OnSharedPreferenceChangeListener]
+  + Class [android/content/SharedPreferences$OnSharedPreferenceChangeListener]
 
 Constant Pool (count = 88):
-  - Integer [2130903040]
-  - Integer [2130968583]
-  - String []
-  - Class [android/content/SharedPreferences]
-  - Class [android/content/SharedPreferences$OnSharedPreferenceChangeListener]
-  - Class [android/preference/EditTextPreference]
-  - Class [android/preference/PreferenceActivity]
-  - Class [android/preference/PreferenceManager]
-  - Class [android/preference/PreferenceScreen]
-  - Class [br/usp/gmarques/loginuspnet/LoginUSPNet]
-  - Class [java/lang/String]
-  - Fieldref [br/usp/gmarques/loginuspnet/LoginUSPNet.a Landroid/preference/EditTextPreference;]
-  - Fieldref [br/usp/gmarques/loginuspnet/LoginUSPNet.b Landroid/content/SharedPreferences;]
-  - Methodref [android/preference/EditTextPreference.setSummary (Ljava/lang/CharSequence;)V]
-  - Methodref [android/preference/PreferenceActivity.<init> ()V]
-  - Methodref [android/preference/PreferenceActivity.onCreate (Landroid/os/Bundle;)V]
-  - Methodref [android/preference/PreferenceActivity.onPause ()V]
-  - Methodref [android/preference/PreferenceActivity.onResume ()V]
-  - Methodref [android/preference/PreferenceManager.getDefaultSharedPreferences (Landroid/content/Context;)Landroid/content/SharedPreferences;]
-  - Methodref [android/preference/PreferenceScreen.findPreference (Ljava/lang/CharSequence;)Landroid/preference/Preference;]
-  - Methodref [android/preference/PreferenceScreen.getSharedPreferences ()Landroid/content/SharedPreferences;]
-  - Methodref [br/usp/gmarques/loginuspnet/LoginUSPNet.addPreferencesFromResource (I)V]
-  - Methodref [br/usp/gmarques/loginuspnet/LoginUSPNet.getPreferenceScreen ()Landroid/preference/PreferenceScreen;]
-  - Methodref [br/usp/gmarques/loginuspnet/LoginUSPNet.getString (I)Ljava/lang/String;]
-  - Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
-  - InterfaceMethodref [android/content/SharedPreferences.getString (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;]
-  - InterfaceMethodref [android/content/SharedPreferences.registerOnSharedPreferenceChangeListener (Landroid/content/SharedPreferences$OnSharedPreferenceChangeListener;)V]
-  - InterfaceMethodref [android/content/SharedPreferences.unregisterOnSharedPreferenceChangeListener (Landroid/content/SharedPreferences$OnSharedPreferenceChangeListener;)V]
+  + Integer [2130903040]
+  + Integer [2130968583]
+  + String []
+  + Class [android/content/SharedPreferences]
+  + Class [android/content/SharedPreferences$OnSharedPreferenceChangeListener]
+  + Class [android/preference/EditTextPreference]
+  + Class [android/preference/PreferenceActivity]
+  + Class [android/preference/PreferenceManager]
+  + Class [android/preference/PreferenceScreen]
+  + Class [br/usp/gmarques/loginuspnet/LoginUSPNet]
+  + Class [java/lang/String]
+  + Fieldref [br/usp/gmarques/loginuspnet/LoginUSPNet.a Landroid/preference/EditTextPreference;]
+  + Fieldref [br/usp/gmarques/loginuspnet/LoginUSPNet.b Landroid/content/SharedPreferences;]
+  + Methodref [android/preference/EditTextPreference.setSummary (Ljava/lang/CharSequence;)V]
+  + Methodref [android/preference/PreferenceActivity.<init> ()V]
+  + Methodref [android/preference/PreferenceActivity.onCreate (Landroid/os/Bundle;)V]
+  + Methodref [android/preference/PreferenceActivity.onPause ()V]
+  + Methodref [android/preference/PreferenceActivity.onResume ()V]
+  + Methodref [android/preference/PreferenceManager.getDefaultSharedPreferences (Landroid/content/Context;)Landroid/content/SharedPreferences;]
+  + Methodref [android/preference/PreferenceScreen.findPreference (Ljava/lang/CharSequence;)Landroid/preference/Preference;]
+  + Methodref [android/preference/PreferenceScreen.getSharedPreferences ()Landroid/content/SharedPreferences;]
+  + Methodref [br/usp/gmarques/loginuspnet/LoginUSPNet.addPreferencesFromResource (I)V]
+  + Methodref [br/usp/gmarques/loginuspnet/LoginUSPNet.getPreferenceScreen ()Landroid/preference/PreferenceScreen;]
+  + Methodref [br/usp/gmarques/loginuspnet/LoginUSPNet.getString (I)Ljava/lang/String;]
+  + Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
+  + InterfaceMethodref [android/content/SharedPreferences.getString (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;]
+  + InterfaceMethodref [android/content/SharedPreferences.registerOnSharedPreferenceChangeListener (Landroid/content/SharedPreferences$OnSharedPreferenceChangeListener;)V]
+  + InterfaceMethodref [android/content/SharedPreferences.unregisterOnSharedPreferenceChangeListener (Landroid/content/SharedPreferences$OnSharedPreferenceChangeListener;)V]
   + NameAndType [<init> ()V]
   + NameAndType [a Landroid/preference/EditTextPreference;]
   + NameAndType [addPreferencesFromResource (I)V]
@@ -114,15 +114,15 @@ Methods (count = 5):
     + Code attribute instructions (code length = 15, locals = 1, stack = 2):
       [0] aload_0 v0
       [1] invokespecial #15
-        - Methodref [android/preference/PreferenceActivity.<init> ()V]
+        + Methodref [android/preference/PreferenceActivity.<init> ()V]
       [4] aload_0 v0
       [5] aconst_null
       [6] putfield #12
-        - Fieldref [br/usp/gmarques/loginuspnet/LoginUSPNet.a Landroid/preference/EditTextPreference;]
+        + Fieldref [br/usp/gmarques/loginuspnet/LoginUSPNet.a Landroid/preference/EditTextPreference;]
       [9] aload_0 v0
       [10] aconst_null
       [11] putfield #13
-        - Fieldref [br/usp/gmarques/loginuspnet/LoginUSPNet.b Landroid/content/SharedPreferences;]
+        + Fieldref [br/usp/gmarques/loginuspnet/LoginUSPNet.b Landroid/content/SharedPreferences;]
       [14] return
       Code attribute exceptions (count = 0):
       Code attribute attributes (attribute count = 0):
@@ -134,33 +134,33 @@ Methods (count = 5):
       [0] aload_0 v0
       [1] aload_1 v1
       [2] invokespecial #16
-        - Methodref [android/preference/PreferenceActivity.onCreate (Landroid/os/Bundle;)V]
+        + Methodref [android/preference/PreferenceActivity.onCreate (Landroid/os/Bundle;)V]
       [5] aload_0 v0
       [6] ldc #1
-        - Integer [2130903040]
+        + Integer [2130903040]
       [8] invokevirtual #22
-        - Methodref [br/usp/gmarques/loginuspnet/LoginUSPNet.addPreferencesFromResource (I)V]
+        + Methodref [br/usp/gmarques/loginuspnet/LoginUSPNet.addPreferencesFromResource (I)V]
       [11] aload_0 v0
       [12] aload_0 v0
       [13] invokestatic #19
-        - Methodref [android/preference/PreferenceManager.getDefaultSharedPreferences (Landroid/content/Context;)Landroid/content/SharedPreferences;]
+        + Methodref [android/preference/PreferenceManager.getDefaultSharedPreferences (Landroid/content/Context;)Landroid/content/SharedPreferences;]
       [16] putfield #13
-        - Fieldref [br/usp/gmarques/loginuspnet/LoginUSPNet.b Landroid/content/SharedPreferences;]
+        + Fieldref [br/usp/gmarques/loginuspnet/LoginUSPNet.b Landroid/content/SharedPreferences;]
       [19] aload_0 v0
       [20] aload_0 v0
       [21] invokevirtual #23
-        - Methodref [br/usp/gmarques/loginuspnet/LoginUSPNet.getPreferenceScreen ()Landroid/preference/PreferenceScreen;]
+        + Methodref [br/usp/gmarques/loginuspnet/LoginUSPNet.getPreferenceScreen ()Landroid/preference/PreferenceScreen;]
       [24] aload_0 v0
       [25] ldc #2
-        - Integer [2130968583]
+        + Integer [2130968583]
       [27] invokevirtual #24
-        - Methodref [br/usp/gmarques/loginuspnet/LoginUSPNet.getString (I)Ljava/lang/String;]
+        + Methodref [br/usp/gmarques/loginuspnet/LoginUSPNet.getString (I)Ljava/lang/String;]
       [30] invokevirtual #20
-        - Methodref [android/preference/PreferenceScreen.findPreference (Ljava/lang/CharSequence;)Landroid/preference/Preference;]
+        + Methodref [android/preference/PreferenceScreen.findPreference (Ljava/lang/CharSequence;)Landroid/preference/Preference;]
       [33] checkcast #6
-        - Class [android/preference/EditTextPreference]
+        + Class [android/preference/EditTextPreference]
       [36] putfield #12
-        - Fieldref [br/usp/gmarques/loginuspnet/LoginUSPNet.a Landroid/preference/EditTextPreference;]
+        + Fieldref [br/usp/gmarques/loginuspnet/LoginUSPNet.a Landroid/preference/EditTextPreference;]
       [39] return
       Code attribute exceptions (count = 0):
       Code attribute attributes (attribute count = 0):
@@ -171,32 +171,32 @@ Methods (count = 5):
     + Code attribute instructions (code length = 42, locals = 1, stack = 4):
       [0] aload_0 v0
       [1] invokespecial #18
-        - Methodref [android/preference/PreferenceActivity.onResume ()V]
+        + Methodref [android/preference/PreferenceActivity.onResume ()V]
       [4] aload_0 v0
       [5] getfield #12
-        - Fieldref [br/usp/gmarques/loginuspnet/LoginUSPNet.a Landroid/preference/EditTextPreference;]
+        + Fieldref [br/usp/gmarques/loginuspnet/LoginUSPNet.a Landroid/preference/EditTextPreference;]
       [8] aload_0 v0
       [9] getfield #13
-        - Fieldref [br/usp/gmarques/loginuspnet/LoginUSPNet.b Landroid/content/SharedPreferences;]
+        + Fieldref [br/usp/gmarques/loginuspnet/LoginUSPNet.b Landroid/content/SharedPreferences;]
       [12] aload_0 v0
       [13] ldc #2
-        - Integer [2130968583]
+        + Integer [2130968583]
       [15] invokevirtual #24
-        - Methodref [br/usp/gmarques/loginuspnet/LoginUSPNet.getString (I)Ljava/lang/String;]
+        + Methodref [br/usp/gmarques/loginuspnet/LoginUSPNet.getString (I)Ljava/lang/String;]
       [18] ldc #3
-        - String []
+        + String []
       [20] invokeinterface #26
-        - InterfaceMethodref [android/content/SharedPreferences.getString (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;]
+        + InterfaceMethodref [android/content/SharedPreferences.getString (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;]
       [25] invokevirtual #14
-        - Methodref [android/preference/EditTextPreference.setSummary (Ljava/lang/CharSequence;)V]
+        + Methodref [android/preference/EditTextPreference.setSummary (Ljava/lang/CharSequence;)V]
       [28] aload_0 v0
       [29] invokevirtual #23
-        - Methodref [br/usp/gmarques/loginuspnet/LoginUSPNet.getPreferenceScreen ()Landroid/preference/PreferenceScreen;]
+        + Methodref [br/usp/gmarques/loginuspnet/LoginUSPNet.getPreferenceScreen ()Landroid/preference/PreferenceScreen;]
       [32] invokevirtual #21
-        - Methodref [android/preference/PreferenceScreen.getSharedPreferences ()Landroid/content/SharedPreferences;]
+        + Methodref [android/preference/PreferenceScreen.getSharedPreferences ()Landroid/content/SharedPreferences;]
       [35] aload_0 v0
       [36] invokeinterface #27
-        - InterfaceMethodref [android/content/SharedPreferences.registerOnSharedPreferenceChangeListener (Landroid/content/SharedPreferences$OnSharedPreferenceChangeListener;)V]
+        + InterfaceMethodref [android/content/SharedPreferences.registerOnSharedPreferenceChangeListener (Landroid/content/SharedPreferences$OnSharedPreferenceChangeListener;)V]
       [41] return
       Code attribute exceptions (count = 0):
       Code attribute attributes (attribute count = 0):
@@ -207,15 +207,15 @@ Methods (count = 5):
     + Code attribute instructions (code length = 18, locals = 1, stack = 2):
       [0] aload_0 v0
       [1] invokespecial #17
-        - Methodref [android/preference/PreferenceActivity.onPause ()V]
+        + Methodref [android/preference/PreferenceActivity.onPause ()V]
       [4] aload_0 v0
       [5] invokevirtual #23
-        - Methodref [br/usp/gmarques/loginuspnet/LoginUSPNet.getPreferenceScreen ()Landroid/preference/PreferenceScreen;]
+        + Methodref [br/usp/gmarques/loginuspnet/LoginUSPNet.getPreferenceScreen ()Landroid/preference/PreferenceScreen;]
       [8] invokevirtual #21
-        - Methodref [android/preference/PreferenceScreen.getSharedPreferences ()Landroid/content/SharedPreferences;]
+        + Methodref [android/preference/PreferenceScreen.getSharedPreferences ()Landroid/content/SharedPreferences;]
       [11] aload_0 v0
       [12] invokeinterface #28
-        - InterfaceMethodref [android/content/SharedPreferences.unregisterOnSharedPreferenceChangeListener (Landroid/content/SharedPreferences$OnSharedPreferenceChangeListener;)V]
+        + InterfaceMethodref [android/content/SharedPreferences.unregisterOnSharedPreferenceChangeListener (Landroid/content/SharedPreferences$OnSharedPreferenceChangeListener;)V]
       [17] return
       Code attribute exceptions (count = 0):
       Code attribute attributes (attribute count = 0):
@@ -227,28 +227,750 @@ Methods (count = 5):
       [0] aload_2 v2
       [1] aload_0 v0
       [2] ldc #2
-        - Integer [2130968583]
+        + Integer [2130968583]
       [4] invokevirtual #24
-        - Methodref [br/usp/gmarques/loginuspnet/LoginUSPNet.getString (I)Ljava/lang/String;]
+        + Methodref [br/usp/gmarques/loginuspnet/LoginUSPNet.getString (I)Ljava/lang/String;]
       [7] invokevirtual #25
-        - Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
+        + Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
       [10] ifeq +24 (target=34)
       [13] aload_0 v0
       [14] getfield #12
-        - Fieldref [br/usp/gmarques/loginuspnet/LoginUSPNet.a Landroid/preference/EditTextPreference;]
+        + Fieldref [br/usp/gmarques/loginuspnet/LoginUSPNet.a Landroid/preference/EditTextPreference;]
       [17] aload_1 v1
       [18] aload_0 v0
       [19] ldc #2
-        - Integer [2130968583]
+        + Integer [2130968583]
       [21] invokevirtual #24
-        - Methodref [br/usp/gmarques/loginuspnet/LoginUSPNet.getString (I)Ljava/lang/String;]
+        + Methodref [br/usp/gmarques/loginuspnet/LoginUSPNet.getString (I)Ljava/lang/String;]
       [24] ldc #3
-        - String []
+        + String []
       [26] invokeinterface #26
-        - InterfaceMethodref [android/content/SharedPreferences.getString (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;]
+        + InterfaceMethodref [android/content/SharedPreferences.getString (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;]
       [31] invokevirtual #14
-        - Methodref [android/preference/EditTextPreference.setSummary (Ljava/lang/CharSequence;)V]
+        + Methodref [android/preference/EditTextPreference.setSummary (Ljava/lang/CharSequence;)V]
       [34] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: br/usp/gmarques/loginuspnet/NetworkScanReceiver
+  Superclass:    android/content/BroadcastReceiver
+  Major version: 0x31
+  Minor version: 0x0
+  Access flags:  0x21
+    = public class br.usp.gmarques.loginuspnet.NetworkScanReceiver extends android.content.BroadcastReceiver
+
+Interfaces (count = 0):
+
+Constant Pool (count = 236):
+  + Integer [2130968585]
+  + String [Events to close, ignoring.]
+  + String [Not connecting because a prefered network is available OR it's already connected]
+  + String [Trying to connect]
+  + String [USP]
+  + String [android.net.wifi.SCAN_RESULTS]
+  + String [wifi]
+  + Class [android/content/BroadcastReceiver]
+  + Class [android/content/Context]
+  + Class [android/content/Intent]
+  + Class [android/content/SharedPreferences]
+  + Class [android/net/wifi/ScanResult]
+  + Class [android/net/wifi/SupplicantState]
+  + Class [android/net/wifi/WifiConfiguration]
+  + Class [android/net/wifi/WifiInfo]
+  + Class [android/net/wifi/WifiManager]
+  + Class [android/preference/PreferenceManager]
+  + Class [android/util/Log]
+  + Class [br/usp/gmarques/loginuspnet/NetworkScanReceiver]
+  + Class [java/lang/Class]
+  + Class [java/lang/String]
+  + Class [java/lang/StringBuilder]
+  + Class [java/lang/System]
+  + Class [java/util/BitSet]
+  + Class [java/util/HashSet]
+  + Class [java/util/Iterator]
+  + Class [java/util/List]
+  + Class [java/util/Set]
+  + Long [-1]
+  + Long [10000]
+  + Fieldref [android/net/wifi/ScanResult.SSID Ljava/lang/String;]
+  + Fieldref [android/net/wifi/SupplicantState.ASSOCIATED Landroid/net/wifi/SupplicantState;]
+  + Fieldref [android/net/wifi/SupplicantState.ASSOCIATING Landroid/net/wifi/SupplicantState;]
+  + Fieldref [android/net/wifi/SupplicantState.COMPLETED Landroid/net/wifi/SupplicantState;]
+  + Fieldref [android/net/wifi/SupplicantState.FOUR_WAY_HANDSHAKE Landroid/net/wifi/SupplicantState;]
+  + Fieldref [android/net/wifi/SupplicantState.GROUP_HANDSHAKE Landroid/net/wifi/SupplicantState;]
+  + Fieldref [android/net/wifi/WifiConfiguration.SSID Ljava/lang/String;]
+  + Fieldref [android/net/wifi/WifiConfiguration.allowedKeyManagement Ljava/util/BitSet;]
+  + Fieldref [android/net/wifi/WifiConfiguration.networkId I]
+  + Fieldref [android/net/wifi/WifiConfiguration.status I]
+  + Fieldref [br/usp/gmarques/loginuspnet/NetworkScanReceiver.a Ljava/lang/String;]
+  + Fieldref [br/usp/gmarques/loginuspnet/NetworkScanReceiver.b J]
+  + Fieldref [br/usp/gmarques/loginuspnet/NetworkScanReceiver.c Landroid/content/SharedPreferences;]
+  + Methodref [android/content/BroadcastReceiver.<init> ()V]
+  + Methodref [android/content/Context.getString (I)Ljava/lang/String;]
+  + Methodref [android/content/Context.getSystemService (Ljava/lang/String;)Ljava/lang/Object;]
+  + Methodref [android/content/Intent.getAction ()Ljava/lang/String;]
+  + Methodref [android/net/wifi/SupplicantState.equals (Ljava/lang/Object;)Z]
+  + Methodref [android/net/wifi/WifiConfiguration.<init> ()V]
+  + Methodref [android/net/wifi/WifiInfo.getSupplicantState ()Landroid/net/wifi/SupplicantState;]
+  + Methodref [android/net/wifi/WifiManager.addNetwork (Landroid/net/wifi/WifiConfiguration;)I]
+  + Methodref [android/net/wifi/WifiManager.enableNetwork (IZ)Z]
+  + Methodref [android/net/wifi/WifiManager.getConfiguredNetworks ()Ljava/util/List;]
+  + Methodref [android/net/wifi/WifiManager.getConnectionInfo ()Landroid/net/wifi/WifiInfo;]
+  + Methodref [android/net/wifi/WifiManager.getScanResults ()Ljava/util/List;]
+  + Methodref [android/net/wifi/WifiManager.removeNetwork (I)Z]
+  + Methodref [android/net/wifi/WifiManager.saveConfiguration ()Z]
+  + Methodref [android/preference/PreferenceManager.getDefaultSharedPreferences (Landroid/content/Context;)Landroid/content/SharedPreferences;]
+  + Methodref [android/util/Log.d (Ljava/lang/String;Ljava/lang/String;)I]
+  + Methodref [android/util/Log.v (Ljava/lang/String;Ljava/lang/String;)I]
+  + Methodref [br/usp/gmarques/loginuspnet/NetworkScanReceiver.a (Landroid/net/wifi/WifiManager;)Landroid/net/wifi/ScanResult;]
+  + Methodref [br/usp/gmarques/loginuspnet/NetworkScanReceiver.a (Ljava/util/List;Landroid/net/wifi/ScanResult;)Landroid/net/wifi/WifiConfiguration;]
+  + Methodref [java/lang/Class.getName ()Ljava/lang/String;]
+  + Methodref [java/lang/String.contains (Ljava/lang/CharSequence;)Z]
+  + Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
+  + Methodref [java/lang/String.toUpperCase ()Ljava/lang/String;]
+  + Methodref [java/lang/String.valueOf (C)Ljava/lang/String;]
+  + Methodref [java/lang/StringBuilder.<init> (Ljava/lang/String;)V]
+  + Methodref [java/lang/StringBuilder.append (C)Ljava/lang/StringBuilder;]
+  + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+  + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+  + Methodref [java/lang/System.currentTimeMillis ()J]
+  + Methodref [java/util/BitSet.set (I)V]
+  + Methodref [java/util/HashSet.<init> ()V]
+  + InterfaceMethodref [android/content/SharedPreferences.getBoolean (Ljava/lang/String;Z)Z]
+  + InterfaceMethodref [java/util/Iterator.hasNext ()Z]
+  + InterfaceMethodref [java/util/Iterator.next ()Ljava/lang/Object;]
+  + InterfaceMethodref [java/util/List.isEmpty ()Z]
+  + InterfaceMethodref [java/util/List.iterator ()Ljava/util/Iterator;]
+  + InterfaceMethodref [java/util/Set.add (Ljava/lang/Object;)Z]
+  + InterfaceMethodref [java/util/Set.contains (Ljava/lang/Object;)Z]
+  + NameAndType [<init> ()V]
+  + NameAndType [<init> (Ljava/lang/String;)V]
+  + NameAndType [ASSOCIATED Landroid/net/wifi/SupplicantState;]
+  + NameAndType [ASSOCIATING Landroid/net/wifi/SupplicantState;]
+  + NameAndType [COMPLETED Landroid/net/wifi/SupplicantState;]
+  + NameAndType [FOUR_WAY_HANDSHAKE Landroid/net/wifi/SupplicantState;]
+  + NameAndType [GROUP_HANDSHAKE Landroid/net/wifi/SupplicantState;]
+  + NameAndType [SSID Ljava/lang/String;]
+  + NameAndType [a (Landroid/net/wifi/WifiManager;)Landroid/net/wifi/ScanResult;]
+  + NameAndType [a (Ljava/util/List;Landroid/net/wifi/ScanResult;)Landroid/net/wifi/WifiConfiguration;]
+  + NameAndType [a Ljava/lang/String;]
+  + NameAndType [add (Ljava/lang/Object;)Z]
+  + NameAndType [addNetwork (Landroid/net/wifi/WifiConfiguration;)I]
+  + NameAndType [allowedKeyManagement Ljava/util/BitSet;]
+  + NameAndType [append (C)Ljava/lang/StringBuilder;]
+  + NameAndType [append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+  + NameAndType [b J]
+  + NameAndType [c Landroid/content/SharedPreferences;]
+  + NameAndType [contains (Ljava/lang/CharSequence;)Z]
+  + NameAndType [contains (Ljava/lang/Object;)Z]
+  + NameAndType [currentTimeMillis ()J]
+  + NameAndType [d (Ljava/lang/String;Ljava/lang/String;)I]
+  + NameAndType [enableNetwork (IZ)Z]
+  + NameAndType [equals (Ljava/lang/Object;)Z]
+  + NameAndType [getAction ()Ljava/lang/String;]
+  + NameAndType [getBoolean (Ljava/lang/String;Z)Z]
+  + NameAndType [getConfiguredNetworks ()Ljava/util/List;]
+  + NameAndType [getConnectionInfo ()Landroid/net/wifi/WifiInfo;]
+  + NameAndType [getDefaultSharedPreferences (Landroid/content/Context;)Landroid/content/SharedPreferences;]
+  + NameAndType [getName ()Ljava/lang/String;]
+  + NameAndType [getScanResults ()Ljava/util/List;]
+  + NameAndType [getString (I)Ljava/lang/String;]
+  + NameAndType [getSupplicantState ()Landroid/net/wifi/SupplicantState;]
+  + NameAndType [getSystemService (Ljava/lang/String;)Ljava/lang/Object;]
+  + NameAndType [hasNext ()Z]
+  + NameAndType [isEmpty ()Z]
+  + NameAndType [iterator ()Ljava/util/Iterator;]
+  + NameAndType [networkId I]
+  + NameAndType [next ()Ljava/lang/Object;]
+  + NameAndType [removeNetwork (I)Z]
+  + NameAndType [saveConfiguration ()Z]
+  + NameAndType [set (I)V]
+  + NameAndType [status I]
+  + NameAndType [toString ()Ljava/lang/String;]
+  + NameAndType [toUpperCase ()Ljava/lang/String;]
+  + NameAndType [v (Ljava/lang/String;Ljava/lang/String;)I]
+  + NameAndType [valueOf (C)Ljava/lang/String;]
+  + Utf8 [()J]
+  + Utf8 [()Landroid/net/wifi/SupplicantState;]
+  + Utf8 [()Landroid/net/wifi/WifiInfo;]
+  + Utf8 [()Ljava/lang/Object;]
+  + Utf8 [()Ljava/lang/String;]
+  + Utf8 [()Ljava/util/Iterator;]
+  + Utf8 [()Ljava/util/List;]
+  + Utf8 [()V]
+  + Utf8 [()Z]
+  + Utf8 [(C)Ljava/lang/String;]
+  + Utf8 [(C)Ljava/lang/StringBuilder;]
+  + Utf8 [(I)Ljava/lang/String;]
+  + Utf8 [(I)V]
+  + Utf8 [(I)Z]
+  + Utf8 [(IZ)Z]
+  + Utf8 [(Landroid/content/Context;)Landroid/content/SharedPreferences;]
+  + Utf8 [(Landroid/content/Context;Landroid/content/Intent;)V]
+  + Utf8 [(Landroid/net/wifi/WifiConfiguration;)I]
+  + Utf8 [(Landroid/net/wifi/WifiManager;)Landroid/net/wifi/ScanResult;]
+  + Utf8 [(Ljava/lang/CharSequence;)Z]
+  + Utf8 [(Ljava/lang/Object;)Z]
+  + Utf8 [(Ljava/lang/String;)Ljava/lang/Object;]
+  + Utf8 [(Ljava/lang/String;)Ljava/lang/StringBuilder;]
+  + Utf8 [(Ljava/lang/String;)V]
+  + Utf8 [(Ljava/lang/String;Ljava/lang/String;)I]
+  + Utf8 [(Ljava/lang/String;Z)Z]
+  + Utf8 [(Ljava/util/List;Landroid/net/wifi/ScanResult;)Landroid/net/wifi/WifiConfiguration;]
+  + Utf8 [<clinit>]
+  + Utf8 [<init>]
+  + Utf8 [ASSOCIATED]
+  + Utf8 [ASSOCIATING]
+  + Utf8 [COMPLETED]
+  + Utf8 [Code]
+  + Utf8 [Events to close, ignoring.]
+  + Utf8 [FOUR_WAY_HANDSHAKE]
+  + Utf8 [GROUP_HANDSHAKE]
+  + Utf8 [I]
+  + Utf8 [J]
+  + Utf8 [Landroid/content/SharedPreferences;]
+  + Utf8 [Landroid/net/wifi/SupplicantState;]
+  + Utf8 [Ljava/lang/String;]
+  + Utf8 [Ljava/util/BitSet;]
+  + Utf8 [Not connecting because a prefered network is available OR it's already connected]
+  + Utf8 [SSID]
+  + Utf8 [Trying to connect]
+  + Utf8 [USP]
+  + Utf8 [a]
+  + Utf8 [add]
+  + Utf8 [addNetwork]
+  + Utf8 [allowedKeyManagement]
+  + Utf8 [android.net.wifi.SCAN_RESULTS]
+  + Utf8 [android/content/BroadcastReceiver]
+  + Utf8 [android/content/Context]
+  + Utf8 [android/content/Intent]
+  + Utf8 [android/content/SharedPreferences]
+  + Utf8 [android/net/wifi/ScanResult]
+  + Utf8 [android/net/wifi/SupplicantState]
+  + Utf8 [android/net/wifi/WifiConfiguration]
+  + Utf8 [android/net/wifi/WifiInfo]
+  + Utf8 [android/net/wifi/WifiManager]
+  + Utf8 [android/preference/PreferenceManager]
+  + Utf8 [android/util/Log]
+  + Utf8 [append]
+  + Utf8 [b]
+  + Utf8 [br/usp/gmarques/loginuspnet/NetworkScanReceiver]
+  + Utf8 [c]
+  + Utf8 [contains]
+  + Utf8 [currentTimeMillis]
+  + Utf8 [d]
+  + Utf8 [enableNetwork]
+  + Utf8 [equals]
+  + Utf8 [getAction]
+  + Utf8 [getBoolean]
+  + Utf8 [getConfiguredNetworks]
+  + Utf8 [getConnectionInfo]
+  + Utf8 [getDefaultSharedPreferences]
+  + Utf8 [getName]
+  + Utf8 [getScanResults]
+  + Utf8 [getString]
+  + Utf8 [getSupplicantState]
+  + Utf8 [getSystemService]
+  + Utf8 [hasNext]
+  + Utf8 [isEmpty]
+  + Utf8 [iterator]
+  + Utf8 [java/lang/Class]
+  + Utf8 [java/lang/String]
+  + Utf8 [java/lang/StringBuilder]
+  + Utf8 [java/lang/System]
+  + Utf8 [java/util/BitSet]
+  + Utf8 [java/util/HashSet]
+  + Utf8 [java/util/Iterator]
+  + Utf8 [java/util/List]
+  + Utf8 [java/util/Set]
+  + Utf8 [networkId]
+  + Utf8 [next]
+  + Utf8 [onReceive]
+  + Utf8 [removeNetwork]
+  + Utf8 [saveConfiguration]
+  + Utf8 [set]
+  + Utf8 [status]
+  + Utf8 [toString]
+  + Utf8 [toUpperCase]
+  + Utf8 [v]
+  + Utf8 [valueOf]
+  + Utf8 [wifi]
+
+Fields (count = 3):
+  + Field:        a Ljava/lang/String;
+    Access flags: 0xa
+      = private static java.lang.String a
+  + Field:        b J
+    Access flags: 0xa
+      = private static long b
+  + Field:        c Landroid/content/SharedPreferences;
+    Access flags: 0xa
+      = private static android.content.SharedPreferences c
+
+Methods (count = 5):
+  - Method:       <clinit>()V
+    Access flags: 0x8
+      = static void <clinit>()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 15, locals = 0, stack = 2):
+      [0] ldc #19
+        + Class [br/usp/gmarques/loginuspnet/NetworkScanReceiver]
+      [2] invokevirtual #65
+        + Methodref [java/lang/Class.getName ()Ljava/lang/String;]
+      [5] putstatic #43
+        + Fieldref [br/usp/gmarques/loginuspnet/NetworkScanReceiver.a Ljava/lang/String;]
+      [8] ldc2_w #29
+        + Long [-1]
+      [11] putstatic #44
+        + Fieldref [br/usp/gmarques/loginuspnet/NetworkScanReceiver.b J]
+      [14] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  - Method:       <init>()V
+    Access flags: 0x1
+      = public NetworkScanReceiver()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] invokespecial #46
+        + Methodref [android/content/BroadcastReceiver.<init> ()V]
+      [4] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onReceive(Landroid/content/Context;Landroid/content/Intent;)V
+    Access flags: 0x1
+      = public void onReceive(android.content.Context,android.content.Intent)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 534, locals = 8, stack = 4):
+      [0] invokestatic #74
+        + Methodref [java/lang/System.currentTimeMillis ()J]
+      [3] lstore_3 v3
+      [4] getstatic #44
+        + Fieldref [br/usp/gmarques/loginuspnet/NetworkScanReceiver.b J]
+      [7] ldc2_w #29
+        + Long [-1]
+      [10] lcmp
+      [11] ifeq +15 (target=26)
+      [14] lload_3 v3
+      [15] getstatic #44
+        + Fieldref [br/usp/gmarques/loginuspnet/NetworkScanReceiver.b J]
+      [18] lsub
+      [19] ldc2_w #31
+        + Long [10000]
+      [22] lcmp
+      [23] ifle +501 (target=524)
+      [26] lload_3 v3
+      [27] putstatic #44
+        + Fieldref [br/usp/gmarques/loginuspnet/NetworkScanReceiver.b J]
+      [30] aload_1 v1
+      [31] astore_3 v3
+      [32] getstatic #45
+        + Fieldref [br/usp/gmarques/loginuspnet/NetworkScanReceiver.c Landroid/content/SharedPreferences;]
+      [35] ifnonnull +10 (target=45)
+      [38] aload_3 v3
+      [39] invokestatic #60
+        + Methodref [android/preference/PreferenceManager.getDefaultSharedPreferences (Landroid/content/Context;)Landroid/content/SharedPreferences;]
+      [42] putstatic #45
+        + Fieldref [br/usp/gmarques/loginuspnet/NetworkScanReceiver.c Landroid/content/SharedPreferences;]
+      [45] getstatic #45
+        + Fieldref [br/usp/gmarques/loginuspnet/NetworkScanReceiver.c Landroid/content/SharedPreferences;]
+      [48] aload_1 v1
+      [49] ldc #1
+        + Integer [2130968585]
+      [51] invokevirtual #47
+        + Methodref [android/content/Context.getString (I)Ljava/lang/String;]
+      [54] iconst_0
+      [55] invokeinterface #77
+        + InterfaceMethodref [android/content/SharedPreferences.getBoolean (Ljava/lang/String;Z)Z]
+      [60] ifeq +473 (target=533)
+      [63] aload_1 v1
+      [64] ldc #7
+        + String [wifi]
+      [66] invokevirtual #48
+        + Methodref [android/content/Context.getSystemService (Ljava/lang/String;)Ljava/lang/Object;]
+      [69] checkcast #16
+        + Class [android/net/wifi/WifiManager]
+      [72] astore_1 v1
+      [73] aload_2 v2
+      [74] invokevirtual #49
+        + Methodref [android/content/Intent.getAction ()Ljava/lang/String;]
+      [77] ldc #6
+        + String [android.net.wifi.SCAN_RESULTS]
+      [79] invokevirtual #67
+        + Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
+      [82] ifeq +451 (target=533)
+      [85] aload_1 v1
+      [86] astore_3 v3
+      [87] iconst_0
+      [88] istore_2 v2
+      [89] aload_3 v3
+      [90] invokevirtual #56
+        + Methodref [android/net/wifi/WifiManager.getConnectionInfo ()Landroid/net/wifi/WifiInfo;]
+      [93] dup
+      [94] astore v4
+      [96] ifnull +75 (target=171)
+      [99] aload v4
+      [101] invokevirtual #52
+        + Methodref [android/net/wifi/WifiInfo.getSupplicantState ()Landroid/net/wifi/SupplicantState;]
+      [104] dup
+      [105] astore v5
+      [107] ifnull +64 (target=171)
+      [110] aload v5
+      [112] getstatic #35
+        + Fieldref [android/net/wifi/SupplicantState.ASSOCIATING Landroid/net/wifi/SupplicantState;]
+      [115] invokevirtual #50
+        + Methodref [android/net/wifi/SupplicantState.equals (Ljava/lang/Object;)Z]
+      [118] ifne +51 (target=169)
+      [121] aload v5
+      [123] getstatic #34
+        + Fieldref [android/net/wifi/SupplicantState.ASSOCIATED Landroid/net/wifi/SupplicantState;]
+      [126] invokevirtual #50
+        + Methodref [android/net/wifi/SupplicantState.equals (Ljava/lang/Object;)Z]
+      [129] ifne +40 (target=169)
+      [132] aload v5
+      [134] getstatic #36
+        + Fieldref [android/net/wifi/SupplicantState.COMPLETED Landroid/net/wifi/SupplicantState;]
+      [137] invokevirtual #50
+        + Methodref [android/net/wifi/SupplicantState.equals (Ljava/lang/Object;)Z]
+      [140] ifne +29 (target=169)
+      [143] aload v5
+      [145] getstatic #37
+        + Fieldref [android/net/wifi/SupplicantState.FOUR_WAY_HANDSHAKE Landroid/net/wifi/SupplicantState;]
+      [148] invokevirtual #50
+        + Methodref [android/net/wifi/SupplicantState.equals (Ljava/lang/Object;)Z]
+      [151] ifne +18 (target=169)
+      [154] aload v5
+      [156] getstatic #38
+        + Fieldref [android/net/wifi/SupplicantState.GROUP_HANDSHAKE Landroid/net/wifi/SupplicantState;]
+      [159] invokevirtual #50
+        + Methodref [android/net/wifi/SupplicantState.equals (Ljava/lang/Object;)Z]
+      [162] ifne +7 (target=169)
+      [165] iconst_0
+      [166] goto +4 (target=170)
+      [169] iconst_1
+      [170] istore_2 v2
+      [171] iload_2 v2
+      [172] ifne +336 (target=508)
+      [175] aload_1 v1
+      [176] astore_3 v3
+      [177] new #25
+        + Class [java/util/HashSet]
+      [180] dup
+      [181] invokespecial #76
+        + Methodref [java/util/HashSet.<init> ()V]
+      [184] astore_2 v2
+      [185] iconst_0
+      [186] istore v4
+      [188] aload_3 v3
+      [189] invokevirtual #55
+        + Methodref [android/net/wifi/WifiManager.getConfiguredNetworks ()Ljava/util/List;]
+      [192] dup
+      [193] astore v5
+      [195] ifnull +167 (target=362)
+      [198] aload v5
+      [200] invokeinterface #80
+        + InterfaceMethodref [java/util/List.isEmpty ()Z]
+      [205] ifne +157 (target=362)
+      [208] aload_3 v3
+      [209] invokevirtual #57
+        + Methodref [android/net/wifi/WifiManager.getScanResults ()Ljava/util/List;]
+      [212] dup
+      [213] astore v6
+      [215] ifnull +147 (target=362)
+      [218] aload v6
+      [220] invokeinterface #80
+        + InterfaceMethodref [java/util/List.isEmpty ()Z]
+      [225] ifne +137 (target=362)
+      [228] aload v6
+      [230] invokeinterface #81
+        + InterfaceMethodref [java/util/List.iterator ()Ljava/util/Iterator;]
+      [235] astore v7
+      [237] goto +27 (target=264)
+      [240] aload v7
+      [242] invokeinterface #79
+        + InterfaceMethodref [java/util/Iterator.next ()Ljava/lang/Object;]
+      [247] checkcast #12
+        + Class [android/net/wifi/ScanResult]
+      [250] astore v6
+      [252] aload_2 v2
+      [253] aload v6
+      [255] getfield #33
+        + Fieldref [android/net/wifi/ScanResult.SSID Ljava/lang/String;]
+      [258] invokeinterface #82
+        + InterfaceMethodref [java/util/Set.add (Ljava/lang/Object;)Z]
+      [263] pop
+      [264] aload v7
+      [266] invokeinterface #78
+        + InterfaceMethodref [java/util/Iterator.hasNext ()Z]
+      [271] ifne -31 (target=240)
+      [274] aload v5
+      [276] invokeinterface #81
+        + InterfaceMethodref [java/util/List.iterator ()Ljava/util/Iterator;]
+      [281] astore v6
+      [283] goto +64 (target=347)
+      [286] aload v6
+      [288] invokeinterface #79
+        + InterfaceMethodref [java/util/Iterator.next ()Ljava/lang/Object;]
+      [293] checkcast #14
+        + Class [android/net/wifi/WifiConfiguration]
+      [296] dup
+      [297] astore v7
+      [299] getfield #39
+        + Fieldref [android/net/wifi/WifiConfiguration.SSID Ljava/lang/String;]
+      [302] ifnonnull +16 (target=318)
+      [305] aload_3 v3
+      [306] aload v7
+      [308] getfield #41
+        + Fieldref [android/net/wifi/WifiConfiguration.networkId I]
+      [311] invokevirtual #58
+        + Methodref [android/net/wifi/WifiManager.removeNetwork (I)Z]
+      [314] pop
+      [315] goto +32 (target=347)
+      [318] aload v7
+      [320] getfield #39
+        + Fieldref [android/net/wifi/WifiConfiguration.SSID Ljava/lang/String;]
+      [323] invokevirtual #68
+        + Methodref [java/lang/String.toUpperCase ()Ljava/lang/String;]
+      [326] ldc #5
+        + String [USP]
+      [328] invokevirtual #66
+        + Methodref [java/lang/String.contains (Ljava/lang/CharSequence;)Z]
+      [331] ifne +16 (target=347)
+      [334] aload_2 v2
+      [335] aload v7
+      [337] getfield #39
+        + Fieldref [android/net/wifi/WifiConfiguration.SSID Ljava/lang/String;]
+      [340] invokeinterface #83
+        + InterfaceMethodref [java/util/Set.contains (Ljava/lang/Object;)Z]
+      [345] istore v4
+      [347] iload v4
+      [349] ifne +13 (target=362)
+      [352] aload v6
+      [354] invokeinterface #78
+        + InterfaceMethodref [java/util/Iterator.hasNext ()Z]
+      [359] ifne -73 (target=286)
+      [362] iload v4
+      [364] ifne +144 (target=508)
+      [367] aload_1 v1
+      [368] invokestatic #63
+        + Methodref [br/usp/gmarques/loginuspnet/NetworkScanReceiver.a (Landroid/net/wifi/WifiManager;)Landroid/net/wifi/ScanResult;]
+      [371] dup
+      [372] astore_2 v2
+      [373] ifnull +144 (target=517)
+      [376] aload_1 v1
+      [377] invokevirtual #55
+        + Methodref [android/net/wifi/WifiManager.getConfiguredNetworks ()Ljava/util/List;]
+      [380] aload_2 v2
+      [381] invokestatic #64
+        + Methodref [br/usp/gmarques/loginuspnet/NetworkScanReceiver.a (Ljava/util/List;Landroid/net/wifi/ScanResult;)Landroid/net/wifi/WifiConfiguration;]
+      [384] dup
+      [385] astore_3 v3
+      [386] ifnonnull +100 (target=486)
+      [389] new #14
+        + Class [android/net/wifi/WifiConfiguration]
+      [392] dup
+      [393] invokespecial #51
+        + Methodref [android/net/wifi/WifiConfiguration.<init> ()V]
+      [396] dup
+      [397] astore_3 v3
+      [398] new #22
+        + Class [java/lang/StringBuilder]
+      [401] dup
+      [402] bipush 34
+      [404] invokestatic #69
+        + Methodref [java/lang/String.valueOf (C)Ljava/lang/String;]
+      [407] invokespecial #70
+        + Methodref [java/lang/StringBuilder.<init> (Ljava/lang/String;)V]
+      [410] aload_2 v2
+      [411] getfield #33
+        + Fieldref [android/net/wifi/ScanResult.SSID Ljava/lang/String;]
+      [414] invokevirtual #72
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [417] bipush 34
+      [419] invokevirtual #71
+        + Methodref [java/lang/StringBuilder.append (C)Ljava/lang/StringBuilder;]
+      [422] invokevirtual #73
+        + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+      [425] putfield #39
+        + Fieldref [android/net/wifi/WifiConfiguration.SSID Ljava/lang/String;]
+      [428] aload_3 v3
+      [429] getfield #40
+        + Fieldref [android/net/wifi/WifiConfiguration.allowedKeyManagement Ljava/util/BitSet;]
+      [432] iconst_0
+      [433] invokevirtual #75
+        + Methodref [java/util/BitSet.set (I)V]
+      [436] aload_3 v3
+      [437] iconst_2
+      [438] putfield #42
+        + Fieldref [android/net/wifi/WifiConfiguration.status I]
+      [441] aload_3 v3
+      [442] aload_1 v1
+      [443] aload_3 v3
+      [444] invokevirtual #53
+        + Methodref [android/net/wifi/WifiManager.addNetwork (Landroid/net/wifi/WifiConfiguration;)I]
+      [447] putfield #41
+        + Fieldref [android/net/wifi/WifiConfiguration.networkId I]
+      [450] aload_1 v1
+      [451] invokevirtual #59
+        + Methodref [android/net/wifi/WifiManager.saveConfiguration ()Z]
+      [454] pop
+      [455] aload_3 v3
+      [456] new #22
+        + Class [java/lang/StringBuilder]
+      [459] dup
+      [460] bipush 34
+      [462] invokestatic #69
+        + Methodref [java/lang/String.valueOf (C)Ljava/lang/String;]
+      [465] invokespecial #70
+        + Methodref [java/lang/StringBuilder.<init> (Ljava/lang/String;)V]
+      [468] aload_2 v2
+      [469] getfield #33
+        + Fieldref [android/net/wifi/ScanResult.SSID Ljava/lang/String;]
+      [472] invokevirtual #72
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [475] bipush 34
+      [477] invokevirtual #71
+        + Methodref [java/lang/StringBuilder.append (C)Ljava/lang/StringBuilder;]
+      [480] invokevirtual #73
+        + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+      [483] putfield #39
+        + Fieldref [android/net/wifi/WifiConfiguration.SSID Ljava/lang/String;]
+      [486] aload_1 v1
+      [487] aload_3 v3
+      [488] getfield #41
+        + Fieldref [android/net/wifi/WifiConfiguration.networkId I]
+      [491] iconst_1
+      [492] invokevirtual #54
+        + Methodref [android/net/wifi/WifiManager.enableNetwork (IZ)Z]
+      [495] pop
+      [496] getstatic #43
+        + Fieldref [br/usp/gmarques/loginuspnet/NetworkScanReceiver.a Ljava/lang/String;]
+      [499] ldc #4
+        + String [Trying to connect]
+      [501] invokestatic #61
+        + Methodref [android/util/Log.d (Ljava/lang/String;Ljava/lang/String;)I]
+      [504] pop
+      [505] goto +12 (target=517)
+      [508] getstatic #43
+        + Fieldref [br/usp/gmarques/loginuspnet/NetworkScanReceiver.a Ljava/lang/String;]
+      [511] ldc #3
+        + String [Not connecting because a prefered network is available OR it's already connected]
+      [513] invokestatic #61
+        + Methodref [android/util/Log.d (Ljava/lang/String;Ljava/lang/String;)I]
+      [516] pop
+      [517] invokestatic #74
+        + Methodref [java/lang/System.currentTimeMillis ()J]
+      [520] putstatic #44
+        + Fieldref [br/usp/gmarques/loginuspnet/NetworkScanReceiver.b J]
+      [523] return
+      [524] getstatic #43
+        + Fieldref [br/usp/gmarques/loginuspnet/NetworkScanReceiver.a Ljava/lang/String;]
+      [527] ldc #2
+        + String [Events to close, ignoring.]
+      [529] invokestatic #62
+        + Methodref [android/util/Log.v (Ljava/lang/String;Ljava/lang/String;)I]
+      [532] pop
+      [533] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       a(Ljava/util/List;Landroid/net/wifi/ScanResult;)Landroid/net/wifi/WifiConfiguration;
+    Access flags: 0xa
+      = private static android.net.wifi.WifiConfiguration a(java.util.List,android.net.wifi.ScanResult)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 64, locals = 4, stack = 2):
+      [0] iconst_0
+      [1] istore_2 v2
+      [2] aconst_null
+      [3] astore_3 v3
+      [4] aload_0 v0
+      [5] invokeinterface #81
+        + InterfaceMethodref [java/util/List.iterator ()Ljava/util/Iterator;]
+      [10] astore_0 v0
+      [11] goto +32 (target=43)
+      [14] aload_0 v0
+      [15] invokeinterface #79
+        + InterfaceMethodref [java/util/Iterator.next ()Ljava/lang/Object;]
+      [20] checkcast #14
+        + Class [android/net/wifi/WifiConfiguration]
+      [23] dup
+      [24] astore_3 v3
+      [25] getfield #39
+        + Fieldref [android/net/wifi/WifiConfiguration.SSID Ljava/lang/String;]
+      [28] ifnull +15 (target=43)
+      [31] aload_3 v3
+      [32] getfield #39
+        + Fieldref [android/net/wifi/WifiConfiguration.SSID Ljava/lang/String;]
+      [35] aload_1 v1
+      [36] getfield #33
+        + Fieldref [android/net/wifi/ScanResult.SSID Ljava/lang/String;]
+      [39] invokevirtual #67
+        + Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
+      [42] istore_2 v2
+      [43] iload_2 v2
+      [44] ifne +12 (target=56)
+      [47] aload_0 v0
+      [48] invokeinterface #78
+        + InterfaceMethodref [java/util/Iterator.hasNext ()Z]
+      [53] ifne -39 (target=14)
+      [56] iload_2 v2
+      [57] ifne +5 (target=62)
+      [60] aconst_null
+      [61] astore_3 v3
+      [62] aload_3 v3
+      [63] areturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       a(Landroid/net/wifi/WifiManager;)Landroid/net/wifi/ScanResult;
+    Access flags: 0xa
+      = private static android.net.wifi.ScanResult a(android.net.wifi.WifiManager)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 67, locals = 3, stack = 2):
+      [0] aconst_null
+      [1] astore_1 v1
+      [2] iconst_0
+      [3] istore_2 v2
+      [4] aload_0 v0
+      [5] invokevirtual #57
+        + Methodref [android/net/wifi/WifiManager.getScanResults ()Ljava/util/List;]
+      [8] dup
+      [9] astore_0 v0
+      [10] ifnull +55 (target=65)
+      [13] aload_0 v0
+      [14] invokeinterface #81
+        + InterfaceMethodref [java/util/List.iterator ()Ljava/util/Iterator;]
+      [19] astore_0 v0
+      [20] goto +26 (target=46)
+      [23] aload_0 v0
+      [24] invokeinterface #79
+        + InterfaceMethodref [java/util/Iterator.next ()Ljava/lang/Object;]
+      [29] checkcast #12
+        + Class [android/net/wifi/ScanResult]
+      [32] dup
+      [33] astore_1 v1
+      [34] getfield #33
+        + Fieldref [android/net/wifi/ScanResult.SSID Ljava/lang/String;]
+      [37] invokevirtual #68
+        + Methodref [java/lang/String.toUpperCase ()Ljava/lang/String;]
+      [40] ldc #5
+        + String [USP]
+      [42] invokevirtual #66
+        + Methodref [java/lang/String.contains (Ljava/lang/CharSequence;)Z]
+      [45] istore_2 v2
+      [46] iload_2 v2
+      [47] ifne +12 (target=59)
+      [50] aload_0 v0
+      [51] invokeinterface #78
+        + InterfaceMethodref [java/util/Iterator.hasNext ()Z]
+      [56] ifne -33 (target=23)
+      [59] iload_2 v2
+      [60] ifne +5 (target=65)
+      [63] aconst_null
+      [64] astore_1 v1
+      [65] aload_1 v1
+      [66] areturn
       Code attribute exceptions (count = 0):
       Code attribute attributes (attribute count = 0):
 
@@ -264,153 +986,812 @@ _____________________________________________________________________
 
 Interfaces (count = 0):
 
-Constant Pool (count = 238):
-  - Integer [2130968583]
-  - Integer [2130968584]
-  - String []
-  - String [ ]
-  - String [0]
-  - String [4]
-  - String [Action: ]
-  - String [ClientProtocolException: ]
-  - String [Conectado]
-  - String [ICMC]
-  - String [IOException: ]
-  - String [LoginUSPNet]
-  - String [Rede ICMC detectada.]
-  - String [UTF-8]
-  - String [android.net.wifi.STATE_CHANGE]
-  - String [buttonClicked]
-  - String [err_flag]
-  - String [err_msg]
-  - String [https://1.1.1.1/login.html?redirect=https://www.google.com]
-  - String [https://www.google.com]
-  - String [info_flag]
-  - String [info_msg]
-  - String [networkInfo]
-  - String [password]
-  - String [redirect_url]
-  - String [username]
-  - String [wifi]
-  - Class [android/content/BroadcastReceiver]
-  - Class [android/content/Context]
-  - Class [android/content/Intent]
-  - Class [android/content/SharedPreferences]
-  - Class [android/net/NetworkInfo]
-  - Class [android/net/NetworkInfo$DetailedState]
-  - Class [android/net/wifi/WifiInfo]
-  - Class [android/net/wifi/WifiManager]
-  - Class [android/preference/PreferenceManager]
-  - Class [android/util/Log]
-  - Class [br/usp/gmarques/loginuspnet/WifiChangeReceiver]
-  - Class [br/usp/gmarques/loginuspnet/a/b]
-  - Class [java/io/BufferedReader]
-  - Class [java/io/IOException]
-  - Class [java/io/InputStreamReader]
-  - Class [java/lang/String]
-  - Class [java/lang/StringBuilder]
-  - Class [java/util/ArrayList]
-  - Class [java/util/List]
-  - Class [org/apache/http/HttpEntity]
-  - Class [org/apache/http/HttpResponse]
-  - Class [org/apache/http/client/ClientProtocolException]
-  - Class [org/apache/http/client/HttpClient]
-  - Class [org/apache/http/client/entity/UrlEncodedFormEntity]
-  - Class [org/apache/http/client/methods/HttpPost]
-  - Class [org/apache/http/message/BasicNameValuePair]
-  - Class [org/xml/sax/InputSource]
-  - Fieldref [android/net/NetworkInfo$DetailedState.CONNECTED Landroid/net/NetworkInfo$DetailedState;]
-  - Methodref [android/content/BroadcastReceiver.<init> ()V]
-  - Methodref [android/content/Context.getString (I)Ljava/lang/String;]
-  - Methodref [android/content/Context.getSystemService (Ljava/lang/String;)Ljava/lang/Object;]
-  - Methodref [android/content/Intent.getAction ()Ljava/lang/String;]
-  - Methodref [android/content/Intent.getParcelableExtra (Ljava/lang/String;)Landroid/os/Parcelable;]
-  - Methodref [android/net/NetworkInfo.getDetailedState ()Landroid/net/NetworkInfo$DetailedState;]
-  - Methodref [android/net/wifi/WifiInfo.getSSID ()Ljava/lang/String;]
-  - Methodref [android/net/wifi/WifiManager.getConnectionInfo ()Landroid/net/wifi/WifiInfo;]
-  - Methodref [android/preference/PreferenceManager.getDefaultSharedPreferences (Landroid/content/Context;)Landroid/content/SharedPreferences;]
-  - Methodref [android/util/Log.d (Ljava/lang/String;Ljava/lang/String;)I]
-  - Methodref [android/util/Log.e (Ljava/lang/String;Ljava/lang/String;)I]
-  - Methodref [android/util/Log.getStackTraceString (Ljava/lang/Throwable;)Ljava/lang/String;]
-  - Methodref [android/util/Log.v (Ljava/lang/String;Ljava/lang/String;)I]
-  - Methodref [br/usp/gmarques/loginuspnet/WifiChangeReceiver.a (Ljava/lang/String;Ljava/util/List;)V]
-  - Methodref [br/usp/gmarques/loginuspnet/a/b.a ()Lorg/apache/http/client/HttpClient;]
-  - Methodref [java/io/BufferedReader.<init> (Ljava/io/Reader;)V]
-  - Methodref [java/io/BufferedReader.readLine ()Ljava/lang/String;]
-  - Methodref [java/io/IOException.getMessage ()Ljava/lang/String;]
-  - Methodref [java/io/InputStreamReader.<init> (Ljava/io/InputStream;)V]
-  - Methodref [java/lang/String.contains (Ljava/lang/CharSequence;)Z]
-  - Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
-  - Methodref [java/lang/String.toUpperCase ()Ljava/lang/String;]
-  - Methodref [java/lang/StringBuilder.<init> (Ljava/lang/String;)V]
-  - Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-  - Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
-  - Methodref [java/util/ArrayList.<init> ()V]
-  - Methodref [org/apache/http/client/ClientProtocolException.getMessage ()Ljava/lang/String;]
-  - Methodref [org/apache/http/client/entity/UrlEncodedFormEntity.<init> (Ljava/util/List;Ljava/lang/String;)V]
-  - Methodref [org/apache/http/client/methods/HttpPost.<init> (Ljava/lang/String;)V]
-  - Methodref [org/apache/http/client/methods/HttpPost.setEntity (Lorg/apache/http/HttpEntity;)V]
-  - Methodref [org/apache/http/message/BasicNameValuePair.<init> (Ljava/lang/String;Ljava/lang/String;)V]
-  - Methodref [org/xml/sax/InputSource.<init> (Ljava/io/InputStream;)V]
-  - Methodref [org/xml/sax/InputSource.getByteStream ()Ljava/io/InputStream;]
-  - InterfaceMethodref [android/content/SharedPreferences.getString (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;]
-  - InterfaceMethodref [java/util/List.add (Ljava/lang/Object;)Z]
-  - InterfaceMethodref [org/apache/http/HttpEntity.getContent ()Ljava/io/InputStream;]
-  - InterfaceMethodref [org/apache/http/HttpResponse.getEntity ()Lorg/apache/http/HttpEntity;]
-  - InterfaceMethodref [org/apache/http/client/HttpClient.execute (Lorg/apache/http/client/methods/HttpUriRequest;)Lorg/apache/http/HttpResponse;]
+Constant Pool (count = 260):
+  + Integer [65536]
+  + String []
+  + String [ACTION="]
+  + String [Action: ]
+  + String [Conectado]
+  + String [ICMC]
+  + String [IOExceptionNet]
+  + String [LoginUSPNet]
+  + String [MalformedURLException]
+  + String [Message: ]
+  + String [Rede ICMC detectada.]
+  + String [Rede USPNet detectada.]
+  + String [SocketTimeoutException]
+  + String [USP]
+  + String [UTF-8]
+  + String [android.net.wifi.STATE_CHANGE]
+  + String [http://www.usp.br]
+  + String [networkInfo]
+  + String [wifi]
+  + Class [android/content/BroadcastReceiver]
+  + Class [android/content/Context]
+  + Class [android/content/Intent]
+  + Class [android/net/NetworkInfo]
+  + Class [android/net/NetworkInfo$DetailedState]
+  + Class [android/net/wifi/WifiInfo]
+  + Class [android/net/wifi/WifiManager]
+  + Class [android/util/Log]
+  + Class [br/usp/gmarques/loginuspnet/WifiChangeReceiver]
+  + Class [br/usp/gmarques/loginuspnet/a]
+  + Class [br/usp/gmarques/loginuspnet/a/c]
+  + Class [java/io/BufferedReader]
+  + Class [java/io/IOException]
+  + Class [java/io/InputStreamReader]
+  + Class [java/io/Reader]
+  + Class [java/lang/String]
+  + Class [java/lang/StringBuilder]
+  + Class [java/net/MalformedURLException]
+  + Class [java/net/SocketTimeoutException]
+  + Class [java/net/URL]
+  + Class [java/net/URLConnection]
+  + Class [org/apache/http/HttpEntity]
+  + Class [org/apache/http/HttpResponse]
+  + Class [org/apache/http/client/HttpClient]
+  + Class [org/apache/http/client/entity/UrlEncodedFormEntity]
+  + Class [org/apache/http/client/methods/HttpPost]
+  + Class [org/xml/sax/InputSource]
+  + Fieldref [android/net/NetworkInfo$DetailedState.CONNECTED Landroid/net/NetworkInfo$DetailedState;]
+  + Fieldref [br/usp/gmarques/loginuspnet/WifiChangeReceiver.a Landroid/content/Context;]
+  + Methodref [android/content/BroadcastReceiver.<init> ()V]
+  + Methodref [android/content/Context.getSystemService (Ljava/lang/String;)Ljava/lang/Object;]
+  + Methodref [android/content/Intent.getAction ()Ljava/lang/String;]
+  + Methodref [android/content/Intent.getParcelableExtra (Ljava/lang/String;)Landroid/os/Parcelable;]
+  + Methodref [android/net/NetworkInfo.getDetailedState ()Landroid/net/NetworkInfo$DetailedState;]
+  + Methodref [android/net/wifi/WifiInfo.getSSID ()Ljava/lang/String;]
+  + Methodref [android/net/wifi/WifiManager.getConnectionInfo ()Landroid/net/wifi/WifiInfo;]
+  + Methodref [android/util/Log.d (Ljava/lang/String;Ljava/lang/String;)I]
+  + Methodref [android/util/Log.e (Ljava/lang/String;Ljava/lang/String;)I]
+  + Methodref [android/util/Log.v (Ljava/lang/String;Ljava/lang/String;)I]
+  + Methodref [br/usp/gmarques/loginuspnet/WifiChangeReceiver.b ()Ljava/lang/String;]
+  + Methodref [br/usp/gmarques/loginuspnet/a.<init> (Lbr/usp/gmarques/loginuspnet/WifiChangeReceiver;B)V]
+  + Methodref [br/usp/gmarques/loginuspnet/a.execute ([Ljava/lang/Object;)Landroid/os/AsyncTask;]
+  + Methodref [br/usp/gmarques/loginuspnet/a/c.a ()Lorg/apache/http/client/HttpClient;]
+  + Methodref [java/io/BufferedReader.<init> (Ljava/io/Reader;)V]
+  + Methodref [java/io/BufferedReader.readLine ()Ljava/lang/String;]
+  + Methodref [java/io/IOException.getMessage ()Ljava/lang/String;]
+  + Methodref [java/io/InputStreamReader.<init> (Ljava/io/InputStream;)V]
+  + Methodref [java/io/InputStreamReader.<init> (Ljava/io/InputStream;Ljava/lang/String;)V]
+  + Methodref [java/io/Reader.read ([CII)I]
+  + Methodref [java/lang/String.charAt (I)C]
+  + Methodref [java/lang/String.contains (Ljava/lang/CharSequence;)Z]
+  + Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
+  + Methodref [java/lang/String.lastIndexOf (Ljava/lang/String;)I]
+  + Methodref [java/lang/String.length ()I]
+  + Methodref [java/lang/String.toUpperCase ()Ljava/lang/String;]
+  + Methodref [java/lang/String.valueOf (Ljava/lang/Object;)Ljava/lang/String;]
+  + Methodref [java/lang/StringBuilder.<init> ()V]
+  + Methodref [java/lang/StringBuilder.<init> (Ljava/lang/String;)V]
+  + Methodref [java/lang/StringBuilder.append (C)Ljava/lang/StringBuilder;]
+  + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+  + Methodref [java/lang/StringBuilder.append ([CII)Ljava/lang/StringBuilder;]
+  + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+  + Methodref [java/net/MalformedURLException.getMessage ()Ljava/lang/String;]
+  + Methodref [java/net/SocketTimeoutException.getMessage ()Ljava/lang/String;]
+  + Methodref [java/net/URL.<init> (Ljava/lang/String;)V]
+  + Methodref [java/net/URL.openConnection ()Ljava/net/URLConnection;]
+  + Methodref [java/net/URLConnection.connect ()V]
+  + Methodref [java/net/URLConnection.getInputStream ()Ljava/io/InputStream;]
+  + Methodref [java/net/URLConnection.setConnectTimeout (I)V]
+  + Methodref [java/net/URLConnection.setReadTimeout (I)V]
+  + Methodref [org/apache/http/client/entity/UrlEncodedFormEntity.<init> (Ljava/util/List;Ljava/lang/String;)V]
+  + Methodref [org/apache/http/client/methods/HttpPost.<init> (Ljava/lang/String;)V]
+  + Methodref [org/apache/http/client/methods/HttpPost.setEntity (Lorg/apache/http/HttpEntity;)V]
+  + Methodref [org/xml/sax/InputSource.<init> (Ljava/io/InputStream;)V]
+  + Methodref [org/xml/sax/InputSource.getByteStream ()Ljava/io/InputStream;]
+  + InterfaceMethodref [org/apache/http/HttpEntity.getContent ()Ljava/io/InputStream;]
+  + InterfaceMethodref [org/apache/http/HttpResponse.getEntity ()Lorg/apache/http/HttpEntity;]
+  + InterfaceMethodref [org/apache/http/client/HttpClient.execute (Lorg/apache/http/client/methods/HttpUriRequest;)Lorg/apache/http/HttpResponse;]
   + NameAndType [<init> ()V]
+  + NameAndType [<init> (Lbr/usp/gmarques/loginuspnet/WifiChangeReceiver;B)V]
   + NameAndType [<init> (Ljava/io/InputStream;)V]
+  + NameAndType [<init> (Ljava/io/InputStream;Ljava/lang/String;)V]
   + NameAndType [<init> (Ljava/io/Reader;)V]
   + NameAndType [<init> (Ljava/lang/String;)V]
-  + NameAndType [<init> (Ljava/lang/String;Ljava/lang/String;)V]
   + NameAndType [<init> (Ljava/util/List;Ljava/lang/String;)V]
   + NameAndType [CONNECTED Landroid/net/NetworkInfo$DetailedState;]
   + NameAndType [a ()Lorg/apache/http/client/HttpClient;]
-  + NameAndType [a (Ljava/lang/String;Ljava/util/List;)V]
-  + NameAndType [add (Ljava/lang/Object;)Z]
+  + NameAndType [a Landroid/content/Context;]
+  + NameAndType [append (C)Ljava/lang/StringBuilder;]
   + NameAndType [append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+  + NameAndType [append ([CII)Ljava/lang/StringBuilder;]
+  + NameAndType [b ()Ljava/lang/String;]
+  + NameAndType [charAt (I)C]
+  + NameAndType [connect ()V]
   + NameAndType [contains (Ljava/lang/CharSequence;)Z]
   + NameAndType [d (Ljava/lang/String;Ljava/lang/String;)I]
   + NameAndType [e (Ljava/lang/String;Ljava/lang/String;)I]
   + NameAndType [equals (Ljava/lang/Object;)Z]
   + NameAndType [execute (Lorg/apache/http/client/methods/HttpUriRequest;)Lorg/apache/http/HttpResponse;]
+  + NameAndType [execute ([Ljava/lang/Object;)Landroid/os/AsyncTask;]
   + NameAndType [getAction ()Ljava/lang/String;]
   + NameAndType [getByteStream ()Ljava/io/InputStream;]
   + NameAndType [getConnectionInfo ()Landroid/net/wifi/WifiInfo;]
   + NameAndType [getContent ()Ljava/io/InputStream;]
-  + NameAndType [getDefaultSharedPreferences (Landroid/content/Context;)Landroid/content/SharedPreferences;]
   + NameAndType [getDetailedState ()Landroid/net/NetworkInfo$DetailedState;]
   + NameAndType [getEntity ()Lorg/apache/http/HttpEntity;]
+  + NameAndType [getInputStream ()Ljava/io/InputStream;]
   + NameAndType [getMessage ()Ljava/lang/String;]
   + NameAndType [getParcelableExtra (Ljava/lang/String;)Landroid/os/Parcelable;]
   + NameAndType [getSSID ()Ljava/lang/String;]
-  + NameAndType [getStackTraceString (Ljava/lang/Throwable;)Ljava/lang/String;]
-  + NameAndType [getString (I)Ljava/lang/String;]
-  + NameAndType [getString (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;]
   + NameAndType [getSystemService (Ljava/lang/String;)Ljava/lang/Object;]
+  + NameAndType [lastIndexOf (Ljava/lang/String;)I]
+  + NameAndType [length ()I]
+  + NameAndType [openConnection ()Ljava/net/URLConnection;]
+  + NameAndType [read ([CII)I]
   + NameAndType [readLine ()Ljava/lang/String;]
+  + NameAndType [setConnectTimeout (I)V]
   + NameAndType [setEntity (Lorg/apache/http/HttpEntity;)V]
+  + NameAndType [setReadTimeout (I)V]
   + NameAndType [toString ()Ljava/lang/String;]
   + NameAndType [toUpperCase ()Ljava/lang/String;]
   + NameAndType [v (Ljava/lang/String;Ljava/lang/String;)I]
+  + NameAndType [valueOf (Ljava/lang/Object;)Ljava/lang/String;]
   + Utf8 []
-  + Utf8 [ ]
+  + Utf8 [()I]
   + Utf8 [()Landroid/net/NetworkInfo$DetailedState;]
   + Utf8 [()Landroid/net/wifi/WifiInfo;]
   + Utf8 [()Ljava/io/InputStream;]
   + Utf8 [()Ljava/lang/String;]
+  + Utf8 [()Ljava/net/URLConnection;]
   + Utf8 [()Lorg/apache/http/HttpEntity;]
   + Utf8 [()Lorg/apache/http/client/HttpClient;]
   + Utf8 [()V]
-  + Utf8 [(I)Ljava/lang/String;]
-  + Utf8 [(Landroid/content/Context;)Landroid/content/SharedPreferences;]
+  + Utf8 [(C)Ljava/lang/StringBuilder;]
+  + Utf8 [(I)C]
+  + Utf8 [(I)V]
   + Utf8 [(Landroid/content/Context;Landroid/content/Intent;)V]
+  + Utf8 [(Lbr/usp/gmarques/loginuspnet/WifiChangeReceiver;B)V]
   + Utf8 [(Ljava/io/InputStream;)V]
+  + Utf8 [(Ljava/io/InputStream;Ljava/lang/String;)V]
   + Utf8 [(Ljava/io/Reader;)V]
   + Utf8 [(Ljava/lang/CharSequence;)Z]
+  + Utf8 [(Ljava/lang/Object;)Ljava/lang/String;]
   + Utf8 [(Ljava/lang/Object;)Z]
+  + Utf8 [(Ljava/lang/String;)I]
   + Utf8 [(Ljava/lang/String;)Landroid/os/Parcelable;]
   + Utf8 [(Ljava/lang/String;)Ljava/lang/Object;]
+  + Utf8 [(Ljava/lang/String;)Ljava/lang/StringBuilder;]
+  + Utf8 [(Ljava/lang/String;)V]
+  + Utf8 [(Ljava/lang/String;Ljava/lang/String;)I]
+  + Utf8 [(Ljava/lang/String;Ljava/util/List;)V]
+  + Utf8 [(Ljava/util/List;Ljava/lang/String;)V]
+  + Utf8 [(Lorg/apache/http/HttpEntity;)V]
+  + Utf8 [(Lorg/apache/http/client/methods/HttpUriRequest;)Lorg/apache/http/HttpResponse;]
+  + Utf8 [([CII)I]
+  + Utf8 [([CII)Ljava/lang/StringBuilder;]
+  + Utf8 [([Ljava/lang/Object;)Landroid/os/AsyncTask;]
+  + Utf8 [<init>]
+  + Utf8 [ACTION="]
+  + Utf8 [Action: ]
+  + Utf8 [CONNECTED]
+  + Utf8 [Code]
+  + Utf8 [Conectado]
+  + Utf8 [ICMC]
+  + Utf8 [IOExceptionNet]
+  + Utf8 [Landroid/content/Context;]
+  + Utf8 [Landroid/net/NetworkInfo$DetailedState;]
+  + Utf8 [LoginUSPNet]
+  + Utf8 [MalformedURLException]
+  + Utf8 [Message: ]
+  + Utf8 [Rede ICMC detectada.]
+  + Utf8 [Rede USPNet detectada.]
+  + Utf8 [SocketTimeoutException]
+  + Utf8 [USP]
+  + Utf8 [UTF-8]
+  + Utf8 [a]
+  + Utf8 [android.net.wifi.STATE_CHANGE]
+  + Utf8 [android/content/BroadcastReceiver]
+  + Utf8 [android/content/Context]
+  + Utf8 [android/content/Intent]
+  + Utf8 [android/net/NetworkInfo]
+  + Utf8 [android/net/NetworkInfo$DetailedState]
+  + Utf8 [android/net/wifi/WifiInfo]
+  + Utf8 [android/net/wifi/WifiManager]
+  + Utf8 [android/util/Log]
+  + Utf8 [append]
+  + Utf8 [b]
+  + Utf8 [br/usp/gmarques/loginuspnet/WifiChangeReceiver]
+  + Utf8 [br/usp/gmarques/loginuspnet/a]
+  + Utf8 [br/usp/gmarques/loginuspnet/a/c]
+  + Utf8 [charAt]
+  + Utf8 [connect]
+  + Utf8 [contains]
+  + Utf8 [d]
+  + Utf8 [e]
+  + Utf8 [equals]
+  + Utf8 [execute]
+  + Utf8 [getAction]
+  + Utf8 [getByteStream]
+  + Utf8 [getConnectionInfo]
+  + Utf8 [getContent]
+  + Utf8 [getDetailedState]
+  + Utf8 [getEntity]
+  + Utf8 [getInputStream]
+  + Utf8 [getMessage]
+  + Utf8 [getParcelableExtra]
+  + Utf8 [getSSID]
+  + Utf8 [getSystemService]
+  + Utf8 [http://www.usp.br]
+  + Utf8 [java/io/BufferedReader]
+  + Utf8 [java/io/IOException]
+  + Utf8 [java/io/InputStreamReader]
+  + Utf8 [java/io/Reader]
+  + Utf8 [java/lang/String]
+  + Utf8 [java/lang/StringBuilder]
+  + Utf8 [java/net/MalformedURLException]
+  + Utf8 [java/net/SocketTimeoutException]
+  + Utf8 [java/net/URL]
+  + Utf8 [java/net/URLConnection]
+  + Utf8 [lastIndexOf]
+  + Utf8 [length]
+  + Utf8 [networkInfo]
+  + Utf8 [onReceive]
+  + Utf8 [openConnection]
+  + Utf8 [org/apache/http/HttpEntity]
+  + Utf8 [org/apache/http/HttpResponse]
+  + Utf8 [org/apache/http/client/HttpClient]
+  + Utf8 [org/apache/http/client/entity/UrlEncodedFormEntity]
+  + Utf8 [org/apache/http/client/methods/HttpPost]
+  + Utf8 [org/xml/sax/InputSource]
+  + Utf8 [read]
+  + Utf8 [readLine]
+  + Utf8 [setConnectTimeout]
+  + Utf8 [setEntity]
+  + Utf8 [setReadTimeout]
+  + Utf8 [toString]
+  + Utf8 [toUpperCase]
+  + Utf8 [v]
+  + Utf8 [valueOf]
+  + Utf8 [wifi]
+
+Fields (count = 1):
+  + Field:        a Landroid/content/Context;
+    Access flags: 0x0
+      = android.content.Context a
+
+Methods (count = 5):
+  - Method:       <init>()V
+    Access flags: 0x1
+      = public WifiChangeReceiver()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 10, locals = 1, stack = 2):
+      [0] aload_0 v0
+      [1] invokespecial #49
+        + Methodref [android/content/BroadcastReceiver.<init> ()V]
+      [4] aload_0 v0
+      [5] aconst_null
+      [6] putfield #48
+        + Fieldref [br/usp/gmarques/loginuspnet/WifiChangeReceiver.a Landroid/content/Context;]
+      [9] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onReceive(Landroid/content/Context;Landroid/content/Intent;)V
+    Access flags: 0x1
+      = public void onReceive(android.content.Context,android.content.Intent)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 172, locals = 4, stack = 5):
+      [0] aload_2 v2
+      [1] invokevirtual #51
+        + Methodref [android/content/Intent.getAction ()Ljava/lang/String;]
+      [4] astore_3 v3
+      [5] aload_0 v0
+      [6] aload_1 v1
+      [7] putfield #48
+        + Fieldref [br/usp/gmarques/loginuspnet/WifiChangeReceiver.a Landroid/content/Context;]
+      [10] ldc #8
+        + String [LoginUSPNet]
+      [12] new #36
+        + Class [java/lang/StringBuilder]
+      [15] dup
+      [16] ldc #4
+        + String [Action: ]
+      [18] invokespecial #77
+        + Methodref [java/lang/StringBuilder.<init> (Ljava/lang/String;)V]
+      [21] aload_3 v3
+      [22] invokevirtual #79
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [25] invokevirtual #81
+        + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+      [28] invokestatic #58
+        + Methodref [android/util/Log.v (Ljava/lang/String;Ljava/lang/String;)I]
+      [31] pop
+      [32] aload_3 v3
+      [33] ldc #16
+        + String [android.net.wifi.STATE_CHANGE]
+      [35] invokevirtual #71
+        + Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
+      [38] ifeq +133 (target=171)
+      [41] aload_2 v2
+      [42] ldc #18
+        + String [networkInfo]
+      [44] invokevirtual #52
+        + Methodref [android/content/Intent.getParcelableExtra (Ljava/lang/String;)Landroid/os/Parcelable;]
+      [47] checkcast #23
+        + Class [android/net/NetworkInfo]
+      [50] invokevirtual #53
+        + Methodref [android/net/NetworkInfo.getDetailedState ()Landroid/net/NetworkInfo$DetailedState;]
+      [53] getstatic #47
+        + Fieldref [android/net/NetworkInfo$DetailedState.CONNECTED Landroid/net/NetworkInfo$DetailedState;]
+      [56] ifacmpne +115 (target=171)
+      [59] ldc #8
+        + String [LoginUSPNet]
+      [61] ldc #5
+        + String [Conectado]
+      [63] invokestatic #58
+        + Methodref [android/util/Log.v (Ljava/lang/String;Ljava/lang/String;)I]
+      [66] pop
+      [67] aload_1 v1
+      [68] ldc #19
+        + String [wifi]
+      [70] invokevirtual #50
+        + Methodref [android/content/Context.getSystemService (Ljava/lang/String;)Ljava/lang/Object;]
+      [73] checkcast #26
+        + Class [android/net/wifi/WifiManager]
+      [76] invokevirtual #55
+        + Methodref [android/net/wifi/WifiManager.getConnectionInfo ()Landroid/net/wifi/WifiInfo;]
+      [79] dup
+      [80] astore_1 v1
+      [81] invokevirtual #54
+        + Methodref [android/net/wifi/WifiInfo.getSSID ()Ljava/lang/String;]
+      [84] invokevirtual #74
+        + Methodref [java/lang/String.toUpperCase ()Ljava/lang/String;]
+      [87] ldc #14
+        + String [USP]
+      [89] invokevirtual #70
+        + Methodref [java/lang/String.contains (Ljava/lang/CharSequence;)Z]
+      [92] ifeq +34 (target=126)
+      [95] ldc #8
+        + String [LoginUSPNet]
+      [97] ldc #12
+        + String [Rede USPNet detectada.]
+      [99] invokestatic #56
+        + Methodref [android/util/Log.d (Ljava/lang/String;Ljava/lang/String;)I]
+      [102] pop
+      [103] new #29
+        + Class [br/usp/gmarques/loginuspnet/a]
+      [106] dup
+      [107] aload_0 v0
+      [108] iconst_0
+      [109] invokespecial #60
+        + Methodref [br/usp/gmarques/loginuspnet/a.<init> (Lbr/usp/gmarques/loginuspnet/WifiChangeReceiver;B)V]
+      [112] iconst_1
+      [113] anewarray #35
+        + Class [java/lang/String]
+      [116] dup
+      [117] iconst_0
+      [118] ldc #14
+        + String [USP]
+      [120] aastore
+      [121] invokevirtual #61
+        + Methodref [br/usp/gmarques/loginuspnet/a.execute ([Ljava/lang/Object;)Landroid/os/AsyncTask;]
+      [124] pop
+      [125] return
+      [126] aload_1 v1
+      [127] invokevirtual #54
+        + Methodref [android/net/wifi/WifiInfo.getSSID ()Ljava/lang/String;]
+      [130] invokevirtual #74
+        + Methodref [java/lang/String.toUpperCase ()Ljava/lang/String;]
+      [133] ldc #6
+        + String [ICMC]
+      [135] invokevirtual #70
+        + Methodref [java/lang/String.contains (Ljava/lang/CharSequence;)Z]
+      [138] ifeq +33 (target=171)
+      [141] ldc #8
+        + String [LoginUSPNet]
+      [143] ldc #11
+        + String [Rede ICMC detectada.]
+      [145] invokestatic #56
+        + Methodref [android/util/Log.d (Ljava/lang/String;Ljava/lang/String;)I]
+      [148] pop
+      [149] new #29
+        + Class [br/usp/gmarques/loginuspnet/a]
+      [152] dup
+      [153] aload_0 v0
+      [154] iconst_0
+      [155] invokespecial #60
+        + Methodref [br/usp/gmarques/loginuspnet/a.<init> (Lbr/usp/gmarques/loginuspnet/WifiChangeReceiver;B)V]
+      [158] iconst_1
+      [159] anewarray #35
+        + Class [java/lang/String]
+      [162] dup
+      [163] iconst_0
+      [164] ldc #6
+        + String [ICMC]
+      [166] aastore
+      [167] invokevirtual #61
+        + Methodref [br/usp/gmarques/loginuspnet/a.execute ([Ljava/lang/Object;)Landroid/os/AsyncTask;]
+      [170] pop
+      [171] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       b()Ljava/lang/String;
+    Access flags: 0xa
+      = private static java.lang.String b()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 265, locals = 5, stack = 4):
+      [0] ldc #17
+        + String [http://www.usp.br]
+      [2] astore_0 v0
+      [3] ldc #2
+        + String []
+      [5] astore_1 v1
+      [6] new #39
+        + Class [java/net/URL]
+      [9] dup
+      [10] aload_0 v0
+      [11] invokespecial #84
+        + Methodref [java/net/URL.<init> (Ljava/lang/String;)V]
+      [14] invokevirtual #85
+        + Methodref [java/net/URL.openConnection ()Ljava/net/URLConnection;]
+      [17] dup
+      [18] astore_0 v0
+      [19] sipush 5000
+      [22] invokevirtual #88
+        + Methodref [java/net/URLConnection.setConnectTimeout (I)V]
+      [25] aload_0 v0
+      [26] sipush 5000
+      [29] invokevirtual #89
+        + Methodref [java/net/URLConnection.setReadTimeout (I)V]
+      [32] aload_0 v0
+      [33] invokevirtual #86
+        + Methodref [java/net/URLConnection.connect ()V]
+      [36] ldc #1
+        + Integer [65536]
+      [38] newarray 5
+      [40] astore_2 v2
+      [41] new #36
+        + Class [java/lang/StringBuilder]
+      [44] dup
+      [45] invokespecial #76
+        + Methodref [java/lang/StringBuilder.<init> ()V]
+      [48] astore_3 v3
+      [49] new #33
+        + Class [java/io/InputStreamReader]
+      [52] dup
+      [53] aload_0 v0
+      [54] invokevirtual #87
+        + Methodref [java/net/URLConnection.getInputStream ()Ljava/io/InputStream;]
+      [57] ldc #15
+        + String [UTF-8]
+      [59] invokespecial #67
+        + Methodref [java/io/InputStreamReader.<init> (Ljava/io/InputStream;Ljava/lang/String;)V]
+      [62] astore_0 v0
+      [63] aload_0 v0
+      [64] aload_2 v2
+      [65] iconst_0
+      [66] aload_2 v2
+      [67] arraylength
+      [68] invokevirtual #68
+        + Methodref [java/io/Reader.read ([CII)I]
+      [71] dup
+      [72] istore v4
+      [74] ifle +12 (target=86)
+      [77] aload_3 v3
+      [78] aload_2 v2
+      [79] iconst_0
+      [80] iload v4
+      [82] invokevirtual #80
+        + Methodref [java/lang/StringBuilder.append ([CII)Ljava/lang/StringBuilder;]
+      [85] pop
+      [86] iload v4
+      [88] ifge -25 (target=63)
+      [91] aload_3 v3
+      [92] invokevirtual #81
+        + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+      [95] dup
+      [96] astore_0 v0
+      [97] invokevirtual #74
+        + Methodref [java/lang/String.toUpperCase ()Ljava/lang/String;]
+      [100] ldc #3
+        + String [ACTION="]
+      [102] invokevirtual #72
+        + Methodref [java/lang/String.lastIndexOf (Ljava/lang/String;)I]
+      [105] dup
+      [106] istore_2 v2
+      [107] iconst_m1
+      [108] ificmpeq +56 (target=164)
+      [111] iinc v2, 8
+      [114] goto +29 (target=143)
+      [117] new #36
+        + Class [java/lang/StringBuilder]
+      [120] dup
+      [121] aload_1 v1
+      [122] invokestatic #75
+        + Methodref [java/lang/String.valueOf (Ljava/lang/Object;)Ljava/lang/String;]
+      [125] invokespecial #77
+        + Methodref [java/lang/StringBuilder.<init> (Ljava/lang/String;)V]
+      [128] aload_0 v0
+      [129] iload_2 v2
+      [130] invokevirtual #69
+        + Methodref [java/lang/String.charAt (I)C]
+      [133] invokevirtual #78
+        + Methodref [java/lang/StringBuilder.append (C)Ljava/lang/StringBuilder;]
+      [136] invokevirtual #81
+        + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+      [139] astore_1 v1
+      [140] iinc v2, 1
+      [143] iload_2 v2
+      [144] aload_0 v0
+      [145] invokevirtual #73
+        + Methodref [java/lang/String.length ()I]
+      [148] ificmpge +115 (target=263)
+      [151] aload_0 v0
+      [152] iload_2 v2
+      [153] invokevirtual #69
+        + Methodref [java/lang/String.charAt (I)C]
+      [156] bipush 34
+      [158] ificmpne -41 (target=117)
+      [161] goto +102 (target=263)
+      [164] ldc #2
+        + String []
+      [166] astore_1 v1
+      [167] goto +96 (target=263)
+      [170] astore v4
+      [172] ldc #9
+        + String [MalformedURLException]
+      [174] new #36
+        + Class [java/lang/StringBuilder]
+      [177] dup
+      [178] ldc #10
+        + String [Message: ]
+      [180] invokespecial #77
+        + Methodref [java/lang/StringBuilder.<init> (Ljava/lang/String;)V]
+      [183] aload v4
+      [185] invokevirtual #82
+        + Methodref [java/net/MalformedURLException.getMessage ()Ljava/lang/String;]
+      [188] invokevirtual #79
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [191] invokevirtual #81
+        + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+      [194] invokestatic #57
+        + Methodref [android/util/Log.e (Ljava/lang/String;Ljava/lang/String;)I]
+      [197] pop
+      [198] aload v4
+      [200] athrow
+      [201] astore v4
+      [203] ldc #13
+        + String [SocketTimeoutException]
+      [205] new #36
+        + Class [java/lang/StringBuilder]
+      [208] dup
+      [209] ldc #10
+        + String [Message: ]
+      [211] invokespecial #77
+        + Methodref [java/lang/StringBuilder.<init> (Ljava/lang/String;)V]
+      [214] aload v4
+      [216] invokevirtual #83
+        + Methodref [java/net/SocketTimeoutException.getMessage ()Ljava/lang/String;]
+      [219] invokevirtual #79
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [222] invokevirtual #81
+        + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+      [225] invokestatic #57
+        + Methodref [android/util/Log.e (Ljava/lang/String;Ljava/lang/String;)I]
+      [228] pop
+      [229] aload v4
+      [231] athrow
+      [232] astore v4
+      [234] ldc #7
+        + String [IOExceptionNet]
+      [236] new #36
+        + Class [java/lang/StringBuilder]
+      [239] dup
+      [240] ldc #10
+        + String [Message: ]
+      [242] invokespecial #77
+        + Methodref [java/lang/StringBuilder.<init> (Ljava/lang/String;)V]
+      [245] aload v4
+      [247] invokevirtual #65
+        + Methodref [java/io/IOException.getMessage ()Ljava/lang/String;]
+      [250] invokevirtual #79
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [253] invokevirtual #81
+        + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+      [256] invokestatic #57
+        + Methodref [android/util/Log.e (Ljava/lang/String;Ljava/lang/String;)I]
+      [259] pop
+      [260] aload v4
+      [262] athrow
+      [263] aload_1 v1
+      [264] areturn
+      Code attribute exceptions (count = 3):
+      - ExceptionInfo (6 -> 167: 170):
+      + Class [java/net/MalformedURLException]
+      - ExceptionInfo (6 -> 167: 201):
+      + Class [java/net/SocketTimeoutException]
+      - ExceptionInfo (6 -> 167: 232):
+      + Class [java/io/IOException]
+      Code attribute attributes (attribute count = 0):
+  + Method:       a()Ljava/lang/String;
+    Access flags: 0x1008
+      = static synthetic java.lang.String a()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 4, locals = 0, stack = 1):
+      [0] invokestatic #59
+        + Methodref [br/usp/gmarques/loginuspnet/WifiChangeReceiver.b ()Ljava/lang/String;]
+      [3] areturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       a(Ljava/lang/String;Ljava/util/List;)V
+    Access flags: 0x1008
+      = static synthetic void a(java.lang.String,java.util.List)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 87, locals = 3, stack = 5):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] astore_0 v0
+      [3] astore_2 v2
+      [4] invokestatic #62
+        + Methodref [br/usp/gmarques/loginuspnet/a/c.a ()Lorg/apache/http/client/HttpClient;]
+      [7] astore_1 v1
+      [8] new #45
+        + Class [org/apache/http/client/methods/HttpPost]
+      [11] dup
+      [12] aload_2 v2
+      [13] invokespecial #91
+        + Methodref [org/apache/http/client/methods/HttpPost.<init> (Ljava/lang/String;)V]
+      [16] astore_2 v2
+      [17] new #44
+        + Class [org/apache/http/client/entity/UrlEncodedFormEntity]
+      [20] dup
+      [21] aload_0 v0
+      [22] ldc #15
+        + String [UTF-8]
+      [24] invokespecial #90
+        + Methodref [org/apache/http/client/entity/UrlEncodedFormEntity.<init> (Ljava/util/List;Ljava/lang/String;)V]
+      [27] astore_0 v0
+      [28] aload_2 v2
+      [29] aload_0 v0
+      [30] invokevirtual #92
+        + Methodref [org/apache/http/client/methods/HttpPost.setEntity (Lorg/apache/http/HttpEntity;)V]
+      [33] aload_1 v1
+      [34] aload_2 v2
+      [35] invokeinterface #97
+        + InterfaceMethodref [org/apache/http/client/HttpClient.execute (Lorg/apache/http/client/methods/HttpUriRequest;)Lorg/apache/http/HttpResponse;]
+      [40] invokeinterface #96
+        + InterfaceMethodref [org/apache/http/HttpResponse.getEntity ()Lorg/apache/http/HttpEntity;]
+      [45] astore_2 v2
+      [46] new #46
+        + Class [org/xml/sax/InputSource]
+      [49] dup
+      [50] aload_2 v2
+      [51] invokeinterface #95
+        + InterfaceMethodref [org/apache/http/HttpEntity.getContent ()Ljava/io/InputStream;]
+      [56] invokespecial #93
+        + Methodref [org/xml/sax/InputSource.<init> (Ljava/io/InputStream;)V]
+      [59] astore_2 v2
+      [60] new #31
+        + Class [java/io/BufferedReader]
+      [63] dup
+      [64] new #33
+        + Class [java/io/InputStreamReader]
+      [67] dup
+      [68] aload_2 v2
+      [69] invokevirtual #94
+        + Methodref [org/xml/sax/InputSource.getByteStream ()Ljava/io/InputStream;]
+      [72] invokespecial #66
+        + Methodref [java/io/InputStreamReader.<init> (Ljava/io/InputStream;)V]
+      [75] invokespecial #63
+        + Methodref [java/io/BufferedReader.<init> (Ljava/io/Reader;)V]
+      [78] astore_2 v2
+      [79] aload_2 v2
+      [80] invokevirtual #64
+        + Methodref [java/io/BufferedReader.readLine ()Ljava/lang/String;]
+      [83] ifnonnull -4 (target=79)
+      [86] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: br/usp/gmarques/loginuspnet/a
+  Superclass:    android/os/AsyncTask
+  Major version: 0x31
+  Minor version: 0x0
+  Access flags:  0x30
+    = final class br.usp.gmarques.loginuspnet.a extends android.os.AsyncTask
+
+Interfaces (count = 0):
+
+Constant Pool (count = 157):
+  + Integer [2130968583]
+  + Integer [2130968584]
+  + String []
+  + String [ ]
+  + String [ Message: ]
+  + String [0]
+  + String [4]
+  + String [ClientProtocolException while connecting to ]
+  + String [Continue]
+  + String [ICMC]
+  + String [IOException while connecting to ]
+  + String [LoginUSPNet]
+  + String [USP]
+  + String [accept]
+  + String [auth_pass]
+  + String [auth_user]
+  + String [buttonClicked]
+  + String [err_flag]
+  + String [err_msg]
+  + String [https://1.1.1.1/login.html?redirect=https://www.google.com]
+  + String [https://www.google.com]
+  + String [info_flag]
+  + String [info_msg]
+  + String [password]
+  + String [redirect_url]
+  + String [redirurl]
+  + String [username]
+  + Class [[Ljava/lang/String;]
+  + Class [android/content/Context]
+  + Class [android/content/SharedPreferences]
+  + Class [android/os/AsyncTask]
+  + Class [android/preference/PreferenceManager]
+  + Class [android/util/Log]
+  + Class [br/usp/gmarques/loginuspnet/WifiChangeReceiver]
+  + Class [br/usp/gmarques/loginuspnet/a]
+  + Class [java/io/IOException]
+  + Class [java/lang/String]
+  + Class [java/lang/StringBuilder]
+  + Class [java/util/ArrayList]
+  + Class [java/util/List]
+  + Class [org/apache/http/client/ClientProtocolException]
+  + Class [org/apache/http/message/BasicNameValuePair]
+  + Fieldref [br/usp/gmarques/loginuspnet/WifiChangeReceiver.a Landroid/content/Context;]
+  + Fieldref [br/usp/gmarques/loginuspnet/a.a Lbr/usp/gmarques/loginuspnet/WifiChangeReceiver;]
+  + Methodref [android/content/Context.getString (I)Ljava/lang/String;]
+  + Methodref [android/os/AsyncTask.<init> ()V]
+  + Methodref [android/preference/PreferenceManager.getDefaultSharedPreferences (Landroid/content/Context;)Landroid/content/SharedPreferences;]
+  + Methodref [android/util/Log.e (Ljava/lang/String;Ljava/lang/String;)I]
+  + Methodref [android/util/Log.getStackTraceString (Ljava/lang/Throwable;)Ljava/lang/String;]
+  + Methodref [br/usp/gmarques/loginuspnet/WifiChangeReceiver.a ()Ljava/lang/String;]
+  + Methodref [br/usp/gmarques/loginuspnet/WifiChangeReceiver.a (Ljava/lang/String;Ljava/util/List;)V]
+  + Methodref [br/usp/gmarques/loginuspnet/a.<init> (Lbr/usp/gmarques/loginuspnet/WifiChangeReceiver;)V]
+  + Methodref [br/usp/gmarques/loginuspnet/a.a ([Ljava/lang/String;)Ljava/lang/Void;]
+  + Methodref [java/io/IOException.getMessage ()Ljava/lang/String;]
+  + Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
+  + Methodref [java/lang/String.toUpperCase ()Ljava/lang/String;]
+  + Methodref [java/lang/StringBuilder.<init> (Ljava/lang/String;)V]
+  + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+  + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+  + Methodref [java/util/ArrayList.<init> ()V]
+  + Methodref [org/apache/http/client/ClientProtocolException.getMessage ()Ljava/lang/String;]
+  + Methodref [org/apache/http/message/BasicNameValuePair.<init> (Ljava/lang/String;Ljava/lang/String;)V]
+  + InterfaceMethodref [android/content/SharedPreferences.getString (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;]
+  + InterfaceMethodref [java/util/List.add (Ljava/lang/Object;)Z]
+  + NameAndType [<init> ()V]
+  + NameAndType [<init> (Lbr/usp/gmarques/loginuspnet/WifiChangeReceiver;)V]
+  + NameAndType [<init> (Ljava/lang/String;)V]
+  + NameAndType [<init> (Ljava/lang/String;Ljava/lang/String;)V]
+  + NameAndType [a ()Ljava/lang/String;]
+  + NameAndType [a (Ljava/lang/String;Ljava/util/List;)V]
+  + NameAndType [a ([Ljava/lang/String;)Ljava/lang/Void;]
+  + NameAndType [a Landroid/content/Context;]
+  + NameAndType [a Lbr/usp/gmarques/loginuspnet/WifiChangeReceiver;]
+  + NameAndType [add (Ljava/lang/Object;)Z]
+  + NameAndType [append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+  + NameAndType [e (Ljava/lang/String;Ljava/lang/String;)I]
+  + NameAndType [equals (Ljava/lang/Object;)Z]
+  + NameAndType [getDefaultSharedPreferences (Landroid/content/Context;)Landroid/content/SharedPreferences;]
+  + NameAndType [getMessage ()Ljava/lang/String;]
+  + NameAndType [getStackTraceString (Ljava/lang/Throwable;)Ljava/lang/String;]
+  + NameAndType [getString (I)Ljava/lang/String;]
+  + NameAndType [getString (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;]
+  + NameAndType [toString ()Ljava/lang/String;]
+  + NameAndType [toUpperCase ()Ljava/lang/String;]
+  + Utf8 []
+  + Utf8 [ ]
+  + Utf8 [ Message: ]
+  + Utf8 [()Ljava/lang/String;]
+  + Utf8 [()V]
+  + Utf8 [(I)Ljava/lang/String;]
+  + Utf8 [(Landroid/content/Context;)Landroid/content/SharedPreferences;]
+  + Utf8 [(Lbr/usp/gmarques/loginuspnet/WifiChangeReceiver;)V]
+  + Utf8 [(Lbr/usp/gmarques/loginuspnet/WifiChangeReceiver;B)V]
+  + Utf8 [(Ljava/lang/Object;)Z]
   + Utf8 [(Ljava/lang/String;)Ljava/lang/StringBuilder;]
   + Utf8 [(Ljava/lang/String;)V]
   + Utf8 [(Ljava/lang/String;Ljava/lang/String;)I]
@@ -418,466 +1799,596 @@ Constant Pool (count = 238):
   + Utf8 [(Ljava/lang/String;Ljava/lang/String;)V]
   + Utf8 [(Ljava/lang/String;Ljava/util/List;)V]
   + Utf8 [(Ljava/lang/Throwable;)Ljava/lang/String;]
-  + Utf8 [(Ljava/util/List;Ljava/lang/String;)V]
-  + Utf8 [(Lorg/apache/http/HttpEntity;)V]
-  + Utf8 [(Lorg/apache/http/client/methods/HttpUriRequest;)Lorg/apache/http/HttpResponse;]
+  + Utf8 [([Ljava/lang/Object;)Ljava/lang/Object;]
+  + Utf8 [([Ljava/lang/String;)Ljava/lang/Void;]
   + Utf8 [0]
   + Utf8 [4]
   + Utf8 [<init>]
-  + Utf8 [Action: ]
-  + Utf8 [CONNECTED]
-  + Utf8 [ClientProtocolException: ]
+  + Utf8 [ClientProtocolException while connecting to ]
   + Utf8 [Code]
-  + Utf8 [Conectado]
+  + Utf8 [Continue]
   + Utf8 [ICMC]
-  + Utf8 [IOException: ]
-  + Utf8 [Landroid/net/NetworkInfo$DetailedState;]
+  + Utf8 [IOException while connecting to ]
+  + Utf8 [Landroid/content/Context;]
+  + Utf8 [Lbr/usp/gmarques/loginuspnet/WifiChangeReceiver;]
   + Utf8 [LoginUSPNet]
-  + Utf8 [Rede ICMC detectada.]
-  + Utf8 [UTF-8]
+  + Utf8 [USP]
+  + Utf8 [[Ljava/lang/String;]
   + Utf8 [a]
+  + Utf8 [accept]
   + Utf8 [add]
-  + Utf8 [android.net.wifi.STATE_CHANGE]
-  + Utf8 [android/content/BroadcastReceiver]
   + Utf8 [android/content/Context]
-  + Utf8 [android/content/Intent]
   + Utf8 [android/content/SharedPreferences]
-  + Utf8 [android/net/NetworkInfo]
-  + Utf8 [android/net/NetworkInfo$DetailedState]
-  + Utf8 [android/net/wifi/WifiInfo]
-  + Utf8 [android/net/wifi/WifiManager]
+  + Utf8 [android/os/AsyncTask]
   + Utf8 [android/preference/PreferenceManager]
   + Utf8 [android/util/Log]
   + Utf8 [append]
+  + Utf8 [auth_pass]
+  + Utf8 [auth_user]
   + Utf8 [br/usp/gmarques/loginuspnet/WifiChangeReceiver]
-  + Utf8 [br/usp/gmarques/loginuspnet/a/b]
+  + Utf8 [br/usp/gmarques/loginuspnet/a]
   + Utf8 [buttonClicked]
-  + Utf8 [contains]
-  + Utf8 [d]
+  + Utf8 [doInBackground]
   + Utf8 [e]
   + Utf8 [equals]
   + Utf8 [err_flag]
   + Utf8 [err_msg]
-  + Utf8 [execute]
-  + Utf8 [getAction]
-  + Utf8 [getByteStream]
-  + Utf8 [getConnectionInfo]
-  + Utf8 [getContent]
   + Utf8 [getDefaultSharedPreferences]
-  + Utf8 [getDetailedState]
-  + Utf8 [getEntity]
   + Utf8 [getMessage]
-  + Utf8 [getParcelableExtra]
-  + Utf8 [getSSID]
   + Utf8 [getStackTraceString]
   + Utf8 [getString]
-  + Utf8 [getSystemService]
   + Utf8 [https://1.1.1.1/login.html?redirect=https://www.google.com]
   + Utf8 [https://www.google.com]
   + Utf8 [info_flag]
   + Utf8 [info_msg]
-  + Utf8 [java/io/BufferedReader]
   + Utf8 [java/io/IOException]
-  + Utf8 [java/io/InputStreamReader]
   + Utf8 [java/lang/String]
   + Utf8 [java/lang/StringBuilder]
   + Utf8 [java/util/ArrayList]
   + Utf8 [java/util/List]
-  + Utf8 [networkInfo]
-  + Utf8 [onReceive]
-  + Utf8 [org/apache/http/HttpEntity]
-  + Utf8 [org/apache/http/HttpResponse]
   + Utf8 [org/apache/http/client/ClientProtocolException]
-  + Utf8 [org/apache/http/client/HttpClient]
-  + Utf8 [org/apache/http/client/entity/UrlEncodedFormEntity]
-  + Utf8 [org/apache/http/client/methods/HttpPost]
   + Utf8 [org/apache/http/message/BasicNameValuePair]
-  + Utf8 [org/xml/sax/InputSource]
   + Utf8 [password]
-  + Utf8 [readLine]
   + Utf8 [redirect_url]
-  + Utf8 [setEntity]
+  + Utf8 [redirurl]
   + Utf8 [toString]
   + Utf8 [toUpperCase]
   + Utf8 [username]
-  + Utf8 [v]
-  + Utf8 [wifi]
 
-Fields (count = 0):
+Fields (count = 1):
+  + Field:        a Lbr/usp/gmarques/loginuspnet/WifiChangeReceiver;
+    Access flags: 0x1010
+      = final synthetic br.usp.gmarques.loginuspnet.WifiChangeReceiver a
 
-Methods (count = 3):
-  - Method:       <init>()V
-    Access flags: 0x1
-      = public WifiChangeReceiver()
+Methods (count = 4):
+  - Method:       <init>(Lbr/usp/gmarques/loginuspnet/WifiChangeReceiver;)V
+    Access flags: 0x2
+      = private a(br.usp.gmarques.loginuspnet.WifiChangeReceiver)
     Class member attributes (count = 1):
-    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+    + Code attribute instructions (code length = 10, locals = 2, stack = 2):
       [0] aload_0 v0
-      [1] invokespecial #56
-        - Methodref [android/content/BroadcastReceiver.<init> ()V]
-      [4] return
+      [1] aload_1 v1
+      [2] putfield #44
+        + Fieldref [br/usp/gmarques/loginuspnet/a.a Lbr/usp/gmarques/loginuspnet/WifiChangeReceiver;]
+      [5] aload_0 v0
+      [6] invokespecial #46
+        + Methodref [android/os/AsyncTask.<init> ()V]
+      [9] return
       Code attribute exceptions (count = 0):
       Code attribute attributes (attribute count = 0):
-  + Method:       onReceive(Landroid/content/Context;Landroid/content/Intent;)V
-    Access flags: 0x1
-      = public void onReceive(android.content.Context,android.content.Intent)
+  + Method:       a([Ljava/lang/String;)Ljava/lang/Void;
+    Access flags: 0x82
+      = private varargs java.lang.Void a(java.lang.String[])
     Class member attributes (count = 1):
-    + Code attribute instructions (code length = 388, locals = 4, stack = 7):
-      [0] aload_2 v2
-      [1] invokevirtual #59
-        - Methodref [android/content/Intent.getAction ()Ljava/lang/String;]
-      [4] astore_3 v3
-      [5] ldc #12
-        - String [LoginUSPNet]
-      [7] new #44
-        - Class [java/lang/StringBuilder]
-      [10] dup
-      [11] ldc #7
-        - String [Action: ]
-      [13] invokespecial #78
-        - Methodref [java/lang/StringBuilder.<init> (Ljava/lang/String;)V]
-      [16] aload_3 v3
-      [17] invokevirtual #79
-        - Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [20] invokevirtual #80
-        - Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
-      [23] invokestatic #68
-        - Methodref [android/util/Log.v (Ljava/lang/String;Ljava/lang/String;)I]
-      [26] pop
-      [27] aload_3 v3
-      [28] ldc #15
-        - String [android.net.wifi.STATE_CHANGE]
-      [30] invokevirtual #76
-        - Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
-      [33] ifeq +354 (target=387)
-      [36] aload_2 v2
-      [37] ldc #23
-        - String [networkInfo]
-      [39] invokevirtual #60
-        - Methodref [android/content/Intent.getParcelableExtra (Ljava/lang/String;)Landroid/os/Parcelable;]
-      [42] checkcast #32
-        - Class [android/net/NetworkInfo]
-      [45] invokevirtual #61
-        - Methodref [android/net/NetworkInfo.getDetailedState ()Landroid/net/NetworkInfo$DetailedState;]
-      [48] getstatic #55
-        - Fieldref [android/net/NetworkInfo$DetailedState.CONNECTED Landroid/net/NetworkInfo$DetailedState;]
-      [51] ifacmpne +336 (target=387)
-      [54] ldc #12
-        - String [LoginUSPNet]
-      [56] ldc #9
-        - String [Conectado]
-      [58] invokestatic #68
-        - Methodref [android/util/Log.v (Ljava/lang/String;Ljava/lang/String;)I]
-      [61] pop
-      [62] aload_1 v1
-      [63] ldc #27
-        - String [wifi]
-      [65] invokevirtual #58
-        - Methodref [android/content/Context.getSystemService (Ljava/lang/String;)Ljava/lang/Object;]
-      [68] checkcast #35
-        - Class [android/net/wifi/WifiManager]
-      [71] invokevirtual #63
-        - Methodref [android/net/wifi/WifiManager.getConnectionInfo ()Landroid/net/wifi/WifiInfo;]
-      [74] invokevirtual #62
-        - Methodref [android/net/wifi/WifiInfo.getSSID ()Ljava/lang/String;]
-      [77] invokevirtual #77
-        - Methodref [java/lang/String.toUpperCase ()Ljava/lang/String;]
-      [80] ldc #10
-        - String [ICMC]
-      [82] invokevirtual #75
-        - Methodref [java/lang/String.contains (Ljava/lang/CharSequence;)Z]
-      [85] ifeq +302 (target=387)
-      [88] ldc #12
-        - String [LoginUSPNet]
-      [90] ldc #13
-        - String [Rede ICMC detectada.]
-      [92] invokestatic #65
-        - Methodref [android/util/Log.d (Ljava/lang/String;Ljava/lang/String;)I]
-      [95] pop
-      [96] aload_1 v1
-      [97] invokestatic #64
-        - Methodref [android/preference/PreferenceManager.getDefaultSharedPreferences (Landroid/content/Context;)Landroid/content/SharedPreferences;]
-      [100] astore_2 v2
-      [101] new #45
-        - Class [java/util/ArrayList]
-      [104] dup
-      [105] invokespecial #81
-        - Methodref [java/util/ArrayList.<init> ()V]
-      [108] dup
-      [109] astore_3 v3
-      [110] new #53
-        - Class [org/apache/http/message/BasicNameValuePair]
-      [113] dup
-      [114] ldc #16
-        - String [buttonClicked]
-      [116] ldc #6
-        - String [4]
-      [118] invokespecial #86
-        - Methodref [org/apache/http/message/BasicNameValuePair.<init> (Ljava/lang/String;Ljava/lang/String;)V]
-      [121] invokeinterface #90
-        - InterfaceMethodref [java/util/List.add (Ljava/lang/Object;)Z]
-      [126] pop
-      [127] aload_3 v3
-      [128] new #53
-        - Class [org/apache/http/message/BasicNameValuePair]
-      [131] dup
-      [132] ldc #17
-        - String [err_flag]
-      [134] ldc #5
-        - String [0]
-      [136] invokespecial #86
-        - Methodref [org/apache/http/message/BasicNameValuePair.<init> (Ljava/lang/String;Ljava/lang/String;)V]
-      [139] invokeinterface #90
-        - InterfaceMethodref [java/util/List.add (Ljava/lang/Object;)Z]
-      [144] pop
-      [145] aload_3 v3
-      [146] new #53
-        - Class [org/apache/http/message/BasicNameValuePair]
-      [149] dup
-      [150] ldc #18
-        - String [err_msg]
-      [152] ldc #3
-        - String []
-      [154] invokespecial #86
-        - Methodref [org/apache/http/message/BasicNameValuePair.<init> (Ljava/lang/String;Ljava/lang/String;)V]
-      [157] invokeinterface #90
-        - InterfaceMethodref [java/util/List.add (Ljava/lang/Object;)Z]
-      [162] pop
-      [163] aload_3 v3
-      [164] new #53
-        - Class [org/apache/http/message/BasicNameValuePair]
-      [167] dup
-      [168] ldc #21
-        - String [info_flag]
-      [170] ldc #5
-        - String [0]
-      [172] invokespecial #86
-        - Methodref [org/apache/http/message/BasicNameValuePair.<init> (Ljava/lang/String;Ljava/lang/String;)V]
-      [175] invokeinterface #90
-        - InterfaceMethodref [java/util/List.add (Ljava/lang/Object;)Z]
-      [180] pop
-      [181] aload_3 v3
-      [182] new #53
-        - Class [org/apache/http/message/BasicNameValuePair]
-      [185] dup
-      [186] ldc #22
-        - String [info_msg]
-      [188] ldc #3
-        - String []
-      [190] invokespecial #86
-        - Methodref [org/apache/http/message/BasicNameValuePair.<init> (Ljava/lang/String;Ljava/lang/String;)V]
-      [193] invokeinterface #90
-        - InterfaceMethodref [java/util/List.add (Ljava/lang/Object;)Z]
-      [198] pop
-      [199] aload_3 v3
-      [200] new #53
-        - Class [org/apache/http/message/BasicNameValuePair]
-      [203] dup
-      [204] ldc #25
-        - String [redirect_url]
-      [206] ldc #20
-        - String [https://www.google.com]
-      [208] invokespecial #86
-        - Methodref [org/apache/http/message/BasicNameValuePair.<init> (Ljava/lang/String;Ljava/lang/String;)V]
-      [211] invokeinterface #90
-        - InterfaceMethodref [java/util/List.add (Ljava/lang/Object;)Z]
-      [216] pop
-      [217] aload_3 v3
-      [218] new #53
-        - Class [org/apache/http/message/BasicNameValuePair]
-      [221] dup
-      [222] ldc #26
-        - String [username]
-      [224] aload_2 v2
-      [225] aload_1 v1
-      [226] ldc #1
-        - Integer [2130968583]
-      [228] invokevirtual #57
-        - Methodref [android/content/Context.getString (I)Ljava/lang/String;]
-      [231] ldc #3
-        - String []
-      [233] invokeinterface #89
-        - InterfaceMethodref [android/content/SharedPreferences.getString (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;]
-      [238] invokespecial #86
-        - Methodref [org/apache/http/message/BasicNameValuePair.<init> (Ljava/lang/String;Ljava/lang/String;)V]
-      [241] invokeinterface #90
-        - InterfaceMethodref [java/util/List.add (Ljava/lang/Object;)Z]
-      [246] pop
-      [247] aload_3 v3
-      [248] new #53
-        - Class [org/apache/http/message/BasicNameValuePair]
-      [251] dup
-      [252] ldc #24
-        - String [password]
-      [254] aload_2 v2
-      [255] aload_1 v1
-      [256] ldc #2
-        - Integer [2130968584]
-      [258] invokevirtual #57
-        - Methodref [android/content/Context.getString (I)Ljava/lang/String;]
-      [261] ldc #3
-        - String []
-      [263] invokeinterface #89
-        - InterfaceMethodref [android/content/SharedPreferences.getString (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;]
-      [268] invokespecial #86
-        - Methodref [org/apache/http/message/BasicNameValuePair.<init> (Ljava/lang/String;Ljava/lang/String;)V]
-      [271] invokeinterface #90
-        - InterfaceMethodref [java/util/List.add (Ljava/lang/Object;)Z]
-      [276] pop
-      [277] ldc #19
-        - String [https://1.1.1.1/login.html?redirect=https://www.google.com]
-      [279] aload_3 v3
-      [280] invokestatic #69
-        - Methodref [br/usp/gmarques/loginuspnet/WifiChangeReceiver.a (Ljava/lang/String;Ljava/util/List;)V]
-      [283] return
-      [284] astore_1 v1
+    + Code attribute instructions (code length = 650, locals = 5, stack = 7):
+      [0] aload_0 v0
+      [1] getfield #44
+        + Fieldref [br/usp/gmarques/loginuspnet/a.a Lbr/usp/gmarques/loginuspnet/WifiChangeReceiver;]
+      [4] getfield #43
+        + Fieldref [br/usp/gmarques/loginuspnet/WifiChangeReceiver.a Landroid/content/Context;]
+      [7] invokestatic #47
+        + Methodref [android/preference/PreferenceManager.getDefaultSharedPreferences (Landroid/content/Context;)Landroid/content/SharedPreferences;]
+      [10] astore_2 v2
+      [11] new #39
+        + Class [java/util/ArrayList]
+      [14] dup
+      [15] invokespecial #60
+        + Methodref [java/util/ArrayList.<init> ()V]
+      [18] astore_3 v3
+      [19] aload_1 v1
+      [20] iconst_0
+      [21] aaload
+      [22] invokevirtual #56
+        + Methodref [java/lang/String.toUpperCase ()Ljava/lang/String;]
+      [25] ldc #13
+        + String [USP]
+      [27] invokevirtual #55
+        + Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
+      [30] ifeq +283 (target=313)
+      [33] ldc #3
+        + String []
+      [35] astore v4
+      [37] aload_0 v0
+      [38] getfield #44
+        + Fieldref [br/usp/gmarques/loginuspnet/a.a Lbr/usp/gmarques/loginuspnet/WifiChangeReceiver;]
+      [41] pop
+      [42] invokestatic #50
+        + Methodref [br/usp/gmarques/loginuspnet/WifiChangeReceiver.a ()Ljava/lang/String;]
+      [45] astore v4
+      [47] goto +4 (target=51)
+      [50] pop
+      [51] aload v4
+      [53] ldc #3
+        + String []
+      [55] invokevirtual #55
+        + Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
+      [58] ifne +590 (target=648)
+      [61] aload_3 v3
+      [62] new #42
+        + Class [org/apache/http/message/BasicNameValuePair]
+      [65] dup
+      [66] ldc #26
+        + String [redirurl]
+      [68] ldc #21
+        + String [https://www.google.com]
+      [70] invokespecial #62
+        + Methodref [org/apache/http/message/BasicNameValuePair.<init> (Ljava/lang/String;Ljava/lang/String;)V]
+      [73] invokeinterface #64
+        + InterfaceMethodref [java/util/List.add (Ljava/lang/Object;)Z]
+      [78] pop
+      [79] aload_3 v3
+      [80] new #42
+        + Class [org/apache/http/message/BasicNameValuePair]
+      [83] dup
+      [84] ldc #16
+        + String [auth_user]
+      [86] aload_2 v2
+      [87] aload_0 v0
+      [88] getfield #44
+        + Fieldref [br/usp/gmarques/loginuspnet/a.a Lbr/usp/gmarques/loginuspnet/WifiChangeReceiver;]
+      [91] getfield #43
+        + Fieldref [br/usp/gmarques/loginuspnet/WifiChangeReceiver.a Landroid/content/Context;]
+      [94] ldc #1
+        + Integer [2130968583]
+      [96] invokevirtual #45
+        + Methodref [android/content/Context.getString (I)Ljava/lang/String;]
+      [99] ldc #3
+        + String []
+      [101] invokeinterface #63
+        + InterfaceMethodref [android/content/SharedPreferences.getString (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;]
+      [106] invokespecial #62
+        + Methodref [org/apache/http/message/BasicNameValuePair.<init> (Ljava/lang/String;Ljava/lang/String;)V]
+      [109] invokeinterface #64
+        + InterfaceMethodref [java/util/List.add (Ljava/lang/Object;)Z]
+      [114] pop
+      [115] aload_3 v3
+      [116] new #42
+        + Class [org/apache/http/message/BasicNameValuePair]
+      [119] dup
+      [120] ldc #15
+        + String [auth_pass]
+      [122] aload_2 v2
+      [123] aload_0 v0
+      [124] getfield #44
+        + Fieldref [br/usp/gmarques/loginuspnet/a.a Lbr/usp/gmarques/loginuspnet/WifiChangeReceiver;]
+      [127] getfield #43
+        + Fieldref [br/usp/gmarques/loginuspnet/WifiChangeReceiver.a Landroid/content/Context;]
+      [130] ldc #2
+        + Integer [2130968584]
+      [132] invokevirtual #45
+        + Methodref [android/content/Context.getString (I)Ljava/lang/String;]
+      [135] ldc #3
+        + String []
+      [137] invokeinterface #63
+        + InterfaceMethodref [android/content/SharedPreferences.getString (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;]
+      [142] invokespecial #62
+        + Methodref [org/apache/http/message/BasicNameValuePair.<init> (Ljava/lang/String;Ljava/lang/String;)V]
+      [145] invokeinterface #64
+        + InterfaceMethodref [java/util/List.add (Ljava/lang/Object;)Z]
+      [150] pop
+      [151] aload_3 v3
+      [152] new #42
+        + Class [org/apache/http/message/BasicNameValuePair]
+      [155] dup
+      [156] ldc #14
+        + String [accept]
+      [158] ldc #9
+        + String [Continue]
+      [160] invokespecial #62
+        + Methodref [org/apache/http/message/BasicNameValuePair.<init> (Ljava/lang/String;Ljava/lang/String;)V]
+      [163] invokeinterface #64
+        + InterfaceMethodref [java/util/List.add (Ljava/lang/Object;)Z]
+      [168] pop
+      [169] aload_0 v0
+      [170] getfield #44
+        + Fieldref [br/usp/gmarques/loginuspnet/a.a Lbr/usp/gmarques/loginuspnet/WifiChangeReceiver;]
+      [173] pop
+      [174] aload v4
+      [176] aload_3 v3
+      [177] invokestatic #51
+        + Methodref [br/usp/gmarques/loginuspnet/WifiChangeReceiver.a (Ljava/lang/String;Ljava/util/List;)V]
+      [180] goto +468 (target=648)
+      [183] astore_2 v2
+      [184] ldc #12
+        + String [LoginUSPNet]
+      [186] new #38
+        + Class [java/lang/StringBuilder]
+      [189] dup
+      [190] ldc #8
+        + String [ClientProtocolException while connecting to ]
+      [192] invokespecial #57
+        + Methodref [java/lang/StringBuilder.<init> (Ljava/lang/String;)V]
+      [195] aload_1 v1
+      [196] iconst_0
+      [197] aaload
+      [198] invokevirtual #58
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [201] ldc #5
+        + String [ Message: ]
+      [203] invokevirtual #58
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [206] aload_2 v2
+      [207] invokevirtual #61
+        + Methodref [org/apache/http/client/ClientProtocolException.getMessage ()Ljava/lang/String;]
+      [210] invokevirtual #58
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [213] invokevirtual #59
+        + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+      [216] invokestatic #48
+        + Methodref [android/util/Log.e (Ljava/lang/String;Ljava/lang/String;)I]
+      [219] pop
+      [220] ldc #12
+        + String [LoginUSPNet]
+      [222] new #38
+        + Class [java/lang/StringBuilder]
+      [225] dup
+      [226] ldc #4
+        + String [ ]
+      [228] invokespecial #57
+        + Methodref [java/lang/StringBuilder.<init> (Ljava/lang/String;)V]
+      [231] aload_2 v2
+      [232] invokestatic #49
+        + Methodref [android/util/Log.getStackTraceString (Ljava/lang/Throwable;)Ljava/lang/String;]
+      [235] invokevirtual #58
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [238] invokevirtual #59
+        + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+      [241] invokestatic #48
+        + Methodref [android/util/Log.e (Ljava/lang/String;Ljava/lang/String;)I]
+      [244] pop
+      [245] goto +403 (target=648)
+      [248] astore_2 v2
+      [249] ldc #12
+        + String [LoginUSPNet]
+      [251] new #38
+        + Class [java/lang/StringBuilder]
+      [254] dup
+      [255] ldc #11
+        + String [IOException while connecting to ]
+      [257] invokespecial #57
+        + Methodref [java/lang/StringBuilder.<init> (Ljava/lang/String;)V]
+      [260] aload_1 v1
+      [261] iconst_0
+      [262] aaload
+      [263] invokevirtual #58
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [266] ldc #5
+        + String [ Message: ]
+      [268] invokevirtual #58
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [271] aload_2 v2
+      [272] invokevirtual #54
+        + Methodref [java/io/IOException.getMessage ()Ljava/lang/String;]
+      [275] invokevirtual #58
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [278] invokevirtual #59
+        + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+      [281] invokestatic #48
+        + Methodref [android/util/Log.e (Ljava/lang/String;Ljava/lang/String;)I]
+      [284] pop
       [285] ldc #12
-        - String [LoginUSPNet]
-      [287] new #44
-        - Class [java/lang/StringBuilder]
+        + String [LoginUSPNet]
+      [287] new #38
+        + Class [java/lang/StringBuilder]
       [290] dup
-      [291] ldc #8
-        - String [ClientProtocolException: ]
-      [293] invokespecial #78
-        - Methodref [java/lang/StringBuilder.<init> (Ljava/lang/String;)V]
-      [296] aload_1 v1
-      [297] invokevirtual #82
-        - Methodref [org/apache/http/client/ClientProtocolException.getMessage ()Ljava/lang/String;]
-      [300] invokevirtual #79
-        - Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [303] invokevirtual #80
-        - Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
-      [306] invokestatic #66
-        - Methodref [android/util/Log.e (Ljava/lang/String;Ljava/lang/String;)I]
+      [291] ldc #4
+        + String [ ]
+      [293] invokespecial #57
+        + Methodref [java/lang/StringBuilder.<init> (Ljava/lang/String;)V]
+      [296] aload_2 v2
+      [297] invokestatic #49
+        + Methodref [android/util/Log.getStackTraceString (Ljava/lang/Throwable;)Ljava/lang/String;]
+      [300] invokevirtual #58
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [303] invokevirtual #59
+        + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+      [306] invokestatic #48
+        + Methodref [android/util/Log.e (Ljava/lang/String;Ljava/lang/String;)I]
       [309] pop
-      [310] ldc #12
-        - String [LoginUSPNet]
-      [312] new #44
-        - Class [java/lang/StringBuilder]
-      [315] dup
-      [316] ldc #4
-        - String [ ]
-      [318] invokespecial #78
-        - Methodref [java/lang/StringBuilder.<init> (Ljava/lang/String;)V]
-      [321] aload_1 v1
-      [322] invokestatic #67
-        - Methodref [android/util/Log.getStackTraceString (Ljava/lang/Throwable;)Ljava/lang/String;]
-      [325] invokevirtual #79
-        - Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [328] invokevirtual #80
-        - Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
-      [331] invokestatic #66
-        - Methodref [android/util/Log.e (Ljava/lang/String;Ljava/lang/String;)I]
-      [334] pop
-      [335] return
-      [336] astore_1 v1
-      [337] ldc #12
-        - String [LoginUSPNet]
-      [339] new #44
-        - Class [java/lang/StringBuilder]
-      [342] dup
-      [343] ldc #11
-        - String [IOException: ]
-      [345] invokespecial #78
-        - Methodref [java/lang/StringBuilder.<init> (Ljava/lang/String;)V]
-      [348] aload_1 v1
-      [349] invokevirtual #73
-        - Methodref [java/io/IOException.getMessage ()Ljava/lang/String;]
-      [352] invokevirtual #79
-        - Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [355] invokevirtual #80
-        - Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
-      [358] invokestatic #66
-        - Methodref [android/util/Log.e (Ljava/lang/String;Ljava/lang/String;)I]
-      [361] pop
-      [362] ldc #12
-        - String [LoginUSPNet]
-      [364] new #44
-        - Class [java/lang/StringBuilder]
+      [310] goto +338 (target=648)
+      [313] aload_1 v1
+      [314] iconst_0
+      [315] aaload
+      [316] invokevirtual #56
+        + Methodref [java/lang/String.toUpperCase ()Ljava/lang/String;]
+      [319] ldc #10
+        + String [ICMC]
+      [321] invokevirtual #55
+        + Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
+      [324] ifeq +324 (target=648)
+      [327] aload_3 v3
+      [328] new #42
+        + Class [org/apache/http/message/BasicNameValuePair]
+      [331] dup
+      [332] ldc #17
+        + String [buttonClicked]
+      [334] ldc #7
+        + String [4]
+      [336] invokespecial #62
+        + Methodref [org/apache/http/message/BasicNameValuePair.<init> (Ljava/lang/String;Ljava/lang/String;)V]
+      [339] invokeinterface #64
+        + InterfaceMethodref [java/util/List.add (Ljava/lang/Object;)Z]
+      [344] pop
+      [345] aload_3 v3
+      [346] new #42
+        + Class [org/apache/http/message/BasicNameValuePair]
+      [349] dup
+      [350] ldc #18
+        + String [err_flag]
+      [352] ldc #6
+        + String [0]
+      [354] invokespecial #62
+        + Methodref [org/apache/http/message/BasicNameValuePair.<init> (Ljava/lang/String;Ljava/lang/String;)V]
+      [357] invokeinterface #64
+        + InterfaceMethodref [java/util/List.add (Ljava/lang/Object;)Z]
+      [362] pop
+      [363] aload_3 v3
+      [364] new #42
+        + Class [org/apache/http/message/BasicNameValuePair]
       [367] dup
-      [368] ldc #4
-        - String [ ]
-      [370] invokespecial #78
-        - Methodref [java/lang/StringBuilder.<init> (Ljava/lang/String;)V]
-      [373] aload_1 v1
-      [374] invokestatic #67
-        - Methodref [android/util/Log.getStackTraceString (Ljava/lang/Throwable;)Ljava/lang/String;]
-      [377] invokevirtual #79
-        - Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [380] invokevirtual #80
-        - Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
-      [383] invokestatic #66
-        - Methodref [android/util/Log.e (Ljava/lang/String;Ljava/lang/String;)I]
-      [386] pop
-      [387] return
-      Code attribute exceptions (count = 2):
-      - ExceptionInfo (277 -> 283: 284):
-      - Class [org/apache/http/client/ClientProtocolException]
-      - ExceptionInfo (277 -> 283: 336):
-      - Class [java/io/IOException]
+      [368] ldc #19
+        + String [err_msg]
+      [370] ldc #3
+        + String []
+      [372] invokespecial #62
+        + Methodref [org/apache/http/message/BasicNameValuePair.<init> (Ljava/lang/String;Ljava/lang/String;)V]
+      [375] invokeinterface #64
+        + InterfaceMethodref [java/util/List.add (Ljava/lang/Object;)Z]
+      [380] pop
+      [381] aload_3 v3
+      [382] new #42
+        + Class [org/apache/http/message/BasicNameValuePair]
+      [385] dup
+      [386] ldc #22
+        + String [info_flag]
+      [388] ldc #6
+        + String [0]
+      [390] invokespecial #62
+        + Methodref [org/apache/http/message/BasicNameValuePair.<init> (Ljava/lang/String;Ljava/lang/String;)V]
+      [393] invokeinterface #64
+        + InterfaceMethodref [java/util/List.add (Ljava/lang/Object;)Z]
+      [398] pop
+      [399] aload_3 v3
+      [400] new #42
+        + Class [org/apache/http/message/BasicNameValuePair]
+      [403] dup
+      [404] ldc #23
+        + String [info_msg]
+      [406] ldc #3
+        + String []
+      [408] invokespecial #62
+        + Methodref [org/apache/http/message/BasicNameValuePair.<init> (Ljava/lang/String;Ljava/lang/String;)V]
+      [411] invokeinterface #64
+        + InterfaceMethodref [java/util/List.add (Ljava/lang/Object;)Z]
+      [416] pop
+      [417] aload_3 v3
+      [418] new #42
+        + Class [org/apache/http/message/BasicNameValuePair]
+      [421] dup
+      [422] ldc #25
+        + String [redirect_url]
+      [424] ldc #21
+        + String [https://www.google.com]
+      [426] invokespecial #62
+        + Methodref [org/apache/http/message/BasicNameValuePair.<init> (Ljava/lang/String;Ljava/lang/String;)V]
+      [429] invokeinterface #64
+        + InterfaceMethodref [java/util/List.add (Ljava/lang/Object;)Z]
+      [434] pop
+      [435] aload_3 v3
+      [436] new #42
+        + Class [org/apache/http/message/BasicNameValuePair]
+      [439] dup
+      [440] ldc #27
+        + String [username]
+      [442] aload_2 v2
+      [443] aload_0 v0
+      [444] getfield #44
+        + Fieldref [br/usp/gmarques/loginuspnet/a.a Lbr/usp/gmarques/loginuspnet/WifiChangeReceiver;]
+      [447] getfield #43
+        + Fieldref [br/usp/gmarques/loginuspnet/WifiChangeReceiver.a Landroid/content/Context;]
+      [450] ldc #1
+        + Integer [2130968583]
+      [452] invokevirtual #45
+        + Methodref [android/content/Context.getString (I)Ljava/lang/String;]
+      [455] ldc #3
+        + String []
+      [457] invokeinterface #63
+        + InterfaceMethodref [android/content/SharedPreferences.getString (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;]
+      [462] invokespecial #62
+        + Methodref [org/apache/http/message/BasicNameValuePair.<init> (Ljava/lang/String;Ljava/lang/String;)V]
+      [465] invokeinterface #64
+        + InterfaceMethodref [java/util/List.add (Ljava/lang/Object;)Z]
+      [470] pop
+      [471] aload_3 v3
+      [472] new #42
+        + Class [org/apache/http/message/BasicNameValuePair]
+      [475] dup
+      [476] ldc #24
+        + String [password]
+      [478] aload_2 v2
+      [479] aload_0 v0
+      [480] getfield #44
+        + Fieldref [br/usp/gmarques/loginuspnet/a.a Lbr/usp/gmarques/loginuspnet/WifiChangeReceiver;]
+      [483] getfield #43
+        + Fieldref [br/usp/gmarques/loginuspnet/WifiChangeReceiver.a Landroid/content/Context;]
+      [486] ldc #2
+        + Integer [2130968584]
+      [488] invokevirtual #45
+        + Methodref [android/content/Context.getString (I)Ljava/lang/String;]
+      [491] ldc #3
+        + String []
+      [493] invokeinterface #63
+        + InterfaceMethodref [android/content/SharedPreferences.getString (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;]
+      [498] invokespecial #62
+        + Methodref [org/apache/http/message/BasicNameValuePair.<init> (Ljava/lang/String;Ljava/lang/String;)V]
+      [501] invokeinterface #64
+        + InterfaceMethodref [java/util/List.add (Ljava/lang/Object;)Z]
+      [506] pop
+      [507] aload_0 v0
+      [508] getfield #44
+        + Fieldref [br/usp/gmarques/loginuspnet/a.a Lbr/usp/gmarques/loginuspnet/WifiChangeReceiver;]
+      [511] pop
+      [512] ldc #20
+        + String [https://1.1.1.1/login.html?redirect=https://www.google.com]
+      [514] aload_3 v3
+      [515] invokestatic #51
+        + Methodref [br/usp/gmarques/loginuspnet/WifiChangeReceiver.a (Ljava/lang/String;Ljava/util/List;)V]
+      [518] goto +130 (target=648)
+      [521] astore_2 v2
+      [522] ldc #12
+        + String [LoginUSPNet]
+      [524] new #38
+        + Class [java/lang/StringBuilder]
+      [527] dup
+      [528] ldc #8
+        + String [ClientProtocolException while connecting to ]
+      [530] invokespecial #57
+        + Methodref [java/lang/StringBuilder.<init> (Ljava/lang/String;)V]
+      [533] aload_1 v1
+      [534] iconst_0
+      [535] aaload
+      [536] invokevirtual #58
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [539] ldc #5
+        + String [ Message: ]
+      [541] invokevirtual #58
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [544] aload_2 v2
+      [545] invokevirtual #61
+        + Methodref [org/apache/http/client/ClientProtocolException.getMessage ()Ljava/lang/String;]
+      [548] invokevirtual #58
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [551] invokevirtual #59
+        + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+      [554] invokestatic #48
+        + Methodref [android/util/Log.e (Ljava/lang/String;Ljava/lang/String;)I]
+      [557] pop
+      [558] ldc #12
+        + String [LoginUSPNet]
+      [560] new #38
+        + Class [java/lang/StringBuilder]
+      [563] dup
+      [564] ldc #4
+        + String [ ]
+      [566] invokespecial #57
+        + Methodref [java/lang/StringBuilder.<init> (Ljava/lang/String;)V]
+      [569] aload_2 v2
+      [570] invokestatic #49
+        + Methodref [android/util/Log.getStackTraceString (Ljava/lang/Throwable;)Ljava/lang/String;]
+      [573] invokevirtual #58
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [576] invokevirtual #59
+        + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+      [579] invokestatic #48
+        + Methodref [android/util/Log.e (Ljava/lang/String;Ljava/lang/String;)I]
+      [582] pop
+      [583] goto +65 (target=648)
+      [586] astore_2 v2
+      [587] ldc #12
+        + String [LoginUSPNet]
+      [589] new #38
+        + Class [java/lang/StringBuilder]
+      [592] dup
+      [593] ldc #11
+        + String [IOException while connecting to ]
+      [595] invokespecial #57
+        + Methodref [java/lang/StringBuilder.<init> (Ljava/lang/String;)V]
+      [598] aload_1 v1
+      [599] iconst_0
+      [600] aaload
+      [601] invokevirtual #58
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [604] ldc #5
+        + String [ Message: ]
+      [606] invokevirtual #58
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [609] aload_2 v2
+      [610] invokevirtual #54
+        + Methodref [java/io/IOException.getMessage ()Ljava/lang/String;]
+      [613] invokevirtual #58
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [616] invokevirtual #59
+        + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+      [619] invokestatic #48
+        + Methodref [android/util/Log.e (Ljava/lang/String;Ljava/lang/String;)I]
+      [622] pop
+      [623] ldc #12
+        + String [LoginUSPNet]
+      [625] new #38
+        + Class [java/lang/StringBuilder]
+      [628] dup
+      [629] ldc #4
+        + String [ ]
+      [631] invokespecial #57
+        + Methodref [java/lang/StringBuilder.<init> (Ljava/lang/String;)V]
+      [634] aload_2 v2
+      [635] invokestatic #49
+        + Methodref [android/util/Log.getStackTraceString (Ljava/lang/Throwable;)Ljava/lang/String;]
+      [638] invokevirtual #58
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [641] invokevirtual #59
+        + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+      [644] invokestatic #48
+        + Methodref [android/util/Log.e (Ljava/lang/String;Ljava/lang/String;)I]
+      [647] pop
+      [648] aconst_null
+      [649] areturn
+      Code attribute exceptions (count = 5):
+      - ExceptionInfo (37 -> 47: 50):
+      + Class [java/io/IOException]
+      - ExceptionInfo (169 -> 180: 183):
+      + Class [org/apache/http/client/ClientProtocolException]
+      - ExceptionInfo (169 -> 180: 248):
+      + Class [java/io/IOException]
+      - ExceptionInfo (507 -> 518: 521):
+      + Class [org/apache/http/client/ClientProtocolException]
+      - ExceptionInfo (507 -> 518: 586):
+      + Class [java/io/IOException]
       Code attribute attributes (attribute count = 0):
-  + Method:       a(Ljava/lang/String;Ljava/util/List;)V
-    Access flags: 0xa
-      = private static void a(java.lang.String,java.util.List)
+  + Method:       doInBackground([Ljava/lang/Object;)Ljava/lang/Object;
+    Access flags: 0x1094
+      = protected final varargs synthetic java.lang.Object doInBackground(java.lang.Object[])
     Class member attributes (count = 1):
-    + Code attribute instructions (code length = 83, locals = 3, stack = 5):
-      [0] invokestatic #70
-        - Methodref [br/usp/gmarques/loginuspnet/a/b.a ()Lorg/apache/http/client/HttpClient;]
-      [3] astore_2 v2
-      [4] new #52
-        - Class [org/apache/http/client/methods/HttpPost]
-      [7] dup
-      [8] aload_0 v0
-      [9] invokespecial #84
-        - Methodref [org/apache/http/client/methods/HttpPost.<init> (Ljava/lang/String;)V]
-      [12] astore_0 v0
-      [13] new #51
-        - Class [org/apache/http/client/entity/UrlEncodedFormEntity]
-      [16] dup
-      [17] aload_1 v1
-      [18] ldc #14
-        - String [UTF-8]
-      [20] invokespecial #83
-        - Methodref [org/apache/http/client/entity/UrlEncodedFormEntity.<init> (Ljava/util/List;Ljava/lang/String;)V]
-      [23] astore_1 v1
-      [24] aload_0 v0
-      [25] aload_1 v1
-      [26] invokevirtual #85
-        - Methodref [org/apache/http/client/methods/HttpPost.setEntity (Lorg/apache/http/HttpEntity;)V]
-      [29] aload_2 v2
-      [30] aload_0 v0
-      [31] invokeinterface #93
-        - InterfaceMethodref [org/apache/http/client/HttpClient.execute (Lorg/apache/http/client/methods/HttpUriRequest;)Lorg/apache/http/HttpResponse;]
-      [36] invokeinterface #92
-        - InterfaceMethodref [org/apache/http/HttpResponse.getEntity ()Lorg/apache/http/HttpEntity;]
-      [41] astore_0 v0
-      [42] new #54
-        - Class [org/xml/sax/InputSource]
-      [45] dup
-      [46] aload_0 v0
-      [47] invokeinterface #91
-        - InterfaceMethodref [org/apache/http/HttpEntity.getContent ()Ljava/io/InputStream;]
-      [52] invokespecial #87
-        - Methodref [org/xml/sax/InputSource.<init> (Ljava/io/InputStream;)V]
-      [55] astore_0 v0
-      [56] new #40
-        - Class [java/io/BufferedReader]
-      [59] dup
-      [60] new #42
-        - Class [java/io/InputStreamReader]
-      [63] dup
-      [64] aload_0 v0
-      [65] invokevirtual #88
-        - Methodref [org/xml/sax/InputSource.getByteStream ()Ljava/io/InputStream;]
-      [68] invokespecial #74
-        - Methodref [java/io/InputStreamReader.<init> (Ljava/io/InputStream;)V]
-      [71] invokespecial #71
-        - Methodref [java/io/BufferedReader.<init> (Ljava/io/Reader;)V]
-      [74] astore_0 v0
-      [75] aload_0 v0
-      [76] invokevirtual #72
-        - Methodref [java/io/BufferedReader.readLine ()Ljava/lang/String;]
-      [79] ifnonnull -4 (target=75)
-      [82] return
+    + Code attribute instructions (code length = 9, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] checkcast #28
+        + Class [[Ljava/lang/String;]
+      [5] invokespecial #53
+        + Methodref [br/usp/gmarques/loginuspnet/a.a ([Ljava/lang/String;)Ljava/lang/Void;]
+      [8] areturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  - Method:       <init>(Lbr/usp/gmarques/loginuspnet/WifiChangeReceiver;B)V
+    Access flags: 0x1000
+      = synthetic a(br.usp.gmarques.loginuspnet.WifiChangeReceiver,byte)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 6, locals = 3, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] invokespecial #52
+        + Methodref [br/usp/gmarques/loginuspnet/a.<init> (Lbr/usp/gmarques/loginuspnet/WifiChangeReceiver;)V]
+      [5] return
       Code attribute exceptions (count = 0):
       Code attribute attributes (attribute count = 0):
 
@@ -893,28 +2404,22 @@ _____________________________________________________________________
 
 Interfaces (count = 0):
 
-Constant Pool (count = 58):
-  - String [TLS]
-  - Class [br/usp/gmarques/loginuspnet/a/a]
-  - Class [br/usp/gmarques/loginuspnet/a/c]
-  - Class [java/io/IOException]
-  - Class [java/net/UnknownHostException]
-  - Class [java/security/KeyManagementException]
-  - Class [java/security/KeyStoreException]
-  - Class [java/security/NoSuchAlgorithmException]
-  - Class [java/security/UnrecoverableKeyException]
-  - Class [javax/net/ssl/SSLContext]
-  - Class [javax/net/ssl/SSLSocketFactory]
-  - Class [javax/net/ssl/TrustManager]
-  - Class [org/apache/http/conn/ssl/SSLSocketFactory]
-  - Fieldref [br/usp/gmarques/loginuspnet/a/a.a Ljavax/net/ssl/SSLContext;]
-  - Methodref [br/usp/gmarques/loginuspnet/a/c.<init> (Lbr/usp/gmarques/loginuspnet/a/a;)V]
-  - Methodref [javax/net/ssl/SSLContext.getInstance (Ljava/lang/String;)Ljavax/net/ssl/SSLContext;]
-  - Methodref [javax/net/ssl/SSLContext.getSocketFactory ()Ljavax/net/ssl/SSLSocketFactory;]
-  - Methodref [javax/net/ssl/SSLContext.init ([Ljavax/net/ssl/KeyManager;[Ljavax/net/ssl/TrustManager;Ljava/security/SecureRandom;)V]
-  - Methodref [javax/net/ssl/SSLSocketFactory.createSocket ()Ljava/net/Socket;]
-  - Methodref [javax/net/ssl/SSLSocketFactory.createSocket (Ljava/net/Socket;Ljava/lang/String;IZ)Ljava/net/Socket;]
-  - Methodref [org/apache/http/conn/ssl/SSLSocketFactory.<init> (Ljava/security/KeyStore;)V]
+Constant Pool (count = 46):
+  + String [TLS]
+  + Class [br/usp/gmarques/loginuspnet/a/a]
+  + Class [br/usp/gmarques/loginuspnet/a/b]
+  + Class [javax/net/ssl/SSLContext]
+  + Class [javax/net/ssl/SSLSocketFactory]
+  + Class [javax/net/ssl/TrustManager]
+  + Class [org/apache/http/conn/ssl/SSLSocketFactory]
+  + Fieldref [br/usp/gmarques/loginuspnet/a/a.a Ljavax/net/ssl/SSLContext;]
+  + Methodref [br/usp/gmarques/loginuspnet/a/b.<init> (Lbr/usp/gmarques/loginuspnet/a/a;)V]
+  + Methodref [javax/net/ssl/SSLContext.getInstance (Ljava/lang/String;)Ljavax/net/ssl/SSLContext;]
+  + Methodref [javax/net/ssl/SSLContext.getSocketFactory ()Ljavax/net/ssl/SSLSocketFactory;]
+  + Methodref [javax/net/ssl/SSLContext.init ([Ljavax/net/ssl/KeyManager;[Ljavax/net/ssl/TrustManager;Ljava/security/SecureRandom;)V]
+  + Methodref [javax/net/ssl/SSLSocketFactory.createSocket ()Ljava/net/Socket;]
+  + Methodref [javax/net/ssl/SSLSocketFactory.createSocket (Ljava/net/Socket;Ljava/lang/String;IZ)Ljava/net/Socket;]
+  + Methodref [org/apache/http/conn/ssl/SSLSocketFactory.<init> (Ljava/security/KeyStore;)V]
   + NameAndType [<init> (Lbr/usp/gmarques/loginuspnet/a/a;)V]
   + NameAndType [<init> (Ljava/security/KeyStore;)V]
   + NameAndType [a Ljavax/net/ssl/SSLContext;]
@@ -936,17 +2441,11 @@ Constant Pool (count = 58):
   + Utf8 [TLS]
   + Utf8 [a]
   + Utf8 [br/usp/gmarques/loginuspnet/a/a]
-  + Utf8 [br/usp/gmarques/loginuspnet/a/c]
+  + Utf8 [br/usp/gmarques/loginuspnet/a/b]
   + Utf8 [createSocket]
   + Utf8 [getInstance]
   + Utf8 [getSocketFactory]
   + Utf8 [init]
-  + Utf8 [java/io/IOException]
-  + Utf8 [java/net/UnknownHostException]
-  + Utf8 [java/security/KeyManagementException]
-  + Utf8 [java/security/KeyStoreException]
-  + Utf8 [java/security/NoSuchAlgorithmException]
-  + Utf8 [java/security/UnrecoverableKeyException]
   + Utf8 [javax/net/ssl/SSLContext]
   + Utf8 [javax/net/ssl/SSLSocketFactory]
   + Utf8 [javax/net/ssl/TrustManager]
@@ -954,8 +2453,8 @@ Constant Pool (count = 58):
 
 Fields (count = 1):
   + Field:        a Ljavax/net/ssl/SSLContext;
-    Access flags: 0x2
-      = private javax.net.ssl.SSLContext a
+    Access flags: 0x0
+      = javax.net.ssl.SSLContext a
 
 Methods (count = 3):
   - Method:       <init>(Ljava/security/KeyStore;)V
@@ -965,36 +2464,36 @@ Methods (count = 3):
     + Code attribute instructions (code length = 41, locals = 2, stack = 6):
       [0] aload_0 v0
       [1] aload_1 v1
-      [2] invokespecial #21
-        - Methodref [org/apache/http/conn/ssl/SSLSocketFactory.<init> (Ljava/security/KeyStore;)V]
+      [2] invokespecial #15
+        + Methodref [org/apache/http/conn/ssl/SSLSocketFactory.<init> (Ljava/security/KeyStore;)V]
       [5] aload_0 v0
       [6] ldc #1
-        - String [TLS]
-      [8] invokestatic #16
-        - Methodref [javax/net/ssl/SSLContext.getInstance (Ljava/lang/String;)Ljavax/net/ssl/SSLContext;]
-      [11] putfield #14
-        - Fieldref [br/usp/gmarques/loginuspnet/a/a.a Ljavax/net/ssl/SSLContext;]
+        + String [TLS]
+      [8] invokestatic #10
+        + Methodref [javax/net/ssl/SSLContext.getInstance (Ljava/lang/String;)Ljavax/net/ssl/SSLContext;]
+      [11] putfield #8
+        + Fieldref [br/usp/gmarques/loginuspnet/a/a.a Ljavax/net/ssl/SSLContext;]
       [14] new #3
-        - Class [br/usp/gmarques/loginuspnet/a/c]
+        + Class [br/usp/gmarques/loginuspnet/a/b]
       [17] dup
       [18] aload_0 v0
-      [19] invokespecial #15
-        - Methodref [br/usp/gmarques/loginuspnet/a/c.<init> (Lbr/usp/gmarques/loginuspnet/a/a;)V]
+      [19] invokespecial #9
+        + Methodref [br/usp/gmarques/loginuspnet/a/b.<init> (Lbr/usp/gmarques/loginuspnet/a/a;)V]
       [22] astore_1 v1
       [23] aload_0 v0
-      [24] getfield #14
-        - Fieldref [br/usp/gmarques/loginuspnet/a/a.a Ljavax/net/ssl/SSLContext;]
+      [24] getfield #8
+        + Fieldref [br/usp/gmarques/loginuspnet/a/a.a Ljavax/net/ssl/SSLContext;]
       [27] aconst_null
       [28] iconst_1
-      [29] anewarray #12
-        - Class [javax/net/ssl/TrustManager]
+      [29] anewarray #6
+        + Class [javax/net/ssl/TrustManager]
       [32] dup
       [33] iconst_0
       [34] aload_1 v1
       [35] aastore
       [36] aconst_null
-      [37] invokevirtual #18
-        - Methodref [javax/net/ssl/SSLContext.init ([Ljavax/net/ssl/KeyManager;[Ljavax/net/ssl/TrustManager;Ljava/security/SecureRandom;)V]
+      [37] invokevirtual #12
+        + Methodref [javax/net/ssl/SSLContext.init ([Ljavax/net/ssl/KeyManager;[Ljavax/net/ssl/TrustManager;Ljava/security/SecureRandom;)V]
       [40] return
       Code attribute exceptions (count = 0):
       Code attribute attributes (attribute count = 0):
@@ -1004,16 +2503,16 @@ Methods (count = 3):
     Class member attributes (count = 1):
     + Code attribute instructions (code length = 16, locals = 5, stack = 5):
       [0] aload_0 v0
-      [1] getfield #14
-        - Fieldref [br/usp/gmarques/loginuspnet/a/a.a Ljavax/net/ssl/SSLContext;]
-      [4] invokevirtual #17
-        - Methodref [javax/net/ssl/SSLContext.getSocketFactory ()Ljavax/net/ssl/SSLSocketFactory;]
+      [1] getfield #8
+        + Fieldref [br/usp/gmarques/loginuspnet/a/a.a Ljavax/net/ssl/SSLContext;]
+      [4] invokevirtual #11
+        + Methodref [javax/net/ssl/SSLContext.getSocketFactory ()Ljavax/net/ssl/SSLSocketFactory;]
       [7] aload_1 v1
       [8] aload_2 v2
       [9] iload_3 v3
       [10] iload v4
-      [12] invokevirtual #20
-        - Methodref [javax/net/ssl/SSLSocketFactory.createSocket (Ljava/net/Socket;Ljava/lang/String;IZ)Ljava/net/Socket;]
+      [12] invokevirtual #14
+        + Methodref [javax/net/ssl/SSLSocketFactory.createSocket (Ljava/net/Socket;Ljava/lang/String;IZ)Ljava/net/Socket;]
       [15] areturn
       Code attribute exceptions (count = 0):
       Code attribute attributes (attribute count = 0):
@@ -1023,12 +2522,12 @@ Methods (count = 3):
     Class member attributes (count = 1):
     + Code attribute instructions (code length = 11, locals = 1, stack = 1):
       [0] aload_0 v0
-      [1] getfield #14
-        - Fieldref [br/usp/gmarques/loginuspnet/a/a.a Ljavax/net/ssl/SSLContext;]
-      [4] invokevirtual #17
-        - Methodref [javax/net/ssl/SSLContext.getSocketFactory ()Ljavax/net/ssl/SSLSocketFactory;]
-      [7] invokevirtual #19
-        - Methodref [javax/net/ssl/SSLSocketFactory.createSocket ()Ljava/net/Socket;]
+      [1] getfield #8
+        + Fieldref [br/usp/gmarques/loginuspnet/a/a.a Ljavax/net/ssl/SSLContext;]
+      [4] invokevirtual #11
+        + Methodref [javax/net/ssl/SSLContext.getSocketFactory ()Ljavax/net/ssl/SSLSocketFactory;]
+      [7] invokevirtual #13
+        + Methodref [javax/net/ssl/SSLSocketFactory.createSocket ()Ljava/net/Socket;]
       [10] areturn
       Code attribute exceptions (count = 0):
       Code attribute attributes (attribute count = 0):
@@ -1040,47 +2539,129 @@ _____________________________________________________________________
   Superclass:    java/lang/Object
   Major version: 0x31
   Minor version: 0x0
+  Access flags:  0x30
+    = final class br.usp.gmarques.loginuspnet.a.b extends java.lang.Object
+
+Interfaces (count = 1):
+  + Class [javax/net/ssl/X509TrustManager]
+
+Constant Pool (count = 22):
+  + Class [br/usp/gmarques/loginuspnet/a/b]
+  + Class [java/lang/Object]
+  + Class [javax/net/ssl/X509TrustManager]
+  + Fieldref [br/usp/gmarques/loginuspnet/a/b.a Lbr/usp/gmarques/loginuspnet/a/a;]
+  + Methodref [java/lang/Object.<init> ()V]
+  + NameAndType [<init> ()V]
+  + NameAndType [a Lbr/usp/gmarques/loginuspnet/a/a;]
+  + Utf8 [()V]
+  + Utf8 [()[Ljava/security/cert/X509Certificate;]
+  + Utf8 [(Lbr/usp/gmarques/loginuspnet/a/a;)V]
+  + Utf8 [([Ljava/security/cert/X509Certificate;Ljava/lang/String;)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Lbr/usp/gmarques/loginuspnet/a/a;]
+  + Utf8 [a]
+  + Utf8 [br/usp/gmarques/loginuspnet/a/b]
+  + Utf8 [checkClientTrusted]
+  + Utf8 [checkServerTrusted]
+  + Utf8 [getAcceptedIssuers]
+  + Utf8 [java/lang/Object]
+  + Utf8 [javax/net/ssl/X509TrustManager]
+
+Fields (count = 1):
+  + Field:        a Lbr/usp/gmarques/loginuspnet/a/a;
+    Access flags: 0x1010
+      = final synthetic br.usp.gmarques.loginuspnet.a.a a
+
+Methods (count = 4):
+  - Method:       <init>(Lbr/usp/gmarques/loginuspnet/a/a;)V
+    Access flags: 0x0
+      = b(br.usp.gmarques.loginuspnet.a.a)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 10, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] putfield #4
+        + Fieldref [br/usp/gmarques/loginuspnet/a/b.a Lbr/usp/gmarques/loginuspnet/a/a;]
+      [5] aload_0 v0
+      [6] invokespecial #5
+        + Methodref [java/lang/Object.<init> ()V]
+      [9] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       checkClientTrusted([Ljava/security/cert/X509Certificate;Ljava/lang/String;)V
+    Access flags: 0x11
+      = public final void checkClientTrusted(java.security.cert.X509Certificate[],java.lang.String)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 1, locals = 3, stack = 0):
+      [0] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       checkServerTrusted([Ljava/security/cert/X509Certificate;Ljava/lang/String;)V
+    Access flags: 0x11
+      = public final void checkServerTrusted(java.security.cert.X509Certificate[],java.lang.String)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 1, locals = 3, stack = 0):
+      [0] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       getAcceptedIssuers()[Ljava/security/cert/X509Certificate;
+    Access flags: 0x11
+      = public final java.security.cert.X509Certificate[] getAcceptedIssuers()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 2, locals = 1, stack = 1):
+      [0] aconst_null
+      [1] areturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: br/usp/gmarques/loginuspnet/a/c
+  Superclass:    java/lang/Object
+  Major version: 0x31
+  Minor version: 0x0
   Access flags:  0x31
-    = public final class br.usp.gmarques.loginuspnet.a.b extends java.lang.Object
+    = public final class br.usp.gmarques.loginuspnet.a.c extends java.lang.Object
 
 Interfaces (count = 0):
 
-Constant Pool (count = 97):
-  - String [UTF-8]
-  - String [http]
-  - String [https]
-  - Class [br/usp/gmarques/loginuspnet/a/a]
-  - Class [br/usp/gmarques/loginuspnet/a/b]
-  - Class [java/lang/Exception]
-  - Class [java/lang/Object]
-  - Class [java/security/KeyStore]
-  - Class [org/apache/http/HttpVersion]
-  - Class [org/apache/http/conn/scheme/PlainSocketFactory]
-  - Class [org/apache/http/conn/scheme/Scheme]
-  - Class [org/apache/http/conn/scheme/SchemeRegistry]
-  - Class [org/apache/http/conn/ssl/SSLSocketFactory]
-  - Class [org/apache/http/impl/client/DefaultHttpClient]
-  - Class [org/apache/http/impl/conn/tsccm/ThreadSafeClientConnManager]
-  - Class [org/apache/http/params/BasicHttpParams]
-  - Class [org/apache/http/params/HttpProtocolParams]
-  - Fieldref [org/apache/http/HttpVersion.HTTP_1_1 Lorg/apache/http/HttpVersion;]
-  - Fieldref [org/apache/http/conn/ssl/SSLSocketFactory.ALLOW_ALL_HOSTNAME_VERIFIER Lorg/apache/http/conn/ssl/X509HostnameVerifier;]
-  - Methodref [br/usp/gmarques/loginuspnet/a/a.<init> (Ljava/security/KeyStore;)V]
-  - Methodref [java/lang/Object.<init> ()V]
-  - Methodref [java/security/KeyStore.getDefaultType ()Ljava/lang/String;]
-  - Methodref [java/security/KeyStore.getInstance (Ljava/lang/String;)Ljava/security/KeyStore;]
-  - Methodref [java/security/KeyStore.load (Ljava/io/InputStream;[C)V]
-  - Methodref [org/apache/http/conn/scheme/PlainSocketFactory.getSocketFactory ()Lorg/apache/http/conn/scheme/PlainSocketFactory;]
-  - Methodref [org/apache/http/conn/scheme/Scheme.<init> (Ljava/lang/String;Lorg/apache/http/conn/scheme/SocketFactory;I)V]
-  - Methodref [org/apache/http/conn/scheme/SchemeRegistry.<init> ()V]
-  - Methodref [org/apache/http/conn/scheme/SchemeRegistry.register (Lorg/apache/http/conn/scheme/Scheme;)Lorg/apache/http/conn/scheme/Scheme;]
-  - Methodref [org/apache/http/conn/ssl/SSLSocketFactory.setHostnameVerifier (Lorg/apache/http/conn/ssl/X509HostnameVerifier;)V]
-  - Methodref [org/apache/http/impl/client/DefaultHttpClient.<init> ()V]
-  - Methodref [org/apache/http/impl/client/DefaultHttpClient.<init> (Lorg/apache/http/conn/ClientConnectionManager;Lorg/apache/http/params/HttpParams;)V]
-  - Methodref [org/apache/http/impl/conn/tsccm/ThreadSafeClientConnManager.<init> (Lorg/apache/http/params/HttpParams;Lorg/apache/http/conn/scheme/SchemeRegistry;)V]
-  - Methodref [org/apache/http/params/BasicHttpParams.<init> ()V]
-  - Methodref [org/apache/http/params/HttpProtocolParams.setContentCharset (Lorg/apache/http/params/HttpParams;Ljava/lang/String;)V]
-  - Methodref [org/apache/http/params/HttpProtocolParams.setVersion (Lorg/apache/http/params/HttpParams;Lorg/apache/http/ProtocolVersion;)V]
+Constant Pool (count = 96):
+  + String [UTF-8]
+  + String [http]
+  + String [https]
+  + Class [br/usp/gmarques/loginuspnet/a/a]
+  + Class [br/usp/gmarques/loginuspnet/a/c]
+  + Class [java/lang/Exception]
+  + Class [java/lang/Object]
+  + Class [java/security/KeyStore]
+  + Class [org/apache/http/HttpVersion]
+  + Class [org/apache/http/conn/scheme/PlainSocketFactory]
+  + Class [org/apache/http/conn/scheme/Scheme]
+  + Class [org/apache/http/conn/scheme/SchemeRegistry]
+  + Class [org/apache/http/conn/ssl/SSLSocketFactory]
+  + Class [org/apache/http/impl/client/DefaultHttpClient]
+  + Class [org/apache/http/impl/conn/tsccm/ThreadSafeClientConnManager]
+  + Class [org/apache/http/params/BasicHttpParams]
+  + Class [org/apache/http/params/HttpProtocolParams]
+  + Fieldref [org/apache/http/HttpVersion.HTTP_1_1 Lorg/apache/http/HttpVersion;]
+  + Fieldref [org/apache/http/conn/ssl/SSLSocketFactory.ALLOW_ALL_HOSTNAME_VERIFIER Lorg/apache/http/conn/ssl/X509HostnameVerifier;]
+  + Methodref [br/usp/gmarques/loginuspnet/a/a.<init> (Ljava/security/KeyStore;)V]
+  + Methodref [java/security/KeyStore.getDefaultType ()Ljava/lang/String;]
+  + Methodref [java/security/KeyStore.getInstance (Ljava/lang/String;)Ljava/security/KeyStore;]
+  + Methodref [java/security/KeyStore.load (Ljava/io/InputStream;[C)V]
+  + Methodref [org/apache/http/conn/scheme/PlainSocketFactory.getSocketFactory ()Lorg/apache/http/conn/scheme/PlainSocketFactory;]
+  + Methodref [org/apache/http/conn/scheme/Scheme.<init> (Ljava/lang/String;Lorg/apache/http/conn/scheme/SocketFactory;I)V]
+  + Methodref [org/apache/http/conn/scheme/SchemeRegistry.<init> ()V]
+  + Methodref [org/apache/http/conn/scheme/SchemeRegistry.register (Lorg/apache/http/conn/scheme/Scheme;)Lorg/apache/http/conn/scheme/Scheme;]
+  + Methodref [org/apache/http/conn/ssl/SSLSocketFactory.setHostnameVerifier (Lorg/apache/http/conn/ssl/X509HostnameVerifier;)V]
+  + Methodref [org/apache/http/impl/client/DefaultHttpClient.<init> ()V]
+  + Methodref [org/apache/http/impl/client/DefaultHttpClient.<init> (Lorg/apache/http/conn/ClientConnectionManager;Lorg/apache/http/params/HttpParams;)V]
+  + Methodref [org/apache/http/impl/conn/tsccm/ThreadSafeClientConnManager.<init> (Lorg/apache/http/params/HttpParams;Lorg/apache/http/conn/scheme/SchemeRegistry;)V]
+  + Methodref [org/apache/http/params/BasicHttpParams.<init> ()V]
+  + Methodref [org/apache/http/params/HttpProtocolParams.setContentCharset (Lorg/apache/http/params/HttpParams;Ljava/lang/String;)V]
+  + Methodref [org/apache/http/params/HttpProtocolParams.setVersion (Lorg/apache/http/params/HttpParams;Lorg/apache/http/ProtocolVersion;)V]
   + NameAndType [<init> ()V]
   + NameAndType [<init> (Ljava/lang/String;Lorg/apache/http/conn/scheme/SocketFactory;I)V]
   + NameAndType [<init> (Ljava/security/KeyStore;)V]
@@ -1119,7 +2700,7 @@ Constant Pool (count = 97):
   + Utf8 [UTF-8]
   + Utf8 [a]
   + Utf8 [br/usp/gmarques/loginuspnet/a/a]
-  + Utf8 [br/usp/gmarques/loginuspnet/a/b]
+  + Utf8 [br/usp/gmarques/loginuspnet/a/c]
   + Utf8 [getDefaultType]
   + Utf8 [getInstance]
   + Utf8 [getSocketFactory]
@@ -1145,207 +2726,109 @@ Constant Pool (count = 97):
 
 Fields (count = 0):
 
-Methods (count = 2):
-  - Method:       <init>()V
-    Access flags: 0x1
-      = public b()
-    Class member attributes (count = 1):
-    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
-      [0] aload_0 v0
-      [1] invokespecial #21
-        - Methodref [java/lang/Object.<init> ()V]
-      [4] return
-      Code attribute exceptions (count = 0):
-      Code attribute attributes (attribute count = 0):
+Methods (count = 1):
   + Method:       a()Lorg/apache/http/client/HttpClient;
     Access flags: 0x9
       = public static org.apache.http.client.HttpClient a()
     Class member attributes (count = 1):
     + Code attribute instructions (code length = 124, locals = 3, stack = 6):
-      [0] invokestatic #22
-        - Methodref [java/security/KeyStore.getDefaultType ()Ljava/lang/String;]
-      [3] invokestatic #23
-        - Methodref [java/security/KeyStore.getInstance (Ljava/lang/String;)Ljava/security/KeyStore;]
+      [0] invokestatic #21
+        + Methodref [java/security/KeyStore.getDefaultType ()Ljava/lang/String;]
+      [3] invokestatic #22
+        + Methodref [java/security/KeyStore.getInstance (Ljava/lang/String;)Ljava/security/KeyStore;]
       [6] dup
       [7] astore_0 v0
       [8] aconst_null
       [9] aconst_null
-      [10] invokevirtual #24
-        - Methodref [java/security/KeyStore.load (Ljava/io/InputStream;[C)V]
+      [10] invokevirtual #23
+        + Methodref [java/security/KeyStore.load (Ljava/io/InputStream;[C)V]
       [13] new #4
-        - Class [br/usp/gmarques/loginuspnet/a/a]
+        + Class [br/usp/gmarques/loginuspnet/a/a]
       [16] dup
       [17] aload_0 v0
       [18] invokespecial #20
-        - Methodref [br/usp/gmarques/loginuspnet/a/a.<init> (Ljava/security/KeyStore;)V]
+        + Methodref [br/usp/gmarques/loginuspnet/a/a.<init> (Ljava/security/KeyStore;)V]
       [21] dup
       [22] astore_0 v0
       [23] getstatic #19
-        - Fieldref [org/apache/http/conn/ssl/SSLSocketFactory.ALLOW_ALL_HOSTNAME_VERIFIER Lorg/apache/http/conn/ssl/X509HostnameVerifier;]
-      [26] invokevirtual #29
-        - Methodref [org/apache/http/conn/ssl/SSLSocketFactory.setHostnameVerifier (Lorg/apache/http/conn/ssl/X509HostnameVerifier;)V]
+        + Fieldref [org/apache/http/conn/ssl/SSLSocketFactory.ALLOW_ALL_HOSTNAME_VERIFIER Lorg/apache/http/conn/ssl/X509HostnameVerifier;]
+      [26] invokevirtual #28
+        + Methodref [org/apache/http/conn/ssl/SSLSocketFactory.setHostnameVerifier (Lorg/apache/http/conn/ssl/X509HostnameVerifier;)V]
       [29] new #16
-        - Class [org/apache/http/params/BasicHttpParams]
+        + Class [org/apache/http/params/BasicHttpParams]
       [32] dup
-      [33] invokespecial #33
-        - Methodref [org/apache/http/params/BasicHttpParams.<init> ()V]
+      [33] invokespecial #32
+        + Methodref [org/apache/http/params/BasicHttpParams.<init> ()V]
       [36] dup
       [37] astore_1 v1
       [38] getstatic #18
-        - Fieldref [org/apache/http/HttpVersion.HTTP_1_1 Lorg/apache/http/HttpVersion;]
-      [41] invokestatic #35
-        - Methodref [org/apache/http/params/HttpProtocolParams.setVersion (Lorg/apache/http/params/HttpParams;Lorg/apache/http/ProtocolVersion;)V]
+        + Fieldref [org/apache/http/HttpVersion.HTTP_1_1 Lorg/apache/http/HttpVersion;]
+      [41] invokestatic #34
+        + Methodref [org/apache/http/params/HttpProtocolParams.setVersion (Lorg/apache/http/params/HttpParams;Lorg/apache/http/ProtocolVersion;)V]
       [44] aload_1 v1
       [45] ldc #1
-        - String [UTF-8]
-      [47] invokestatic #34
-        - Methodref [org/apache/http/params/HttpProtocolParams.setContentCharset (Lorg/apache/http/params/HttpParams;Ljava/lang/String;)V]
+        + String [UTF-8]
+      [47] invokestatic #33
+        + Methodref [org/apache/http/params/HttpProtocolParams.setContentCharset (Lorg/apache/http/params/HttpParams;Ljava/lang/String;)V]
       [50] new #12
-        - Class [org/apache/http/conn/scheme/SchemeRegistry]
+        + Class [org/apache/http/conn/scheme/SchemeRegistry]
       [53] dup
-      [54] invokespecial #27
-        - Methodref [org/apache/http/conn/scheme/SchemeRegistry.<init> ()V]
+      [54] invokespecial #26
+        + Methodref [org/apache/http/conn/scheme/SchemeRegistry.<init> ()V]
       [57] dup
       [58] astore_2 v2
       [59] new #11
-        - Class [org/apache/http/conn/scheme/Scheme]
+        + Class [org/apache/http/conn/scheme/Scheme]
       [62] dup
       [63] ldc #2
-        - String [http]
-      [65] invokestatic #25
-        - Methodref [org/apache/http/conn/scheme/PlainSocketFactory.getSocketFactory ()Lorg/apache/http/conn/scheme/PlainSocketFactory;]
+        + String [http]
+      [65] invokestatic #24
+        + Methodref [org/apache/http/conn/scheme/PlainSocketFactory.getSocketFactory ()Lorg/apache/http/conn/scheme/PlainSocketFactory;]
       [68] bipush 80
-      [70] invokespecial #26
-        - Methodref [org/apache/http/conn/scheme/Scheme.<init> (Ljava/lang/String;Lorg/apache/http/conn/scheme/SocketFactory;I)V]
-      [73] invokevirtual #28
-        - Methodref [org/apache/http/conn/scheme/SchemeRegistry.register (Lorg/apache/http/conn/scheme/Scheme;)Lorg/apache/http/conn/scheme/Scheme;]
+      [70] invokespecial #25
+        + Methodref [org/apache/http/conn/scheme/Scheme.<init> (Ljava/lang/String;Lorg/apache/http/conn/scheme/SocketFactory;I)V]
+      [73] invokevirtual #27
+        + Methodref [org/apache/http/conn/scheme/SchemeRegistry.register (Lorg/apache/http/conn/scheme/Scheme;)Lorg/apache/http/conn/scheme/Scheme;]
       [76] pop
       [77] aload_2 v2
       [78] new #11
-        - Class [org/apache/http/conn/scheme/Scheme]
+        + Class [org/apache/http/conn/scheme/Scheme]
       [81] dup
       [82] ldc #3
-        - String [https]
+        + String [https]
       [84] aload_0 v0
       [85] sipush 443
-      [88] invokespecial #26
-        - Methodref [org/apache/http/conn/scheme/Scheme.<init> (Ljava/lang/String;Lorg/apache/http/conn/scheme/SocketFactory;I)V]
-      [91] invokevirtual #28
-        - Methodref [org/apache/http/conn/scheme/SchemeRegistry.register (Lorg/apache/http/conn/scheme/Scheme;)Lorg/apache/http/conn/scheme/Scheme;]
+      [88] invokespecial #25
+        + Methodref [org/apache/http/conn/scheme/Scheme.<init> (Ljava/lang/String;Lorg/apache/http/conn/scheme/SocketFactory;I)V]
+      [91] invokevirtual #27
+        + Methodref [org/apache/http/conn/scheme/SchemeRegistry.register (Lorg/apache/http/conn/scheme/Scheme;)Lorg/apache/http/conn/scheme/Scheme;]
       [94] pop
       [95] new #15
-        - Class [org/apache/http/impl/conn/tsccm/ThreadSafeClientConnManager]
+        + Class [org/apache/http/impl/conn/tsccm/ThreadSafeClientConnManager]
       [98] dup
       [99] aload_1 v1
       [100] aload_2 v2
-      [101] invokespecial #32
-        - Methodref [org/apache/http/impl/conn/tsccm/ThreadSafeClientConnManager.<init> (Lorg/apache/http/params/HttpParams;Lorg/apache/http/conn/scheme/SchemeRegistry;)V]
+      [101] invokespecial #31
+        + Methodref [org/apache/http/impl/conn/tsccm/ThreadSafeClientConnManager.<init> (Lorg/apache/http/params/HttpParams;Lorg/apache/http/conn/scheme/SchemeRegistry;)V]
       [104] astore_0 v0
       [105] new #14
-        - Class [org/apache/http/impl/client/DefaultHttpClient]
+        + Class [org/apache/http/impl/client/DefaultHttpClient]
       [108] dup
       [109] aload_0 v0
       [110] aload_1 v1
-      [111] invokespecial #31
-        - Methodref [org/apache/http/impl/client/DefaultHttpClient.<init> (Lorg/apache/http/conn/ClientConnectionManager;Lorg/apache/http/params/HttpParams;)V]
+      [111] invokespecial #30
+        + Methodref [org/apache/http/impl/client/DefaultHttpClient.<init> (Lorg/apache/http/conn/ClientConnectionManager;Lorg/apache/http/params/HttpParams;)V]
       [114] areturn
       [115] pop
       [116] new #14
-        - Class [org/apache/http/impl/client/DefaultHttpClient]
+        + Class [org/apache/http/impl/client/DefaultHttpClient]
       [119] dup
-      [120] invokespecial #30
-        - Methodref [org/apache/http/impl/client/DefaultHttpClient.<init> ()V]
+      [120] invokespecial #29
+        + Methodref [org/apache/http/impl/client/DefaultHttpClient.<init> ()V]
       [123] areturn
       Code attribute exceptions (count = 1):
       - ExceptionInfo (0 -> 114: 115):
-      - Class [java/lang/Exception]
-      Code attribute attributes (attribute count = 0):
-
-Class file attributes (count = 0):
-
-_____________________________________________________________________
-+ Program class: br/usp/gmarques/loginuspnet/a/c
-  Superclass:    java/lang/Object
-  Major version: 0x31
-  Minor version: 0x0
-  Access flags:  0x30
-    = final class br.usp.gmarques.loginuspnet.a.c extends java.lang.Object
-
-Interfaces (count = 1):
-  - Class [javax/net/ssl/X509TrustManager]
-
-Constant Pool (count = 26):
-  - Class [br/usp/gmarques/loginuspnet/a/a]
-  - Class [br/usp/gmarques/loginuspnet/a/c]
-  - Class [java/lang/Object]
-  - Class [java/security/cert/CertificateException]
-  - Class [javax/net/ssl/X509TrustManager]
-  - Fieldref [br/usp/gmarques/loginuspnet/a/c.a Lbr/usp/gmarques/loginuspnet/a/a;]
-  - Methodref [java/lang/Object.<init> ()V]
-  + NameAndType [<init> ()V]
-  + NameAndType [a Lbr/usp/gmarques/loginuspnet/a/a;]
-  + Utf8 [()V]
-  + Utf8 [()[Ljava/security/cert/X509Certificate;]
-  + Utf8 [(Lbr/usp/gmarques/loginuspnet/a/a;)V]
-  + Utf8 [([Ljava/security/cert/X509Certificate;Ljava/lang/String;)V]
-  + Utf8 [<init>]
-  + Utf8 [Code]
-  + Utf8 [Lbr/usp/gmarques/loginuspnet/a/a;]
-  + Utf8 [a]
-  + Utf8 [br/usp/gmarques/loginuspnet/a/a]
-  + Utf8 [br/usp/gmarques/loginuspnet/a/c]
-  + Utf8 [checkClientTrusted]
-  + Utf8 [checkServerTrusted]
-  + Utf8 [getAcceptedIssuers]
-  + Utf8 [java/lang/Object]
-  + Utf8 [java/security/cert/CertificateException]
-  + Utf8 [javax/net/ssl/X509TrustManager]
-
-Fields (count = 1):
-  + Field:        a Lbr/usp/gmarques/loginuspnet/a/a;
-    Access flags: 0x1002
-      = private br.usp.gmarques.loginuspnet.a.a a
-
-Methods (count = 4):
-  - Method:       <init>(Lbr/usp/gmarques/loginuspnet/a/a;)V
-    Access flags: 0x0
-      = c(br.usp.gmarques.loginuspnet.a.a)
-    Class member attributes (count = 1):
-    + Code attribute instructions (code length = 10, locals = 2, stack = 2):
-      [0] aload_0 v0
-      [1] aload_1 v1
-      [2] putfield #6
-        - Fieldref [br/usp/gmarques/loginuspnet/a/c.a Lbr/usp/gmarques/loginuspnet/a/a;]
-      [5] aload_0 v0
-      [6] invokespecial #7
-        - Methodref [java/lang/Object.<init> ()V]
-      [9] return
-      Code attribute exceptions (count = 0):
-      Code attribute attributes (attribute count = 0):
-  + Method:       checkClientTrusted([Ljava/security/cert/X509Certificate;Ljava/lang/String;)V
-    Access flags: 0x11
-      = public final void checkClientTrusted(java.security.cert.X509Certificate[],java.lang.String)
-    Class member attributes (count = 1):
-    + Code attribute instructions (code length = 1, locals = 3, stack = 0):
-      [0] return
-      Code attribute exceptions (count = 0):
-      Code attribute attributes (attribute count = 0):
-  + Method:       checkServerTrusted([Ljava/security/cert/X509Certificate;Ljava/lang/String;)V
-    Access flags: 0x11
-      = public final void checkServerTrusted(java.security.cert.X509Certificate[],java.lang.String)
-    Class member attributes (count = 1):
-    + Code attribute instructions (code length = 1, locals = 3, stack = 0):
-      [0] return
-      Code attribute exceptions (count = 0):
-      Code attribute attributes (attribute count = 0):
-  + Method:       getAcceptedIssuers()[Ljava/security/cert/X509Certificate;
-    Access flags: 0x11
-      = public final java.security.cert.X509Certificate[] getAcceptedIssuers()
-    Class member attributes (count = 1):
-    + Code attribute instructions (code length = 2, locals = 1, stack = 1):
-      [0] aconst_null
-      [1] areturn
-      Code attribute exceptions (count = 0):
+      + Class [java/lang/Exception]
       Code attribute attributes (attribute count = 0):
 
 Class file attributes (count = 0):
